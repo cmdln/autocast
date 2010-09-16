@@ -8,9 +8,7 @@ from BeautifulSoup import BeautifulSoup
 
 def __fetch_feed(url):
     try:
-        feed = feedparser.parse(url)
-
-        return feed.entries[0]
+        return feedparser.parse(url)
     except HTTPError, e:
         logging.error('Failed with HTTP status code %d' % e.code)
         return None
@@ -19,22 +17,28 @@ def __fetch_feed(url):
         logging.debug('Network failure reason, %s.' % e.reason)
         return None
 
-def __append(entry, suffix, append_fn, args=None):
-    latest = __fetch_feed('cmdln_%s.xml' % suffix)
+def __append(feed, suffix, append_fn, args=None):
+    latest = __fetch_feed('cmdln_%s.xml' % suffix).entries[0]
+    entry = feed.entries[0]
     if entry.title.find(latest.title) != -1:
         logging.info('Up to date.')
         return
     f = open('cmdln_%s.xml' % suffix)
     o = open('cmdln_%s_out.xml' % suffix, 'w')
-    first = False
+    firstItem = False
     try:
         for line in f:
-            if line.find('<item>') != -1 and not first:
+            if line.find('<item>') != -1 and not firstItem:
                 append_fn(entry, o, suffix, args)
-                first = True
+                firstItem = True
+            if line.startswith('       <pubDate>'):
+                line = '        <pubDate>%s</pubDate>' % feed.date
+            if line.startswith('       <lastBuildDate>'):
+                line = '        <lastBuildDate>%s</lastBuildDate>' % feed.date
             o.write(line)
     finally:
         f.close()
+        o.close()
 
 
 def __append_non_itunes(entry, output, suffix, args):
@@ -122,15 +126,15 @@ def __enclosure(enclosures, base_url, suffix):
 def main():
     logging.basicConfig(level=logging.INFO,
             format='%(message)s')
-    #entry = __fetch_feed('http://thecommandline.net/category/podcast/feed/')
-    entry = __fetch_feed('cmdln_site.xml')
-    if entry is None:
+    #feed = __fetch_feed('http://thecommandline.net/category/podcast/feed/')
+    feed = __fetch_feed('cmdln_site.xml')
+    if feed is None:
         logging.error('Failed to fetch feed.')
         sys.exit(1)
 
-    __append(entry, 'mp3', __append_non_itunes)
-    __append(entry, 'ogg', __append_non_itunes)
-    __append(entry, 'm4a', __append_itunes, sys.argv)
+    __append(feed, 'mp3', __append_non_itunes)
+    __append(feed, 'ogg', __append_non_itunes)
+    __append(feed, 'm4a', __append_itunes, sys.argv)
 
 
 if __name__ == "__main__":
