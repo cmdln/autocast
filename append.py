@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import sys
 import feedparser
 import urllib2
@@ -5,6 +6,7 @@ from urllib2 import HTTPError, URLError
 import logging
 import re
 from BeautifulSoup import BeautifulSoup
+import shutil
 
 def __fetch_feed(url):
     try:
@@ -20,11 +22,15 @@ def __fetch_feed(url):
 def __append(feed, suffix, append_fn, args=None):
     latest = __fetch_feed('cmdln_%s.xml' % suffix).entries[0]
     entry = feed.entries[0]
-    if entry.title.find(latest.title) != -1:
-        logging.info('Up to date.')
+    if latest.title.find(entry.title) != -1:
+        logging.info('%s is up to date.' % suffix)
         return
-    f = open('cmdln_%s.xml' % suffix)
-    o = open('cmdln_%s_out.xml' % suffix, 'w')
+
+    filename = 'cmdln_%s.xml' % suffix
+    backup = 'cmdln_%s.xml.bak' % suffix
+    shutil.copy(filename, backup)
+    f = open(backup)
+    o = open(filename, 'w')
     firstItem = False
     try:
         for line in f:
