@@ -4,6 +4,7 @@ import urllib2
 from urllib2 import HTTPError, URLError
 import logging
 import re
+from BeautifulSoup import BeautifulSoup
 
 def __fetch_feed(url):
     try:
@@ -18,7 +19,7 @@ def __fetch_feed(url):
         logging.debug('Network failure reason, %s.' % e.reason)
         return None
 
-def __append(entry, suffix, append_fn):
+def __append(entry, suffix, append_fn, args=None):
     latest = __fetch_feed('cmdln_%s.xml' % suffix)
     if entry.title.find(latest.title) != -1:
         logging.info('Up to date.')
@@ -29,14 +30,14 @@ def __append(entry, suffix, append_fn):
     try:
         for line in f:
             if line.find('<item>') != -1 and not first:
-                append_fn(entry, o, suffix)
+                append_fn(entry, o, suffix, args)
                 first = True
             o.write(line)
     finally:
         f.close()
 
 
-def __append_non_itunes(entry, output, suffix):
+def __append_non_itunes(entry, output, suffix, args):
     (url, mime_type, size) = __enclosure(entry.enclosures, 'http://cmdln.evenflow.nl/mp3', suffix)
     output.write("""        <item>
             <title>%(title)s (Comment Line 240-949-2638)</title>
@@ -54,6 +55,38 @@ def __append_non_itunes(entry, output, suffix):
         'url' : url,
         'mime_type' : mime_type,
         'size' : size })
+    logging.info('Inserted new %s item.' % suffix)
+
+
+def __append_itunes(entry, output, suffix, args):
+    description = __description(entry.content)
+    soup = BeautifulSoup(description)
+    summary = '\n\n'.join([''.join(p.findAll(text=True)) for p in soup.findAll('p')])
+    (url, mime_type, size) = __enclosure(entry.enclosures, 'http://traffic.libsyn.com/cmdln', suffix)
+    output.write("""        <item>
+            <title>%(title)s (Comment Line 240-949-2638)</title>
+            <link>%(link)s</link>
+            <description><![CDATA[%(description)s]]></description>
+            <pubDate>%(pubDate)s</pubDate>
+            <enclosure url="%(url)s" length="%(size)s" type="%(mime_type)s"/>
+            <guid isPermaLink="false">%(permalink)s</guid>
+            <itunes:author>Thomas Gideon</itunes:author>
+            <itunes:subtitle>%(subtitle)s</itunes:subtitle>
+            <itunes:summary>%(summary)s</itunes:summary>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>%(duration)s</itunes:duration>
+        </item>
+""" % { 'title': entry.title,
+        'link': entry.link,
+        'description': description,
+        'pubDate' : entry.date,
+        'permalink' : __permalink(entry.title),
+        'url' : url,
+        'mime_type' : mime_type,
+        'size' : size,
+        'subtitle' : ''.join(soup.contents[0].findAll(text = True)),
+        'summary' : summary,
+        'duration' : args[1] })
     logging.info('Inserted new %s item.' % suffix)
 
 
@@ -97,6 +130,7 @@ def main():
 
     __append(entry, 'mp3', __append_non_itunes)
     __append(entry, 'ogg', __append_non_itunes)
+    __append(entry, 'm4a', __append_itunes, sys.argv)
 
 
 if __name__ == "__main__":
