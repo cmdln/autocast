@@ -1,0 +1,1944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:media="http://search.yahoo.com/mrss/"
+>
+
+<channel>
+	<title>The Command Line &#187; Podcast</title>
+	<atom:link href="http://thecommandline.net/category/podcast/feed/" rel="self" type="application/rss+xml" />
+	<link>http://thecommandline.net</link>
+	<description>Podcast and blog exploring digital citizenry as a creator and a consumer.</description>
+	<lastBuildDate>Thu, 16 Sep 2010 01:31:40 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=abc</generator>
+<atom:link rel="hub" href="http://pubsubhubbub.appspot.com"/><atom:link rel="hub" href="http://superfeedr.com/hubbub"/>	<!-- podcast_generator="podPress/8.8" - maintenance_release="8.8.6.3" -->
+	<copyright>Copyright &#38;#xA9; 2010 The Command Line </copyright>
+	<managingEditor>cmdln@thecommandline.net</managingEditor>
+	<webMaster>cmdln@thecommandline.net</webMaster>
+	<category>posts</category>
+	<ttl>1440</ttl>
+	<image>
+		<url>http://thecommandline.net/wp-content/plugins/podpress/images/powered_by_podpress.jpg</url>
+		<title>The Command Line &#187; Podcast</title>
+		<link>http://thecommandline.net</link>
+		<width>144</width>
+		<height>144</height>
+	</image>
+	<itunes:subtitle></itunes:subtitle>
+	<itunes:summary>Exploring the rough edges where technology, society and public policy meet.</itunes:summary>
+	<itunes:keywords></itunes:keywords>
+	<itunes:category text="Society &amp; Culture" />
+	<itunes:author></itunes:author>
+	<itunes:owner>
+		<itunes:name></itunes:name>
+		<itunes:email>cmdln@thecommandline.net</itunes:email>
+	</itunes:owner>
+	<itunes:block>yes</itunes:block>
+	<itunes:explicit>no</itunes:explicit>
+	<itunes:image href="http://thecommandline.net/wp-content/plugins/podpress/images/powered_by_podpress_large.jpg" />
+		<item>
+		<title>TCLP 2010-09-15 Interview: Randy Chertkow of Beatnik Turtle</title>
+		<link>http://thecommandline.net/2010/09/15/beatnik_turtle4/</link>
+		<comments>http://thecommandline.net/2010/09/15/beatnik_turtle4/#comments</comments>
+		<pubDate>Thu, 16 Sep 2010 01:15:51 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Interview]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[beatnik turtle]]></category>
+		<category><![CDATA[Randy Chertkow]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=3637</guid>
+		<description><![CDATA[This is a feature cast, an episode of The Command Line Podcast. There is no new hacker word of the week this week. The feature this week is the interview I recorded with Randy Chertkow of Beatnik Turtle. If you are interested, here are the 2007, 2008, and 2009 interviews as well. In the interview, [...]]]></description>
+			<content:encoded><![CDATA[<p>This is a feature cast, an episode of The Command Line Podcast.</p>
+<p>There is no new hacker word of the week this week.</p>
+<p>The feature this week is the interview I recorded with Randy Chertkow of <a href="http://beatnikturtle.com/">Beatnik Turtle</a>. If you are interested, here are the <a href="http://thecommandline.net/2007/09/05/beatnik_turtle/">2007</a>, <a href="http://thecommandline.net/2008/09/10/beatnik_turtle_2/">2008</a>, and <a href="http://thecommandline.net/2009/09/09/beatnik_turtle3/">2009</a> interviews as well. In the interview, we mention <a href="http://www.indieguide.com/">the Indie Guide web site</a>, <a href="http://emusician.com/searchresults/?ord=d&amp;terms=chertkow&amp;x=0&amp;y=0">Randy and Jason&#8217;s columns at Electronic Musician</a>, and <a href="http://trackmydisc.com/">TrackMyDisc.com</a>.</p>
+<p></p>
+<p>View the <a href="http://thecommandline.net/wiki/2010_09_15">detailed show notes online</a>. You can grab the <a href="http://www.archive.org/details/Tclp2010-09-15InterviewRandyChertkowOfBeatnikTurtle">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=3637" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2009/09/30/dc_copyright_09/" title="TCLP 2009-09-30 Copyright Panel at D*C 2009 (September 30, 2009)">TCLP 2009-09-30 Copyright Panel at D*C 2009</a> (0)</li>
+	<li><a href="http://thecommandline.net/2009/09/09/beatnik_turtle3/" title="TCLP 2009-09-09 Interview: Beatnik Turtle (September 9, 2009)">TCLP 2009-09-09 Interview: Beatnik Turtle</a> (2)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/09/15/beatnik_turtle4/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-09-15.mp3" length="56084190" type="audio/mpeg" />
+		<itunes:duration>01:06:44</itunes:duration>
+		<itunes:subtitle>This is a feature cast, an episode of The Command Line Podcast.
+
+There is no new hacker word of the week this week.
+
+The feature this week ...</itunes:subtitle>
+		<itunes:summary>This is a feature cast, an episode of The Command Line Podcast.
+
+There is no new hacker word of the week this week.
+
+The feature this week is the interview I recorded with Randy Chertkow of Beatnik Turtle. If you are interested, here are the 2007, 2008, and 2009 interviews as well. In the interview, we mention the Indie Guide web site, Randy and Jason's columns at Electronic Musician, and TrackMyDisc.com.
+
+
+
+View the detailed show notes online. You can grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Interview, Podcast</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-09-08 Creative Commons, Legal Issue Panel from Dragon*Con 2010</title>
+		<link>http://thecommandline.net/2010/09/08/dragoncon_cc_4/</link>
+		<comments>http://thecommandline.net/2010/09/08/dragoncon_cc_4/#comments</comments>
+		<pubDate>Wed, 08 Sep 2010 23:05:36 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Creative Commons]]></category>
+		<category><![CDATA[dragoncon]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=3578</guid>
+		<description><![CDATA[This is a feature cast, an episode of The Command Line Podcast. In the intro, a quick end of month update on the podcast&#8217;s finances and you can find all my posts from Dragon*Con past and present using the dragoncon tag. There is no new hacker word of the week this week. The feature this [...]]]></description>
+			<content:encoded><![CDATA[<p>This is a feature cast, an episode of The Command Line Podcast.</p>
+<p>In the intro, a quick end of month update on the podcast&#8217;s finances and you can find all my posts from Dragon*Con past and present using the <a href="http://thecommandline.net/tag/dragoncon/">dragoncon tag</a>.</p>
+<p>There is no new hacker word of the week this week.</p>
+<p>The feature this week is the panel audio from the Creative Commons and legal issues panel I moderated at Dragon*Con 2010. I was joined once again by Randy Chertkow of <a href="http://beatnikturtle.com/">Beatnik Turtle</a> and Courtney Perry, lawyer and now law professor. The new panelist this year was Brian Ibbott of <a href="http://coverville.com">Coverville</a> who was very generous in sharing his experiences as an early and still active music podcaster. In the discussion we mention both &#8220;<a href="http://www.amazon.com/gp/product/0143034650?ie=UTF8&amp;tag=thecommandl0a-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0143034650">Free Culture</a>&#8220;, by Lawrence Lessig, and &#8220;<a href="http://www.amazon.com/gp/product/0300158343?ie=UTF8&amp;tag=thecommandl0a-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0300158343">The Public Domain</a>&#8220;, by James Boyle.</p>
+<p></p>
+<p>View the <a href="http://thecommandline.net/wiki/2010_09_08">detailed show notes online</a>. You can grab the <a href="http://www.archive.org/details/Tclp2010-09-08CreativeCommonsLegalIssuePanelFromDragoncon2010">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=3578" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/06/dragoncon-2010-wrap-up/" title="Dragon*Con 2010 Wrap Up (September 6, 2010)">Dragon*Con 2010 Wrap Up</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/05/dragoncon-2010-day-2/" title="Dragon*Con 2010, Day 2 (September 5, 2010)">Dragon*Con 2010, Day 2</a> (2)</li>
+	<li><a href="http://thecommandline.net/2010/09/03/dragoncon-2010-day-1/" title="Dragon*Con 2010, Day 1 (September 3, 2010)">Dragon*Con 2010, Day 1</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/03/on-the-way-to-dragoncon-2010-day-2/" title="On the Way to Dragon*Con 2010, Day 2 (September 3, 2010)">On the Way to Dragon*Con 2010, Day 2</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/01/on-the-way-to-dragoncon-2010-day-1/" title="On the Way to Dragon*Con 2010, Day 1 (September 1, 2010)">On the Way to Dragon*Con 2010, Day 1</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/09/08/dragoncon_cc_4/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-09-08.mp3" length="58326448" type="audio/mpeg" />
+		<itunes:duration>01:09:24</itunes:duration>
+		<itunes:subtitle>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, a quick end of month update on the podcast's finances and ...</itunes:subtitle>
+		<itunes:summary>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, a quick end of month update on the podcast's finances and you can find all my posts from Dragon*Con past and present using the dragoncon tag.
+
+There is no new hacker word of the week this week.
+
+The feature this week is the panel audio from the Creative Commons and legal issues panel I moderated at Dragon*Con 2010. I was joined once again by Randy Chertkow of Beatnik Turtle and Courtney Perry, lawyer and now law professor. The new panelist this year was Brian Ibbott of Coverville who was very generous in sharing his experiences as an early and still active music podcaster. In the discussion we mention both "Free Culture", by Lawrence Lessig, and "The Public Domain", by James Boyle.
+
+
+
+View the detailed show notes online. You can grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Events, Podcast</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-08-25 Inner Chapter: Superstitions</title>
+		<link>http://thecommandline.net/2010/08/25/superstitions/</link>
+		<comments>http://thecommandline.net/2010/08/25/superstitions/#comments</comments>
+		<pubDate>Thu, 26 Aug 2010 00:34:24 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Inner Chapter]]></category>
+		<category><![CDATA[Jargon]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Review]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=3492</guid>
+		<description><![CDATA[This is a feature cast, an episode of The Command Line Podcast. In the intro, the last reminder of my impending travel to Dragon*Con. Also a quick review of Neil Netanel&#8217;s &#8220;Copyright&#8217;s Paradox&#8220;. Listener feedback is a thoughtful and thought provoking email from Grant who wrote in response to my discussion of ebooks in the [...]]]></description>
+			<content:encoded><![CDATA[<p>This is a feature cast, an episode of The Command Line Podcast.</p>
+<p>In the intro, the last reminder of my impending travel to <a href="http://dragoncon.org/">Dragon*Con</a>. Also a quick review of Neil Netanel&#8217;s &#8220;<a href="http://www.amazon.com/gp/product/0195137620?ie=UTF8&amp;tag=thecommandl0a-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0195137620">Copyright&#8217;s Paradox</a>&#8220;.</p>
+<p>Listener feedback is a thoughtful and thought provoking email from Grant who wrote in response to my <a href="http://thecommandline.net/2010/08/01/news_220/">discussion</a> of ebooks in the developing world.</p>
+<p>The hacker word of the week this week is <a href="http://catb.org/jargon/html/F/finger-pointing-syndrome.html">finger-pointing syndrome</a>.</p>
+<p>The feature this week is an Inner Chapter on the subject of superstitions.</p>
+<p></p>
+<p>View the <a href="http://thecommandline.net/wiki/2010_08_25">detailed show notes online</a>. You can grab the <a href="http://www.archive.org/details/Tclp2010-08-25InnerChapterSuperstitions">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=3492" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li>No related posts.</li>
+	</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/08/25/superstitions/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-08-25.mp3" length="24292345" type="audio/mpeg" />
+		<itunes:duration>28:53</itunes:duration>
+		<itunes:subtitle>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, the last reminder of my impending travel to Dragon*Con. Also a ...</itunes:subtitle>
+		<itunes:summary>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, the last reminder of my impending travel to Dragon*Con. Also a quick review of Neil Netanel's "Copyright's Paradox".
+
+Listener feedback is a thoughtful and thought provoking email from Grant who wrote in response to my discussion of ebooks in the developing world.
+
+The hacker word of the week this week is finger-pointing syndrome.
+
+The feature this week is an Inner Chapter on the subject of superstitions.
+
+
+
+View the detailed show notes online. You can grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Inner Chapter, Jargon, Podcast, Review</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-08-22 News</title>
+		<link>http://thecommandline.net/2010/08/22/news_223/</link>
+		<comments>http://thecommandline.net/2010/08/22/news_223/#comments</comments>
+		<pubDate>Sun, 22 Aug 2010 22:34:52 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ACTA]]></category>
+		<category><![CDATA[crypto]]></category>
+		<category><![CDATA[EFF]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[Firefox]]></category>
+		<category><![CDATA[future of computing]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Privacy]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=3474</guid>
+		<description><![CDATA[This is news cast 223, an episode of The Command Line Podcast. In the intro, an obligatory reminder there will be no new shows on the 29th, the 1st and the 5th because of Dragon*Con. Also, if you are in the north west of the UK, check out U^3 an UnWorkShop being held the 28th [...]]]></description>
+			<content:encoded><![CDATA[<p>This is news cast 223, an episode of The Command Line Podcast.</p>
+<p>In the intro, an obligatory reminder there will be no new shows on the 29th, the 1st and the 5th because of <a href="http://dragoncon.org/">Dragon*Con</a>. Also, if you are in the north west of the UK, check out <a href="http://tinyurl.com/ucubed">U^3</a> an UnWorkShop being held the 28th of August.</p>
+<p>This week&#8217;s security alerts are <a href="http://tech.slashdot.org/story/10/08/17/138251/New-Firefox-iFrame-Bug-Bypasses-URL-Protections">a Firefox bug bypasses URL protection for embedded frames</a> and <a href="http://www.h-online.com/open/news/item/Root-privileges-through-Linux-kernel-bug-Update-1061563.html">an old Linux Kernel flaw allows exploits to acquire root privileges</a>.</p>
+<p>In this week&#8217;s news <a href="http://citizenlab.org/2010/08/the-end-of-online-privacy/">the end of privacy</a>, a new <a href="http://www.technologyreview.com/computing/26055/?ref=rss&amp;a=f">probabilistic</a> <a href="http://www.theregister.co.uk/2010/08/17/lyric_probability_processor/">processor</a> <a href="http://arstechnica.com/hardware/news/2010/08/probabilistic-processors-possibly-potent.ars">design</a>, <a href="http://www.technologyreview.com/blog/arxiv/25629/?ref=rss">a thirty year old crypto system is resistant to quantum cryptanalysis</a>, and <a href="http://bits.blogs.nytimes.com/2010/08/18/new-facebook-location-feature-sparks-privacy-concerns/">privacy concerns</a> (among <a href="http://www.readwriteweb.com/archives/details_details_facebook_responds_to_our_questions.php">others</a>) over Facebook&#8217;s new Places feature. The EFF already has a <a href="http://www.eff.org/deeplinks/2010/08/how-protect-your-privacy-facebook-places">guide</a> to protecting your privacy against it.</p>
+<p>Following up this week <a href="http://www.eff.org/deeplinks/2010/08/eff-files-appeal-warrantless-wiretapping-case">EFF appealing the Jewel v. NSA warrantless wiretapping case</a> and <a href="http://arstechnica.com/tech-policy/news/2010/08/negotiators-confirm-acta-not-really-a-counterfeiting-treaty.ars">negotiators concede ACTA isn&#8217;t about counterfeiting after all</a>.</p>
+<p></p>
+<p>View the <a href="http://thecommandline.net/wiki/2010_08_22">detailed show notes online</a>. You can also grab the <a href="http://www.archive.org/details/Tclp2010-08-22News">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=3474" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/14/feeds-grep-links-microsoft-grants-license-to-ngos-dell-releases-streak-sources-register-of-copyrights-to-retire-and-more/" title="feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More (September 14, 2010)">feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/12/following-up-for-the-week-ending-9122010/" title="Following Up for the Week Ending 9/12/2010 (September 12, 2010)">Following Up for the Week Ending 9/12/2010</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/12/security-alerts-for-the-week-ending-9122010/" title="Security Alerts for the Week Ending 9/12/2010 (September 12, 2010)">Security Alerts for the Week Ending 9/12/2010</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/10/feeds-grep-links-faster-javascript-for-firefox-4-details-of-googles-new-search-index-leaked-eu-surveillance-plan-and-more/" title="feeds | grep links > Faster JavaScript for Firefox 4, Details of Google&#8217;s New Search Index, Leaked EU Surveillance Plan, and More (September 10, 2010)">feeds | grep links > Faster JavaScript for Firefox 4, Details of Google&#8217;s New Search Index, Leaked EU Surveillance Plan, and More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/09/biometric-ids-for-every-indian-citizen/" title="Biometric IDs for Every Indian Citizen (September 9, 2010)">Biometric IDs for Every Indian Citizen</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/08/22/news_223/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-08-22.mp3" length="28014585" type="audio/mpeg" />
+		<itunes:duration>33:19</itunes:duration>
+		<itunes:subtitle>This is news cast 223, an episode of The Command Line Podcast.
+
+In the intro, an obligatory reminder there will be no new shows on the ...</itunes:subtitle>
+		<itunes:summary>This is news cast 223, an episode of The Command Line Podcast.
+
+In the intro, an obligatory reminder there will be no new shows on the 29th, the 1st and the 5th because of Dragon*Con. Also, if you are in the north west of the UK, check out U^3 an UnWorkShop being held the 28th of August.
+
+This week's security alerts are a Firefox bug bypasses URL protection for embedded frames and an old Linux Kernel flaw allows exploits to acquire root privileges.
+
+In this week's news the end of privacy, a new probabilistic processor design, a thirty year old crypto system is resistant to quantum cryptanalysis, and privacy concerns (among others) over Facebook's new Places feature. The EFF already has a guide to protecting your privacy against it.
+
+Following up this week EFF appealing the Jewel v. NSA warrantless wiretapping case and negotiators concede ACTA isn't about counterfeiting after all.
+
+
+
+View the detailed show notes online. You can also grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Podcast, Security</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-08-18 Inner Chapter: Scalability</title>
+		<link>http://thecommandline.net/2010/08/18/scalability/</link>
+		<comments>http://thecommandline.net/2010/08/18/scalability/#comments</comments>
+		<pubDate>Wed, 18 Aug 2010 23:46:27 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Inner Chapter]]></category>
+		<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=3448</guid>
+		<description><![CDATA[This is a feature cast, an episode of The Command Line Podcast. In the intro, a reminder about the upcoming CopyNight here in DC and of my impending travel to Dragon*Con. There is no new hacker word of the week this week. The feature this week is an Inner Chapter on the subject of scalability. [...]]]></description>
+			<content:encoded><![CDATA[<p>This is a feature cast, an episode of The Command Line Podcast.</p>
+<p>In the intro, a reminder about the upcoming <a href="http://copynightdc.wordpress.com/">CopyNight</a> here in DC and of my impending travel to <a href="http://dragoncon.org/">Dragon*Con</a>.</p>
+<p>There is no new hacker word of the week this week.</p>
+<p>The feature this week is an Inner Chapter on the subject of scalability. In it, I mention my previous discussion of <a href="http://thecommandline.net/2010/01/06/speed_performance/">speed and performance</a>.</p>
+<p></p>
+<p>View the <a href="http://thecommandline.net/wiki/2010_08_18">detailed show notes online</a>. You can grab the <a href="http://www.archive.org/details/Tclp2010-08-18InnerChapterScalability">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=3448" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li>No related posts.</li>
+	</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/08/18/scalability/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-08-18.mp3" length="28955933" type="audio/mpeg" />
+		<itunes:duration>34:26</itunes:duration>
+		<itunes:subtitle>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, a reminder about the upcoming CopyNight here in DC and of ...</itunes:subtitle>
+		<itunes:summary>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, a reminder about the upcoming CopyNight here in DC and of my impending travel to Dragon*Con.
+
+There is no new hacker word of the week this week.
+
+The feature this week is an Inner Chapter on the subject of scalability. In it, I mention my previous discussion of speed and performance.
+
+
+
+View the detailed show notes online. You can grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Inner Chapter, Podcast</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-08-15 News</title>
+		<link>http://thecommandline.net/2010/08/15/news_222/</link>
+		<comments>http://thecommandline.net/2010/08/15/news_222/#comments</comments>
+		<pubDate>Sun, 15 Aug 2010 22:46:16 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[CyberLiberties]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[3D printing]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[artificial life]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[net neutrality]]></category>
+		<category><![CDATA[OpenSSL]]></category>
+		<category><![CDATA[surveillance]]></category>
+		<category><![CDATA[Verizon]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=3422</guid>
+		<description><![CDATA[This is news cast 222, an episode of The Command Line Podcast. In the intro, letting everyone know Dragon*Con is coming up. I&#8217;ll be taking a little more time this year off from the show to prepare for my travel there. There will be no news cast on either September 29th or the 5th. There [...]]]></description>
+			<content:encoded><![CDATA[<p>This is news cast 222, an episode of The Command Line Podcast.</p>
+<p>In the intro, letting everyone know <a href="http://dragoncon.org/">Dragon*Con</a> is coming up. I&#8217;ll be taking a little more time this year off from the show to prepare for my travel there. There will be no news cast on either September 29th or the 5th. There will be no feature cast on the 1st and possibly the 8th, depending on what recordings I come back with and how much work they need.</p>
+<p>This week&#8217;s security alerts are <a href="http://www.computerweekly.com/Articles/2010/08/10/242321/android-phones-hit-by-text-based-trojan.htm">first Android SMS trojan</a> and <a href="http://www.h-online.com/open/news/item/Vulnerability-in-OpenSSL-1-0-x-1053147.html">a vulnerability in OpenSSL 1.0</a>.</p>
+<p>In this week&#8217;s news <a href="http://tech.slashdot.org/story/10/08/08/0110222/Artificial-Life-Forms-Evolve-Basic-Memory-Strategy">artificial life evolves a basic memory</a>, <a href="http://www.wired.com/threatlevel/2010/08/nsl-gag-order-lifted/">John Doe who challenged the FBI freed to speak</a>, <a href="http://tech.slashdot.org/story/10/08/11/128244/Touchscreens-Open-To-Smudge-Attacks">touch screens open to smudge attack</a>, and <a href="http://www.adafruit.com/blog/2010/08/09/scott-summit-on-the-future-of-3d-printing/">the state of 3D printing</a>. The book I mention in the a-life segment is &#8220;<a href="http://www.amazon.com/gp/product/0671872346?ie=UTF8&amp;tag=thecommandl0a-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0671872346">Complexity</a>&#8221; by Mitch Waldrop.</p>
+<p>Following up this week <a href="http://googlepublicpolicy.blogspot.com/2010/08/joint-policy-proposal-for-open-internet.html">just the announcement of what Google and Verizon were up to</a>. There was an <a href="http://googlepublicpolicy.blogspot.com/2010/08/google-and-verizon-op-ed-path-to-open.html">op-ed from the two CEOs</a> though I don&#8217;t think it added anything. There was also a ton of analysis and commentary though I am going to recommend that from <a href="http://www.eff.org/deeplinks/2010/08/google-verizon-netneutrality">EFF&#8217;s Cindy Cohn</a>. Not surprisingly, Google has already posted a <a href="http://googlepublicpolicy.blogspot.com/2010/08/facts-about-our-network-neutrality.html">defense</a>.</p>
+<p></p>
+<p>View the <a href="http://thecommandline.net/wiki/2010_08_15">detailed show notes online</a>. You can also grab the <a href="http://www.archive.org/details/Tclp2010-08-15News">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=3422" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/14/feeds-grep-links-microsoft-grants-license-to-ngos-dell-releases-streak-sources-register-of-copyrights-to-retire-and-more/" title="feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More (September 14, 2010)">feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/14/high-profile-application-of-seam-carving/" title="High Profile Application of Seam Carving (September 14, 2010)">High Profile Application of Seam Carving</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/13/feeds-grep-links-more-license-options-at-google-code-piracy-as-an-excuse-for-censorship-gaming-does-rewire-your-brain-and-more/" title="feeds | grep links > More License Options at Google Code, Piracy as an Excuse for Censorship, Gaming Does Rewire Your Brain, and More (September 13, 2010)">feeds | grep links > More License Options at Google Code, Piracy as an Excuse for Censorship, Gaming Does Rewire Your Brain, and More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/12/following-up-for-the-week-ending-9122010/" title="Following Up for the Week Ending 9/12/2010 (September 12, 2010)">Following Up for the Week Ending 9/12/2010</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/12/security-alerts-for-the-week-ending-9122010/" title="Security Alerts for the Week Ending 9/12/2010 (September 12, 2010)">Security Alerts for the Week Ending 9/12/2010</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/08/15/news_222/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-08-15.mp3" length="26400687" type="audio/mpeg" />
+		<itunes:duration>31:24</itunes:duration>
+		<itunes:subtitle>This is news cast 222, an episode of The Command Line Podcast.
+
+In the intro, letting everyone know Dragon*Con is coming up. I'll be taking a ...</itunes:subtitle>
+		<itunes:summary>This is news cast 222, an episode of The Command Line Podcast.
+
+In the intro, letting everyone know Dragon*Con is coming up. I'll be taking a little more time this year off from the show to prepare for my travel there. There will be no news cast on either September 29th or the 5th. There will be no feature cast on the 1st and possibly the 8th, depending on what recordings I come back with and how much work they need.
+
+This week's security alerts are first Android SMS trojan and a vulnerability in OpenSSL 1.0.
+
+In this week's news artificial life evolves a basic memory, John Doe who challenged the FBI freed to speak, touch screens open to smudge attack, and the state of 3D printing. The book I mention in the a-life segment is "Complexity" by Mitch Waldrop.
+
+Following up this week just the announcement of what Google and Verizon were up to. There was an op-ed from the two CEOs though I don't think it added anything. There was also a ton of analysis and commentary though I am going to recommend that from EFF's Cindy Cohn. Not surprisingly, Google has already posted a defense.
+
+
+
+View the detailed show notes online. You can also grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>CyberLiberties, Podcast, Policy, Security</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-08-08 News</title>
+		<link>http://thecommandline.net/2010/08/08/news_221/</link>
+		<comments>http://thecommandline.net/2010/08/08/news_221/#comments</comments>
+		<pubDate>Mon, 09 Aug 2010 00:08:31 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Review]]></category>
+		<category><![CDATA[CAPTCHA]]></category>
+		<category><![CDATA[EFF]]></category>
+		<category><![CDATA[FCC]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[IP terrorism]]></category>
+		<category><![CDATA[mesh networking]]></category>
+		<category><![CDATA[net neutrality]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[reCAPTCHA]]></category>
+		<category><![CDATA[RFID]]></category>
+		<category><![CDATA[USCG]]></category>
+		<category><![CDATA[Verizon]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=3402</guid>
+		<description><![CDATA[This is news cast 221, an episode of The Command Line Podcast. In the intro, my thanks to Mike for his donation for which he has earned a merit badge. A final reminder there will not be a feature cast this coming week, I&#8217;ll be out in San Francisco for most of the week. Also, [...]]]></description>
+			<content:encoded><![CDATA[<p>This is news cast 221, an episode of The Command Line Podcast.</p>
+<p>In the intro, my thanks to Mike for his <a href="http://support/">donation</a> for which he has earned a merit badge. A final reminder there will not be a feature cast this coming week, I&#8217;ll be out in San Francisco for most of the week. Also, a quick review of George Mann&#8217;s &#8220;<a href="http://www.amazon.com/gp/product/0765323214?ie=UTF8&amp;tag=thecommandl0a-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0765323214">The Osiris Ritual</a>&#8220;. I <a href="http://thecommandline.net/2010/06/16/why_programming_is_hard/">reviewed</a> his first novel, &#8220;The Affinity Bridge&#8221;, earlier in the Summer.</p>
+<p>This week&#8217;s security alerts are <a href="http://www.theregister.co.uk/2010/08/02/long_range_rfid/">RFIDs can be provably read at over 60 meters</a> and <a href="http://it.slashdot.org/story/10/08/05/2054247/ReCAPTCHAnet-Now-Vulnerable-to-Algorithmic-Attack">an algorithmic attack on reCAPTCHA</a>.</p>
+<p>In this week&#8217;s news <a href="http://arstechnica.com/science/news/2010/08/researchers-craft-algorithm-to-turn-mesh-networking-green.ars">an algorithm to improve the energy efficiency of mesh networks</a>, <a href="http://www.salon.com/news/opinion/glenn_greenwald/2010/08/02/privacy">concerns over a citizen vigilante group</a> monitor ISPs though <a href="http://www.salon.com/news/opinion/glenn_greenwald/2010/08/05/surveillance/index.html">the groups claims may be overstated</a>, <a href="http://googleblog.blogspot.com/2010/08/update-on-google-wave.html">Google ends Wave development</a> though is <a href="http://news.cnet.com/8301-13860_3-20012724-56.html">dedicated to learning from its failure</a> in this case probably from its <a href="http://www.readwriteweb.com/archives/google_wave_is_dead.php">complexity</a> despite adding more resources and opening up to more users, and <a href="http://voices.washingtonpost.com/posttech/2010/08/google_and_verizon_have_come.html">unpacking what exactly went on between Google and Verizon</a> especially <a href="http://www.pcmag.com/article2/0,2817,2367436,00.asp">as they deny claims of an anti-neutrality pact</a> (even on <a href="http://twitter.com/googlepubpolicy/statuses/20393606477">Twitter</a>). Odds are good they <a href="http://arstechnica.com/tech-policy/news/2010/08/google-verizon-deny-net-neutrality-rumors-but-still-meeting.ars">are still meeting and talking</a> to some end which may be why the NYT is <a href="http://www.wired.com/epicenter/2010/08/google-verizon-deny-deal/">sticking to its story</a>. Cringely has the most <a href="http://www.nytimes.com/2010/08/08/opinion/08cringeley.html?_r=2">intriguing guess at their possible goal</a>.</p>
+<p>Following up this week <a href="http://www.eff.org/press/archives/2010/08/03">EFF offers assistance to targets of the US Copyright Group</a> and <a href="http://voices.washingtonpost.com/posttech/2010/08/fcc_stops_closed-door_internet.html?wprss=posttech">the FCC ends closed door discussions on its net neutrality plan</a>.</p>
+<p></p>
+<p>View the <a href="http://thecommandline.net/wiki/2010_08_08">detailed show notes online</a>. You can also grab the <a href="http://www.archive.org/details/Tclp2010-08-08News">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=3402" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/14/feeds-grep-links-microsoft-grants-license-to-ngos-dell-releases-streak-sources-register-of-copyrights-to-retire-and-more/" title="feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More (September 14, 2010)">feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/14/high-profile-application-of-seam-carving/" title="High Profile Application of Seam Carving (September 14, 2010)">High Profile Application of Seam Carving</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/13/feeds-grep-links-more-license-options-at-google-code-piracy-as-an-excuse-for-censorship-gaming-does-rewire-your-brain-and-more/" title="feeds | grep links > More License Options at Google Code, Piracy as an Excuse for Censorship, Gaming Does Rewire Your Brain, and More (September 13, 2010)">feeds | grep links > More License Options at Google Code, Piracy as an Excuse for Censorship, Gaming Does Rewire Your Brain, and More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/12/following-up-for-the-week-ending-9122010/" title="Following Up for the Week Ending 9/12/2010 (September 12, 2010)">Following Up for the Week Ending 9/12/2010</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/10/feeds-grep-links-faster-javascript-for-firefox-4-details-of-googles-new-search-index-leaked-eu-surveillance-plan-and-more/" title="feeds | grep links > Faster JavaScript for Firefox 4, Details of Google&#8217;s New Search Index, Leaked EU Surveillance Plan, and More (September 10, 2010)">feeds | grep links > Faster JavaScript for Firefox 4, Details of Google&#8217;s New Search Index, Leaked EU Surveillance Plan, and More</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/08/08/news_221/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-08-08.mp3" length="28216825" type="audio/mpeg" />
+		<itunes:duration>33:34</itunes:duration>
+		<itunes:subtitle>This is news cast 221, an episode of The Command Line Podcast.
+
+In the intro, my thanks to Mike for his donation for which he has ...</itunes:subtitle>
+		<itunes:summary>This is news cast 221, an episode of The Command Line Podcast.
+
+In the intro, my thanks to Mike for his donation for which he has earned a merit badge. A final reminder there will not be a feature cast this coming week, I'll be out in San Francisco for most of the week. Also, a quick review of George Mann's "The Osiris Ritual". I reviewed his first novel, "The Affinity Bridge", earlier in the Summer.
+
+This week's security alerts are RFIDs can be provably read at over 60 meters and an algorithmic attack on reCAPTCHA.
+
+In this week's news an algorithm to improve the energy efficiency of mesh networks, concerns over a citizen vigilante group monitor ISPs though the groups claims may be overstated, Google ends Wave development though is dedicated to learning from its failure in this case probably from its complexity despite adding more resources and opening up to more users, and unpacking what exactly went on between Google and Verizon especially as they deny claims of an anti-neutrality pact (even on Twitter). Odds are good they are still meeting and talking to some end which may be why the NYT is sticking to its story. Cringely has the most intriguing guess at their possible goal.
+
+Following up this week EFF offers assistance to targets of the US Copyright Group and the FCC ends closed door discussions on its net neutrality plan.
+
+
+
+View the detailed show notes online. You can also grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Podcast, Review</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-08-04 Habits of an Infovore</title>
+		<link>http://thecommandline.net/2010/08/04/infovore/</link>
+		<comments>http://thecommandline.net/2010/08/04/infovore/#comments</comments>
+		<pubDate>Thu, 05 Aug 2010 01:32:52 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Jargon]]></category>
+		<category><![CDATA[Monologue]]></category>
+		<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=3381</guid>
+		<description><![CDATA[This is a feature cast, an episode of The Command Line Podcast. In the intro, sharing Steve&#8217;s badge photo, last month&#8217;s revenue update, and a reminder there will be no feature cast next week as I&#8217;ll be out of town. The hacker word of the week this week is finger trouble . The feature this [...]]]></description>
+			<content:encoded><![CDATA[<p>This is a feature cast, an episode of The Command Line Podcast.</p>
+<p>In the intro, sharing Steve&#8217;s <a href="http://thecommandline.net/2010/08/04/another-badge-finds-its-home/">badge photo</a>, last month&#8217;s <a href="http://thecommandline.net/2010/08/04/revenue-update-for-july/">revenue update</a>, and a reminder there will be no feature cast next week as I&#8217;ll be <a href="http://thecommandline.net/2010/07/30/ill-be-in-san-francisco-aug-9th-through-11th-for-cassandra-summit-2010/">out of town</a>.</p>
+<p>The hacker word of the week this week is <a href="http://catb.org/jargon/html/F/finger-trouble.html">finger trouble</a> .</p>
+<p>The feature this week is a monologue my habits as an infovore. How I consume information is very much informed by <a href="http://thecommandline.net/2010/06/07/the-effect-of-multitasking-on-the-brain/">current thinking on multitasking</a>.</p>
+<p></p>
+<p>View the <a href="http://thecommandline.net/wiki/2010_08_04">detailed show notes online</a>. You can grab the <a href="http://www.archive.org/details/Tclp2010-08-04HabitsOfAnInfovore">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=3381" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li>No related posts.</li>
+	</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/08/04/infovore/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-08-04.mp3" length="17921236" type="audio/mpeg" />
+		<itunes:duration>21:18</itunes:duration>
+		<itunes:subtitle>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, sharing Steve's badge photo, last month's revenue update, and a reminder ...</itunes:subtitle>
+		<itunes:summary>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, sharing Steve's badge photo, last month's revenue update, and a reminder there will be no feature cast next week as I'll be out of town.
+
+The hacker word of the week this week is finger trouble .
+
+The feature this week is a monologue my habits as an infovore. How I consume information is very much informed by current thinking on multitasking.
+
+
+
+View the detailed show notes online. You can grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Jargon, Monologue, Podcast</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-08-01 News</title>
+		<link>http://thecommandline.net/2010/08/01/news_220/</link>
+		<comments>http://thecommandline.net/2010/08/01/news_220/#comments</comments>
+		<pubDate>Sun, 01 Aug 2010 23:13:12 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[AT&T]]></category>
+		<category><![CDATA[Canadian DMCA]]></category>
+		<category><![CDATA[DMCA]]></category>
+		<category><![CDATA[ebook]]></category>
+		<category><![CDATA[EFF]]></category>
+		<category><![CDATA[net neutrality]]></category>
+		<category><![CDATA[Privacy]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=3348</guid>
+		<description><![CDATA[This is news cast 220, an episode of The Command Line Podcast. In the intro, an apology for missing the last two shows, though I had good reason. I will be in San Francisco from August 9th to the 11th for Cassandra Summit and a training day. If anyone is interested in a meet up [...]]]></description>
+			<content:encoded><![CDATA[<p>This is news cast 220, an episode of The Command Line Podcast.</p>
+<p>In the intro, an apology for missing the last two shows, though I had <a href="http://thecommandline.net/2010/07/28/power-restored/">good reason</a>. I will be <a href="http://thecommandline.net/2010/07/30/ill-be-in-san-francisco-aug-9th-through-11th-for-cassandra-summit-2010/">in San Francisco from August 9th to the 11th</a> for Cassandra Summit and a training day. If anyone is interested in a meet up Monday or Tuesday night, let me know. And if you don&#8217;t read the web site, I am a <a href="http://thecommandline.net/2010/07/29/parsec-finalist/">finalist for a Parsec award</a>.</p>
+<p>This week&#8217;s security alerts are <a href="http://www.zdnet.com/blog/security/apple-patches-safari-auto-fill-security-hole/6991">Apple fixes the autofill bug in Safari</a> that I didn&#8217;t get to discuss <a href="http://thecommandline.net/wiki/2010_07_25#alert1">last week</a> and <a href="http://it.slashdot.org/story/10/07/28/2210217/ATampT-Wont-Block-Black-Hat-Eavesdropping-Demo">AT&amp;T said it wouldn&#8217;t interfere with a Black Hat demo</a> and <a href="http://www.wired.com/threatlevel/2010/07/intercepting-cell-phone-calls/">was true to its word</a>.</p>
+<p>In this week&#8217;s news <a href="http://www.wired.com/threatlevel/2010/07/intercepting-cell-phone-calls/">EFF wins three DMCA exemptions</a> with deeper analysis from both <a href="http://www.eff.org/deeplinks/2010/07/breaking-down-2009-dmca-rulemaking-part-1-victory">them</a> and <a href="http://www.publicknowledge.org/blog/library-congresss-drm-exceptions-not-just-abo">Public Knowledge</a>. There were <a href="http://www.readwriteweb.com/archives/fair_use_legalized_says_eff.php">two additional exemptions granted</a> and <a href="http://thecommandline.net/2010/07/27/what-the-dmca-exemption-rulemaking-left-out/">many others</a> that <a href="http://www.groklaw.net/article.php?story=2010072612452020">were not</a>. I get why most of the coverage is so <a href="http://www.readwriteweb.com/archives/fair_use_not_just_acceptable_its_essential_for_the.php">positive</a> but I cannot help but give voice to my inner cynic. Also, the <a href="http://voices.washingtonpost.com/posttech/2010/07/sen_kerry_to_introduce_interne.html?wprss=posttech">Senate prepares privacy legislation</a> as <a href="http://voices.washingtonpost.com/posttech/2010/07/senate_online_privacy_hearing.html?wprss=posttech">industry discusses self regulation</a>, a <a href="http://www.readwriteweb.com/archives/e-readers_help_literacy_in_ghana.php">couple</a> of <a href="http://www.wired.com/gadgetlab/2010/07/humane-wikipedia-reader/">stories</a> about e-books in developing nations, and <a href="http://www.readwriteweb.com/archives/slashdot_struggles_to_remain_relevant_in_the_socia.php">Slashdot is losing relevance on the social web</a>.</p>
+<p>Following up this week <a href="http://yro.slashdot.org/story/10/07/26/1536223/Al-Frankens-Warning-On-Net-Neutrality">Al Franken frames net neutrality as key free speech issue</a> and <a href="http://techdirt.com/articles/20100726/17374910366.shtml">Canadian C-32 is clearly following the US DMCA</a>.</p>
+<p></p>
+<p>View the <a href="http://thecommandline.net/wiki/2010_08_01">detailed show notes online</a>. You can also grab the <a href="http://www.archive.org/details/Tclp2010-08-20News">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=3348" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/14/feeds-grep-links-microsoft-grants-license-to-ngos-dell-releases-streak-sources-register-of-copyrights-to-retire-and-more/" title="feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More (September 14, 2010)">feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/12/following-up-for-the-week-ending-9122010/" title="Following Up for the Week Ending 9/12/2010 (September 12, 2010)">Following Up for the Week Ending 9/12/2010</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/12/apples-concessions-on-3rd-party-tools-publishing-its-approval-policy/" title="Apple&#8217;s Concessions on 3rd Party Tools, Publishing its Approval Policy (September 12, 2010)">Apple&#8217;s Concessions on 3rd Party Tools, Publishing its Approval Policy</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/09/feeds-grep-links-latest-ios-thoroughly-jailbroken-ddosing-copyright-infringers-robots-taught-to-deceive-and-more/" title="feeds | grep links > Latest iOS Thoroughly Jailbroken, DDoSing Copyright Infringers, Robots Taught to Deceive, and More (September 9, 2010)">feeds | grep links > Latest iOS Thoroughly Jailbroken, DDoSing Copyright Infringers, Robots Taught to Deceive, and More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/09/biometric-ids-for-every-indian-citizen/" title="Biometric IDs for Every Indian Citizen (September 9, 2010)">Biometric IDs for Every Indian Citizen</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/08/01/news_220/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-08-01.mp3" length="28973487" type="audio/mpeg" />
+		<itunes:duration>34:28</itunes:duration>
+		<itunes:subtitle>This is news cast 220, an episode of The Command Line Podcast.
+
+In the intro, an apology for missing the last two shows, though I had ...</itunes:subtitle>
+		<itunes:summary>This is news cast 220, an episode of The Command Line Podcast.
+
+In the intro, an apology for missing the last two shows, though I had good reason. I will be in San Francisco from August 9th to the 11th for Cassandra Summit and a training day. If anyone is interested in a meet up Monday or Tuesday night, let me know. And if you don't read the web site, I am a finalist for a Parsec award.
+
+This week's security alerts are Apple fixes the autofill bug in Safari that I didn't get to discuss last week and AT&#38;T said it wouldn't interfere with a Black Hat demo and was true to its word.
+
+In this week's news EFF wins three DMCA exemptions with deeper analysis from both them and Public Knowledge. There were two additional exemptions granted and many others that were not. I get why most of the coverage is so positive but I cannot help but give voice to my inner cynic. Also, the Senate prepares privacy legislation as industry discusses self regulation, a couple of stories about e-books in developing nations, and Slashdot is losing relevance on the social web.
+
+Following up this week Al Franken frames net neutrality as key free speech issue and Canadian C-32 is clearly following the US DMCA.
+
+
+
+View the detailed show notes online. You can also grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Podcast, Security</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-07-21 The True Burden of Forking</title>
+		<link>http://thecommandline.net/2010/07/21/burden_of_forking/</link>
+		<comments>http://thecommandline.net/2010/07/21/burden_of_forking/#comments</comments>
+		<pubDate>Thu, 22 Jul 2010 00:35:36 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Jargon]]></category>
+		<category><![CDATA[Monologue]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Review]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=3270</guid>
+		<description><![CDATA[This is a feature cast, an episode of The Command Line Podcast. In the intro, a quick review of the tabletop game, &#8220;The Stars are Right&#8220;. Listener feedback this week is from Andrew and Carey, both of whom responded to the last feature on complex privacy . The hacker word of the week this week [...]]]></description>
+			<content:encoded><![CDATA[<p>This is a feature cast, an episode of The Command Line Podcast.</p>
+<p>In the intro, a quick review of the tabletop game, &#8220;<a href="http://www.boardgamegeek.com/boardgame/37696/the-stars-are-right">The Stars are Right</a>&#8220;.</p>
+<p>Listener feedback this week is from Andrew and <a href="http://dcprivacylaw.com/blog/">Carey</a>, both of whom responded to the last feature on <a href="http://thecommandline.net/2010/07/07/complex_privacy/">complex privacy</a> .</p>
+<p>The hacker word of the week this week is <a href="http://catb.org/jargon/html/F/Finagles-Law.html">Finagle&#8217;s Law</a>.</p>
+<p>The feature this week is a monologue considering the true burden of forking. It was inspired by my recent reading of Clay Shirky&#8217;s excellent, &#8220;<a href="http://www.amazon.com/gp/product/1594201536?ie=UTF8&amp;tag=thecommandl0a-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1594201536">Here Comes Everybody</a>&#8220;.</p>
+<p></p>
+<p>View the <a href="http://thecommandline.net/wiki/2010_07_21">detailed show notes online</a>. You can grab the <a href="http://www.archive.org/details/Tclp2010-07-21TheTrueBurdenOfForking">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=3270" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li>No related posts.</li>
+	</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/07/21/burden_of_forking/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-07-21.mp3" length="29130443" type="audio/mpeg" />
+		<itunes:duration>34:39</itunes:duration>
+		<itunes:subtitle>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, a quick review of the tabletop game, "The Stars are Right".
+
+Listener ...</itunes:subtitle>
+		<itunes:summary>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, a quick review of the tabletop game, "The Stars are Right".
+
+Listener feedback this week is from Andrew and Carey, both of whom responded to the last feature on complex privacy .
+
+The hacker word of the week this week is Finagle's Law.
+
+The feature this week is a monologue considering the true burden of forking. It was inspired by my recent reading of Clay Shirky's excellent, "Here Comes Everybody".
+
+
+
+View the detailed show notes online. You can grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Jargon, Monologue, Podcast, Review</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-07-18 News</title>
+		<link>http://thecommandline.net/2010/07/18/news_219/</link>
+		<comments>http://thecommandline.net/2010/07/18/news_219/#comments</comments>
+		<pubDate>Sun, 18 Jul 2010 23:35:44 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ACTA]]></category>
+		<category><![CDATA[cyberliberties]]></category>
+		<category><![CDATA[surveillance]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=3234</guid>
+		<description><![CDATA[This is news cast 219, an episode of The Command Line Podcast. In the intro, an admission of a mistake around correctly observing the licenses of some works I used after I stopped using the non-commercial clause in the license for the podcast. The net effect should be none to you, the listener, but it [...]]]></description>
+			<content:encoded><![CDATA[<p>This is news cast 219, an episode of The Command Line Podcast.</p>
+<p>In the intro, an admission of a mistake around correctly observing the licenses of some works I used after I stopped using the non-commercial clause in the license for the podcast. The net effect should be none to you, the listener, but it seemed like a good teaching moment and a reminder that as easy as Creative Commons makes it to understand their licenses, that doesn&#8217;t prevent making honest mistakes. Thanks, Randal.</p>
+<p>This week&#8217;s security alerts are <a href="http://blog.mozilla.com/addons/2010/07/13/add-on-security-announcement/">Mozilla blocking an add on that was nabbing passwords</a> (via <a href="http://www.zdnet.com/blog/security/mozilla-blacklists-password-theft-add-on/6841">ZDNet</a>) including <a href="http://news.slashdot.org/story/10/07/15/1223234/How-the-Mozilla-Sniffer-Backdoor-Was-Discovered">how the backdoor was discovered</a> and <a href="http://news.slashdot.org/story/10/07/16/1753232/OAuth-OpenID-Password-Crack-Could-Affect-Millions">a crack that could affect libraries used to implement OAuth and OpenID</a>.</p>
+<p>In this week&#8217;s news <a href="http://appinventor.googlelabs.com/about/">Android App Inventor</a>, in keeping with Google&#8217;s spirit of <a href="http://thecommandline.net/2010/07/15/feeds-grep-links-charging-isps-for-piracy-insights-on-room-temperature-super-conductors-couchdb-on-android-and-more/">developer</a> <a href="http://thecommandline.net/2010/07/16/feeds-grep-links-php-on-android-shoring-up-4th-amendment-protection-of-email-and-more/">inclusion</a> vs. Apple&#8217;s puzzling <a href="http://thecommandline.net/2010/04/15/apple-removes-scratch-from-the-app-store/">decisions</a>, promises creating apps without coding though <a href="http://www.readwriteweb.com/archives/5_big_questions_about_googles_app_inventor.php">some interesting questions remain</a>, <a href="http://www.boingboing.net/2010/07/14/under-surveillance-a.html">a comic book on digital civil rights in Europe</a> produce by <a href="http://www.edri.org">EDRi</a> among others that I think would be a good companion to Cory Doctorow&#8217;s &#8220;<a href="http://craphound.com/littlebrother">Little Brother</a>&#8220;, <a href="http://www.wired.com/threatlevel/2010/07/thomas-drake/">NSA whistle blower exhausted all official channels to raise a complaint</a>, and <a href="http://googlepublicpolicy.blogspot.com/2010/07/our-op-ed-regulating-what-is-best-in.html">consider the question</a> of <a href="http://thecommandline.net/2009/12/29/a-call-for-search-neutrality/">search neutrality</a> and whether <a href="http://searchengineland.com/regulating-the-new-york-times-46521">co-opting the rhetoric of net neutrality is wise</a>.</p>
+<p>Following up this week <a href="https://christianengstrom.wordpress.com/2010/07/12/acta-negotiators-inform-the-parliament-in-secret/">European ACTA negotiators update the EP in secret</a> and <a href="http://www.michaelgeist.ca/content/view/5199/125/">ACTA is coming down to a fight between the US and the EU</a>.</p>
+<p></p>
+<p>View the <a href="http://thecommandline.net/wiki/2010_07_18">detailed show notes online</a>. You can also grab the <a href="http://www.archive.org/details/Tclp2010-07-18News">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=3234" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/12/following-up-for-the-week-ending-9122010/" title="Following Up for the Week Ending 9/12/2010 (September 12, 2010)">Following Up for the Week Ending 9/12/2010</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/10/feeds-grep-links-faster-javascript-for-firefox-4-details-of-googles-new-search-index-leaked-eu-surveillance-plan-and-more/" title="feeds | grep links > Faster JavaScript for Firefox 4, Details of Google&#8217;s New Search Index, Leaked EU Surveillance Plan, and More (September 10, 2010)">feeds | grep links > Faster JavaScript for Firefox 4, Details of Google&#8217;s New Search Index, Leaked EU Surveillance Plan, and More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/08/30/following-up-for-the-week-ending-8292010/" title="Following Up for the Week Ending 8/29/2010 (August 30, 2010)">Following Up for the Week Ending 8/29/2010</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/08/22/news_223/" title="TCLP 2010-08-22 News (August 22, 2010)">TCLP 2010-08-22 News</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/08/22/following-up-for-the-week-ending-8222010/" title="Following Up for the Week Ending 8/22/2010 (August 22, 2010)">Following Up for the Week Ending 8/22/2010</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/07/18/news_219/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-07-18.mp3" length="29702722" type="audio/mpeg" />
+		<itunes:duration>35:20</itunes:duration>
+		<itunes:subtitle>This is news cast 219, an episode of The Command Line Podcast.
+
+In the intro, an admission of a mistake around correctly observing the licenses of ...</itunes:subtitle>
+		<itunes:summary>This is news cast 219, an episode of The Command Line Podcast.
+
+In the intro, an admission of a mistake around correctly observing the licenses of some works I used after I stopped using the non-commercial clause in the license for the podcast. The net effect should be none to you, the listener, but it seemed like a good teaching moment and a reminder that as easy as Creative Commons makes it to understand their licenses, that doesn't prevent making honest mistakes. Thanks, Randal.
+
+This week's security alerts are Mozilla blocking an add on that was nabbing passwords (via ZDNet) including how the backdoor was discovered and a crack that could affect libraries used to implement OAuth and OpenID.
+
+In this week's news Android App Inventor, in keeping with Google's spirit of developer inclusion vs. Apple's puzzling decisions, promises creating apps without coding though some interesting questions remain, a comic book on digital civil rights in Europe produce by EDRi among others that I think would be a good companion to Cory Doctorow's "Little Brother", NSA whistle blower exhausted all official channels to raise a complaint, and consider the question of search neutrality and whether co-opting the rhetoric of net neutrality is wise.
+
+Following up this week European ACTA negotiators update the EP in secret and ACTA is coming down to a fight between the US and the EU.
+
+
+
+View the detailed show notes online. You can also grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Podcast, Policy, Programming, Security</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-07-11 News</title>
+		<link>http://thecommandline.net/2010/07/11/news_218/</link>
+		<comments>http://thecommandline.net/2010/07/11/news_218/#comments</comments>
+		<pubDate>Sun, 11 Jul 2010 23:25:01 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Digital Economy Bill]]></category>
+		<category><![CDATA[history of computing]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[NSA]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[quantum computing]]></category>
+		<category><![CDATA[surveillance]]></category>
+		<category><![CDATA[transparency]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=3180</guid>
+		<description><![CDATA[This is news cast 218, an episode of The Command Line Podcast. In the intro, thanks to new donor, Scott, and a request that existing donor Ryan contact me so I can send him his merit badge. Also, there will be new feature cast this week. I need to catch up on writing features for [...]]]></description>
+			<content:encoded><![CDATA[<p>This is news cast 218, an episode of The Command Line Podcast.</p>
+<p>In the intro, thanks to new donor, Scott, and a request that existing donor Ryan contact me so I can send him his merit badge. Also, there will be new feature cast this week. I need to catch up on writing features for the show and I will be attending two events in DC this week: <a href="http://googlepublicpolicy.blogspot.com/2010/07/google-dc-talk-july-14-chef-jose-andres.html">What Does Light Taste Like</a> and <a href="http://www.newamerica.net/events/2010/decoding_digital_activism">Decoding Digital Activism</a>.</p>
+<p>This week&#8217;s security alerts are <a href="http://www.theregister.co.uk/2010/07/06/ms_spurned_research_collective/">researchers form collective in response to Microsoft&#8217;s dismissal of a security concern</a> and <a href="http://threatpost.com/en_us/blogs/new-linux-os-remnux-designed-reverse-engineering-malware-070910">REMnux, a linux distro designed for reverse engineering malware</a>.</p>
+<p>In this week&#8217;s news <a href="http://arstechnica.com/science/news/2010/07/silicon-semiconductor-able-to-occupy-new-quantum-states.ars">new quantum states could lead to new approaches to quantum computing</a>, <a href="http://shareable.net/blog/a-tale-of-a-tale-of-a-shareable-future-part-3-apache-web-server-conquers-the-world">the Apache web server conquers the world</a>, <a href="http://infovegan.com/2010/07/01/how-transparency-fails-and-works-too/">another constructive criticism of transparency</a>, and <a href="http://www.theregister.co.uk/2010/07/08/perfect_citizen/">the NSA is looking</a> to <a href="http://www.readwriteweb.com/enterprise/2010/07/nsa-perfect-citizen.php">implement domestic surveillance of our infrastructure</a> though they are <a href="http://www.theregister.co.uk/2010/07/09/nsa_response_perfect_citizen/">quick to deny any active monitoring</a>.</p>
+<p>Following up this week, <a href="http://torrentfreak.com/uk-isps-take-digital-economy-act-to-high-court-100708/">two UK ISPs are taking the Digital Economy Act to High Court</a>.</p>
+<p></p>
+<p>View the <a href="http://thecommandline.net/wiki/2010_07_11">detailed show notes online</a>. You can also grab the <a href="http://www.archive.org/details/Tclp2010-07-11News">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=3180" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/15/feeds-grep-links-mozilla-inserts-a-stability-beta-how-to-read-a-patent-babbages-debugger-and-more/" title="feeds | grep links > Mozilla Inserts a Stability Beta, How-to Read a Patent, Babbage&#8217;s Debugger, and More (September 15, 2010)">feeds | grep links > Mozilla Inserts a Stability Beta, How-to Read a Patent, Babbage&#8217;s Debugger, and More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/14/feeds-grep-links-microsoft-grants-license-to-ngos-dell-releases-streak-sources-register-of-copyrights-to-retire-and-more/" title="feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More (September 14, 2010)">feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/14/hack-your-own-mind-machine-interface/" title="Hack Your Own Mind Machine Interface (September 14, 2010)">Hack Your Own Mind Machine Interface</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/13/feeds-grep-links-more-license-options-at-google-code-piracy-as-an-excuse-for-censorship-gaming-does-rewire-your-brain-and-more/" title="feeds | grep links > More License Options at Google Code, Piracy as an Excuse for Censorship, Gaming Does Rewire Your Brain, and More (September 13, 2010)">feeds | grep links > More License Options at Google Code, Piracy as an Excuse for Censorship, Gaming Does Rewire Your Brain, and More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/13/nanoscale-mechanical-logic-inverter/" title="Nanoscale Mechanical Logic Inverter (September 13, 2010)">Nanoscale Mechanical Logic Inverter</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/07/11/news_218/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-07-11.mp3" length="22242516" type="audio/mpeg" />
+		<itunes:duration>26:27</itunes:duration>
+		<itunes:subtitle>This is news cast 218, an episode of The Command Line Podcast.
+
+In the intro, thanks to new donor, Scott, and a request that existing donor ...</itunes:subtitle>
+		<itunes:summary>This is news cast 218, an episode of The Command Line Podcast.
+
+In the intro, thanks to new donor, Scott, and a request that existing donor Ryan contact me so I can send him his merit badge. Also, there will be new feature cast this week. I need to catch up on writing features for the show and I will be attending two events in DC this week: What Does Light Taste Like and Decoding Digital Activism.
+
+This week's security alerts are researchers form collective in response to Microsoft's dismissal of a security concern and REMnux, a linux distro designed for reverse engineering malware.
+
+In this week's news new quantum states could lead to new approaches to quantum computing, the Apache web server conquers the world, another constructive criticism of transparency, and the NSA is looking to implement domestic surveillance of our infrastructure though they are quick to deny any active monitoring.
+
+Following up this week, two UK ISPs are taking the Digital Economy Act to High Court.
+
+
+
+View the detailed show notes online. You can also grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Events, Podcast, Security</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-07-07 Will We Ever Have Effective Complex Privacy Controls?</title>
+		<link>http://thecommandline.net/2010/07/07/complex_privacy/</link>
+		<comments>http://thecommandline.net/2010/07/07/complex_privacy/#comments</comments>
+		<pubDate>Thu, 08 Jul 2010 00:49:23 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Jargon]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Rant]]></category>
+		<category><![CDATA[listener feedback]]></category>
+		<category><![CDATA[Privacy]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=3155</guid>
+		<description><![CDATA[This is a feature cast, an episode of The Command Line Podcast. Listener feedback this week is from quite a few folks. Matt wrote in about outliners, asking what I do in particular to bend vim to this task. I use a vimrc line like &#8220;autocmd BufEnter,BufNew *.notes set sw=4 ts=4 expandtab spell tw=0 foldmethod=indent [...]]]></description>
+			<content:encoded><![CDATA[<p>This is a feature cast, an episode of The Command Line Podcast.</p>
+<p>Listener feedback this week is from quite a few folks. Matt wrote in about outliners, asking what I do in particular to bend vim to this task. I use a vimrc line like &#8220;autocmd BufEnter,BufNew *.notes set sw=4 ts=4 expandtab spell tw=0 foldmethod=indent smartindent&#8221;. Colin posted a <a href="http://thecommandline.net/2010/06/23/linux_switch/#comment-5828">comment</a> about AAC and chapter marks. John had a much more incisive comment on my switching to an open stack segment. Ian also wrote about outliners, suggesting <a href="http://orgmode.org/">org-mode</a> and in particular a <a href="http://orgmode.org/talks/index.html#sec-2">couple</a> of <a href="http://www.nf.mpg.de/orgmode/guest-talk-dominik.html">screencasts</a>. And Max shared his experiences switching to Linux not once, but twice.</p>
+<p>The hacker word of the week this week is <a href="http://catb.org/jargon/html/F/filter.html">filter</a>.</p>
+<p>The feature this week is a rant digging into the question of whether we&#8217;ll ever develop effective controls that match our complex expectations of privacy and digging into the source of that complexity. I mention <a href="http://www.zephoria.org/thoughts/archives/2010/05/14/facebook-and-radical-transparency-a-rant.html">a couple</a> <a href="http://www.zephoria.org/thoughts/archives/2010/05/15/facebook-is-a-utility-utilities-get-regulated.html">of posts</a> by danah boyd, some <a href="http://www.theregister.co.uk/2010/06/18/facebook_hoofnagle_podcast/">criticism</a> of the demands made of Facebook by privacy advocates, my reading of Clay Shirky&#8217;s &#8220;<a href="http://www.amazon.com/gp/product/0143114948?ie=UTF8&amp;tag=thecommandl0a-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0143114948">Here Comes Everybody</a>&#8220;, and <a href="http://en.wikipedia.org/wiki/Small-world_network">small world networks</a>.</p>
+<p></p>
+<p>View the <a href="http://thecommandline.net/wiki/2010_07_07">detailed show notes online</a>. You can grab the <a href="http://www.archive.org/details/Tclp2010-07-07WillWeEverHaveEffectiveComplexPrivacyControls">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=3155" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/14/feeds-grep-links-microsoft-grants-license-to-ngos-dell-releases-streak-sources-register-of-copyrights-to-retire-and-more/" title="feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More (September 14, 2010)">feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/12/following-up-for-the-week-ending-9122010/" title="Following Up for the Week Ending 9/12/2010 (September 12, 2010)">Following Up for the Week Ending 9/12/2010</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/09/biometric-ids-for-every-indian-citizen/" title="Biometric IDs for Every Indian Citizen (September 9, 2010)">Biometric IDs for Every Indian Citizen</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/06/feeds-grep-links-mozilla-cloud-editor-renamed-google-to-simplify-privacy-policies-brazil-may-legalize-file-sharing-and-more/" title="feeds | grep links > Mozilla Cloud Editor Renamed, Google to Simplify Privacy Policies, Brazil May Legalize File Sharing, and More (September 6, 2010)">feeds | grep links > Mozilla Cloud Editor Renamed, Google to Simplify Privacy Policies, Brazil May Legalize File Sharing, and More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/08/31/feeds-grep-links-open-source-cell-network-chrom-7-sports-hardware-accelerated-effects-gmail-gets-a-priority-inbox-and-more/" title="feeds | grep links > Open Source Cell Network, Chrome 7 Sports Hardware Accelerated Effects, Gmail Gets a Priority Inbox, and More (August 31, 2010)">feeds | grep links > Open Source Cell Network, Chrome 7 Sports Hardware Accelerated Effects, Gmail Gets a Priority Inbox, and More</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/07/07/complex_privacy/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-07-07.mp3" length="27696413" type="audio/mpeg" />
+		<itunes:duration>32:56</itunes:duration>
+		<itunes:subtitle>This is a feature cast, an episode of The Command Line Podcast.
+
+Listener feedback this week is from quite a few folks. Matt wrote in about ...</itunes:subtitle>
+		<itunes:summary>This is a feature cast, an episode of The Command Line Podcast.
+
+Listener feedback this week is from quite a few folks. Matt wrote in about outliners, asking what I do in particular to bend vim to this task. I use a vimrc line like "autocmd BufEnter,BufNew *.notes set sw=4 ts=4 expandtab spell tw=0 foldmethod=indent smartindent". Colin posted a comment about AAC and chapter marks. John had a much more incisive comment on my switching to an open stack segment. Ian also wrote about outliners, suggesting org-mode and in particular a couple of screencasts. And Max shared his experiences switching to Linux not once, but twice.
+
+The hacker word of the week this week is filter.
+
+The feature this week is a rant digging into the question of whether we'll ever develop effective controls that match our complex expectations of privacy and digging into the source of that complexity. I mention a couple of posts by danah boyd, some criticism of the demands made of Facebook by privacy advocates, my reading of Clay Shirky's "Here Comes Everybody", and small world networks.
+
+
+
+View the detailed show notes online. You can grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Jargon, Podcast, Rant</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-07-04 A Declaration of Independence for Cyberspace</title>
+		<link>http://thecommandline.net/2010/07/04/tclp-2010-07-04-a-declaration-of-independence-for-cyberspace/</link>
+		<comments>http://thecommandline.net/2010/07/04/tclp-2010-07-04-a-declaration-of-independence-for-cyberspace/#comments</comments>
+		<pubDate>Mon, 05 Jul 2010 02:47:56 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=3104</guid>
+		<description><![CDATA[This is a feature cast, an episode of The Command Line Podcast. Rather than try to shoe horn a full news cast in, amongst the weekend&#8217;s festivities, I figured I would share a reading of a piece inspired by the Holiday here in the US but more appropriate to an audience on the net: A [...]]]></description>
+			<content:encoded><![CDATA[<p>This is a feature cast, an episode of The Command Line Podcast.</p>
+<p>Rather than try to shoe horn a full news cast in, amongst the weekend&#8217;s festivities, I figured I would share a reading of a piece inspired by the Holiday here in the US but more appropriate to an audience on the net: <a href="https://w2.eff.org/Censorship/Internet_censorship_bills/barlow_0296.declaration">A Declaration of Independence for Cyberspace</a>, original penned by John Perry Barlow in 1996. The music I used underneath it is track 34 from Nine Inch Nails&#8217; <a href="http://ghosts.nin.com/main/home">Ghosts</a>, used under a CC BY-NC-SA license.</p>
+<p></p>
+<p>There are no detailed show notes for this episode. You can grab the <a href="http://www.archive.org/details/Tclp2010-07-04ADeclarationOfIndependenceForCyberspace">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-nc-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">Creative Commons Attribution-Non Commercial-Share Alike 3.0 United States License</a>.    The audio itself may indicate that the episode is available under BY-SA terms, only, but requires BY-NC-SA to be compatible with the NIN track&#8217;s BY-NC-SA License.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=3104" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li>No related posts.</li>
+	</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/07/04/tclp-2010-07-04-a-declaration-of-independence-for-cyberspace/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-07-04.mp3" length="8472705" type="audio/mpeg" />
+		<itunes:duration>10:03</itunes:duration>
+		<itunes:subtitle>This is a feature cast, an episode of The Command Line Podcast.
+
+Rather than try to shoe horn a full news cast in, amongst the weekend's ...</itunes:subtitle>
+		<itunes:summary>This is a feature cast, an episode of The Command Line Podcast.
+
+Rather than try to shoe horn a full news cast in, amongst the weekend's festivities, I figured I would share a reading of a piece inspired by the Holiday here in the US but more appropriate to an audience on the net: A Declaration of Independence for Cyberspace, original penned by John Perry Barlow in 1996. The music I used underneath it is track 34 from Nine Inch Nails' Ghosts, used under a CC BY-NC-SA license.
+
+
+
+There are no detailed show notes for this episode. You can grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Non Commercial-Share Alike 3.0 United States License.    The audio itself may indicate that the episode is available under BY-SA terms, only, but requires BY-NC-SA to be compatible with the NIN track's BY-NC-SA License.</itunes:summary>
+		<itunes:keywords>Podcast</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-06-30 Cory Doctorow at CopyNight DC</title>
+		<link>http://thecommandline.net/2010/06/30/doctorow_copynight/</link>
+		<comments>http://thecommandline.net/2010/06/30/doctorow_copynight/#comments</comments>
+		<pubDate>Thu, 01 Jul 2010 02:06:52 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[CopyNight]]></category>
+		<category><![CDATA[Cory Doctorow]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=3096</guid>
+		<description><![CDATA[This is a feature cast, an episode of The Command Line Podcast. In the intro, thanks to my friend Chooch for saving my bacon with the event audio I am sharing as this week&#8217;s feature. Also, with regards to the show&#8217;s 5th anniversary, I realize I pretty much said my peace on the subject last [...]]]></description>
+			<content:encoded><![CDATA[<p>This is a feature cast, an episode of The Command Line Podcast.</p>
+<p>In the intro, thanks to my friend <a href="http://intotheblender.com/">Chooch</a> for saving my bacon with the event audio I am sharing as this week&#8217;s feature. Also, with regards to the show&#8217;s 5th anniversary, I realize I pretty much said my peace on the subject last week. Just trying to keep that spirit of being receptive to surprise alive going forward.</p>
+<p>I will save this week&#8217;s feedback, of which there is rather a lot, until next week.</p>
+<p>There is no hacker word of the week this week.</p>
+<p>The feature this week is a recording of the talk Cory Doctorow gave at this month&#8217;s CopyNight, here in DC.</p>
+<p></p>
+<p>There are no detailed show notes for this episode. You can grab the <a href="http://www.archive.org/details/Tclp2010-06-30CoryDoctorowAtCopynightDc">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=3096" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/13/be-part-of-the-help-in-cory-doctorows-with-a-little-help/" title="Be Part of the Help in Cory Doctorow&#8217;s &#8220;With a Little Help&#8221; (September 13, 2010)">Be Part of the Help in Cory Doctorow&#8217;s &#8220;With a Little Help&#8221;</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/06/29/thanks-to-everyone-who-attended-copynight-dc-with-cory-doctorow/" title="Thanks to Everyone who Attended CopyNight DC with Cory Doctorow (June 29, 2010)">Thanks to Everyone who Attended CopyNight DC with Cory Doctorow</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/06/15/schedule-for-june-copynight-dc-with-cory-doctorow-confirmed/" title="Schedule for June CopyNight DC with Cory Doctorow Confirmed (June 15, 2010)">Schedule for June CopyNight DC with Cory Doctorow Confirmed</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/06/11/cory-doctorow-at-june-copynight-dc/" title="Cory Doctorow at June CopyNight DC (June 11, 2010)">Cory Doctorow at June CopyNight DC</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/05/25/feeds-grep-links-ui-advice-for-facebook-a-possible-communications-act-update-privacy-protecting-search-engine-and-an-action-alert-for-acta/" title="feeds | grep links > UI Advice for Facebook, A Possible Communications Act Update, Privacy Protecting Search Engine, and An Action Alert for ACTA (May 25, 2010)">feeds | grep links > UI Advice for Facebook, A Possible Communications Act Update, Privacy Protecting Search Engine, and An Action Alert for ACTA</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/06/30/doctorow_copynight/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-06-30.mp3" length="40600706" type="audio/mpeg" />
+		<itunes:duration>48:18</itunes:duration>
+		<itunes:subtitle>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, thanks to my friend Chooch for saving my bacon with the ...</itunes:subtitle>
+		<itunes:summary>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, thanks to my friend Chooch for saving my bacon with the event audio I am sharing as this week's feature. Also, with regards to the show's 5th anniversary, I realize I pretty much said my peace on the subject last week. Just trying to keep that spirit of being receptive to surprise alive going forward.
+
+I will save this week's feedback, of which there is rather a lot, until next week.
+
+There is no hacker word of the week this week.
+
+The feature this week is a recording of the talk Cory Doctorow gave at this month's CopyNight, here in DC.
+
+
+
+There are no detailed show notes for this episode. You can grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Events, Podcast</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-06-27 News</title>
+		<link>http://thecommandline.net/2010/06/27/news_217/</link>
+		<comments>http://thecommandline.net/2010/06/27/news_217/#comments</comments>
+		<pubDate>Sun, 27 Jun 2010 22:53:38 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[business model]]></category>
+		<category><![CDATA[Canadian DMCA]]></category>
+		<category><![CDATA[copyright]]></category>
+		<category><![CDATA[HTML5]]></category>
+		<category><![CDATA[licenses]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=3073</guid>
+		<description><![CDATA[This is news cast 217, an episode of The Command Line Podcast. In the intro, an apology for missing the last news cast. This week&#8217;s security alerts are attacking the attackers and anti-malware is a poor substitute for common sense. In this week&#8217;s news NY meet Silicon Valley, the first report from the new IP [...]]]></description>
+			<content:encoded><![CDATA[<p>This is news cast 217, an episode of The Command Line Podcast.</p>
+<p>In the intro, an apology for missing the last news cast.</p>
+<p>This week&#8217;s security alerts are <a href="http://news.bbc.co.uk/2/hi/technology/10349001.stm">attacking the attackers</a> and <a href="http://krebsonsecurity.com/2010/06/anti-virus-is-a-poor-substitute-for-common-sense/">anti-malware is a poor substitute for common sense</a>.</p>
+<p>In this week&#8217;s news <a href="http://craphound.com/?p=2976">NY meet Silicon Valley</a>, <a href="http://www.wired.com/threatlevel/2010/06/copyright-czar-report/">the first report</a> from the new IP enforcement czar and <a href="http://torrentfreak.com/piracy-is-theft-clean-and-simple-us-vice-president-says-100622/">some</a> <a href="http://arstechnica.com/tech-policy/news/2010/06/ip-boss-calls-for-transparency-in-copyright-enforcement.ars">analysis</a> and <a href="http://www.boingboing.net/2010/06/22/us-ip-czars-report-s.html">some</a> <a href="http://www.eff.org/deeplinks/2010/06/ipec-releases-strategic-plan-intellectual-property">reactions</a>, <a href="http://developers.slashdot.org/story/10/06/23/1320221/How-HTML5-Will-Change-the-Web">looking at HTML5 beyond video</a>, and <a href="http://blog.okfn.org/2010/06/24/why-share-alike-licenses-are-open-but-non-commercial-ones-arent/">an explanation why Share Alike is open and Non Commercial is not</a>.</p>
+<p>Following up this week, <a href="http://www.michaelgeist.ca/content/view/5138/125/">the debate around C-32</a> turns <a href="http://www.michaelgeist.ca/content/view/5139/125/">adversarial</a> and <a href="http://www.wired.com/threatlevel/2010/06/dmca-protects-youtube/">judge rules in Viacom case that YouTube is protected by DMCA safe harbors</a>.</p>
+<p></p>
+<p>View the <a href="http://thecommandline.net/wiki/2010_06_27">detailed show notes online</a>. You can also grab the <a href="http://www.archive.org/details/Tclp2010-06-27News">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=3073" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/14/feeds-grep-links-microsoft-grants-license-to-ngos-dell-releases-streak-sources-register-of-copyrights-to-retire-and-more/" title="feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More (September 14, 2010)">feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/13/be-part-of-the-help-in-cory-doctorows-with-a-little-help/" title="Be Part of the Help in Cory Doctorow&#8217;s &#8220;With a Little Help&#8221; (September 13, 2010)">Be Part of the Help in Cory Doctorow&#8217;s &#8220;With a Little Help&#8221;</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/09/feeds-grep-links-latest-ios-thoroughly-jailbroken-ddosing-copyright-infringers-robots-taught-to-deceive-and-more/" title="feeds | grep links > Latest iOS Thoroughly Jailbroken, DDoSing Copyright Infringers, Robots Taught to Deceive, and More (September 9, 2010)">feeds | grep links > Latest iOS Thoroughly Jailbroken, DDoSing Copyright Infringers, Robots Taught to Deceive, and More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/05/following-up-for-the-week-ending-952010/" title="Following Up for the Week Ending 9/5/2010 (September 5, 2010)">Following Up for the Week Ending 9/5/2010</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/08/27/feeds-grep-links-more-open-cloud-computing-more-apis-for-mozilla-jetpack-diaspora-to-release-next-month-and-more/" title="feeds | grep links > More Open Cloud Computing, More API&#8217;s for Mozilla JetPack, Diaspora to Release Next Month, and More (August 27, 2010)">feeds | grep links > More Open Cloud Computing, More API&#8217;s for Mozilla JetPack, Diaspora to Release Next Month, and More</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/06/27/news_217/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-06-27.mp3" length="25908802" type="audio/mpeg" />
+		<itunes:duration>30:49</itunes:duration>
+		<itunes:subtitle>This is news cast 217, an episode of The Command Line Podcast.
+
+In the intro, an apology for missing the last news cast.
+
+This week's security alerts ...</itunes:subtitle>
+		<itunes:summary>This is news cast 217, an episode of The Command Line Podcast.
+
+In the intro, an apology for missing the last news cast.
+
+This week's security alerts are attacking the attackers and anti-malware is a poor substitute for common sense.
+
+In this week's news NY meet Silicon Valley, the first report from the new IP enforcement czar and some analysis and some reactions, looking at HTML5 beyond video, and an explanation why Share Alike is open and Non Commercial is not.
+
+Following up this week, the debate around C-32 turns adversarial and judge rules in Viacom case that YouTube is protected by DMCA safe harbors.
+
+
+
+View the detailed show notes online. You can also grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Podcast, Security</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-06-23 Switching Back to an Open Stack</title>
+		<link>http://thecommandline.net/2010/06/23/linux_switch/</link>
+		<comments>http://thecommandline.net/2010/06/23/linux_switch/#comments</comments>
+		<pubDate>Thu, 24 Jun 2010 01:03:58 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Jargon]]></category>
+		<category><![CDATA[Monologue]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[listener feedback]]></category>
+		<category><![CDATA[thanks]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=3052</guid>
+		<description><![CDATA[This is a feature cast, an episode of The Command Line Podcast. In the intro, thanks to Paul, Steve and Ryan for their new monthly donations starting this week. Badges are on their way or should be soon.  I also remark on my upcoming 5th anniversary as a podcaster for those that don&#8217;t read the [...]]]></description>
+			<content:encoded><![CDATA[<p>This is a feature cast, an episode of The Command Line Podcast.</p>
+<p>In the intro, thanks to Paul, Steve and Ryan for their new monthly donations starting this week. Badges are on their way or should be soon.  I also remark on my upcoming 5th anniversary as a podcaster for those that don&#8217;t read the blog.</p>
+<p>Listener feedback this week is from Jed in response to the Inner Chapter on why programming is hard. I mention the <a href="http://thecommandline.net/2010/06/13/news_216/">news cast</a> from the 13th, the piece Bruce Sterling mentions about smart-aleck programmers by Jonathan Edwards.</p>
+<p>The hacker word of the week this week is <a href="http://catb.org/jargon/html/F/fence.html">fence</a>.</p>
+<p>The feature this week is a monologue discussing my decision to move back to an open stack here in the lab. I mention Dan Gillmor&#8217;s <a href="http://www.salon.com/technology/dan_gillmor/2010/06/20/from_mac_to_linux/index.html">Salon article</a> discussing the very same thing and my <a href="http://thecommandline.net/2009/11/18/nowhere_to_go/">Nowhere to Go</a> rant.</p>
+<p></p>
+<p>View the <a href="http://thecommandline.net/wiki/2010_06_23">detailed show notes online</a>. You can grab the <a href="http://www.archive.org/details/Tclp2010-06-23SwitchingBackToAnOpenStack">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=3052" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/08/appearance-on-technorama/" title="Appearance on Technorama (September 8, 2010)">Appearance on Technorama</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/08/appearance-on-view-from-the-quad/" title="Appearance on View from the Quad (September 8, 2010)">Appearance on View from the Quad</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/05/dragoncon-2010-day-2/" title="Dragon*Con 2010, Day 2 (September 5, 2010)">Dragon*Con 2010, Day 2</a> (2)</li>
+	<li><a href="http://thecommandline.net/2010/07/29/parsec-finalist/" title="Parsec Finalist (July 29, 2010)">Parsec Finalist</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/07/07/complex_privacy/" title="TCLP 2010-07-07 Will We Ever Have Effective Complex Privacy Controls? (July 7, 2010)">TCLP 2010-07-07 Will We Ever Have Effective Complex Privacy Controls?</a> (3)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/06/23/linux_switch/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-06-23.mp3" length="27981670" type="audio/mpeg" />
+		<itunes:duration>33:17</itunes:duration>
+		<itunes:subtitle>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, thanks to Paul, Steve and Ryan for their new monthly donations ...</itunes:subtitle>
+		<itunes:summary>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, thanks to Paul, Steve and Ryan for their new monthly donations starting this week. Badges are on their way or should be soon.  I also remark on my upcoming 5th anniversary as a podcaster for those that don't read the blog.
+
+Listener feedback this week is from Jed in response to the Inner Chapter on why programming is hard. I mention the news cast from the 13th, the piece Bruce Sterling mentions about smart-aleck programmers by Jonathan Edwards.
+
+The hacker word of the week this week is fence.
+
+The feature this week is a monologue discussing my decision to move back to an open stack here in the lab. I mention Dan Gillmor's Salon article discussing the very same thing and my Nowhere to Go rant.
+
+
+
+View the detailed show notes online. You can grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Jargon, Monologue, Podcast</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-06-16: Inner Chapter: Why Programming is Hard</title>
+		<link>http://thecommandline.net/2010/06/16/why_programming_is_hard/</link>
+		<comments>http://thecommandline.net/2010/06/16/why_programming_is_hard/#comments</comments>
+		<pubDate>Thu, 17 Jun 2010 01:49:03 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Inner Chapter]]></category>
+		<category><![CDATA[Jargon]]></category>
+		<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=2987</guid>
+		<description><![CDATA[This is a feature cast, an episode of The Command Line Podcast. In the intro, a mention of the merit badges arriving and the first pictures. Also a quick review of &#8220;The Affinity Bridge&#8221; by George Mann. There is no listener feedback this week. The hacker word of the week this week is feetch feetch. [...]]]></description>
+			<content:encoded><![CDATA[<p>This is a feature cast, an episode of The Command Line Podcast.</p>
+<p>In the intro, a mention of the merit badges arriving and <a href="http://thecommandline.net/2010/06/15/first-merit-badge-picture/">the first pictures</a>.</p>
+<p><a href="http://thecommandline.net/files/IMAG0084.jpg"><img class="alignnone size-thumbnail wp-image-2988" title="IMAG0084" src="http://thecommandline.net/files/IMAG0084-150x150.jpg" alt="" width="150" height="150" /></a></p>
+<p>Also a quick review of &#8220;<a href="http://www.amazon.com/gp/product/0765323222?ie=UTF8&amp;tag=thecommandl0a-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0765323222">The Affinity Bridge&#8221;</a> by George Mann.</p>
+<p>There is no listener feedback this week.</p>
+<p>The hacker word of the week this week is <a href="http://catb.org/jargon/html/F/feetch-feetch.html">feetch feetch</a>.</p>
+<p>The feature this week is an Inner Chapter consider the question of why programming is hard. In it, I mention &#8220;<a href="http://www.amazon.com/gp/product/1400082471?ie=UTF8&amp;tag=thecommandl0a-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1400082471">Dreaming in Code</a> &#8221; by Scott Rosenberg, <a href="http://www.infoq.com/articles/Interview-Johnson-Standish-CHAOS">an interview about the CHAOS reports</a>, <a href="http://en.wikipedia.org/wiki/Kolmogorov_complexity">Kolmogorov complexity</a>, <a href="http://www.tvo.org/TVOsites/WebObjects/TvoMicrosite.woa?bi?1273957200000">Jordan Peterson&#8217;s talk on TVO&#8217;s Big Ideas</a>.</p>
+<p></p>
+<p>View the <a href="http://thecommandline.net/wiki/2010_06_16">detailed show notes online</a>. You can grab the <a href="http://www.archive.org/details/Tclp2010-06-16InnerChapterWhyProgrammingIsHard">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-nc-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">Creative Commons Attribution-Non Commercial-Share Alike 3.0 United States License</a>.    The audio itself may indicate that the episode is available under BY-SA terms, only, but requires BY-NC-SA to be compatible with the MoShang track&#8217;s Music Sharing License.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=2987" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li>No related posts.</li>
+	</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/06/16/why_programming_is_hard/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-06-16.mp3" length="19750603" type="audio/mpeg" />
+		<itunes:duration>23:29</itunes:duration>
+		<itunes:subtitle>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, a mention of the merit badges arriving and the first pictures.
+
+
+
+Also ...</itunes:subtitle>
+		<itunes:summary>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, a mention of the merit badges arriving and the first pictures.
+
+
+
+Also a quick review of "The Affinity Bridge" by George Mann.
+
+There is no listener feedback this week.
+
+The hacker word of the week this week is feetch feetch.
+
+The feature this week is an Inner Chapter consider the question of why programming is hard. In it, I mention "Dreaming in Code " by Scott Rosenberg, an interview about the CHAOS reports, Kolmogorov complexity, Jordan Peterson's talk on TVO's Big Ideas.
+
+
+
+View the detailed show notes online. You can grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Non Commercial-Share Alike 3.0 United States License.    The audio itself may indicate that the episode is available under BY-SA terms, only, but requires BY-NC-SA to be compatible with the MoShang track's Music Sharing License.</itunes:summary>
+		<itunes:keywords>Inner Chapter, Jargon, Podcast</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-06-13 News</title>
+		<link>http://thecommandline.net/2010/06/13/news_216/</link>
+		<comments>http://thecommandline.net/2010/06/13/news_216/#comments</comments>
+		<pubDate>Sun, 13 Jun 2010 21:46:55 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[CyberLiberties]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[botnet]]></category>
+		<category><![CDATA[copyfight]]></category>
+		<category><![CDATA[IP terrorism]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[physics of computing]]></category>
+		<category><![CDATA[social networks]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=2955</guid>
+		<description><![CDATA[This is news cast 216, an episode of The Command Line Podcast. In the intro, an update on the badge experiment. This week&#8217;s security alerts are diffusing botnet control makes them more robust and bad passwords and the economics around perpetuating them. In this week&#8217;s news open source could make attackers&#8217; jobs easier, understanding the [...]]]></description>
+			<content:encoded><![CDATA[<p>This is news cast 216, an episode of The Command Line Podcast.</p>
+<p>In the intro, an <a href="http://thecommandline.net/2010/06/12/the-charter-merit-badges-are-in-the-mail/">update</a> on the badge experiment.</p>
+<p>This week&#8217;s security alerts are <a href="http://threatpost.com/en_us/blogs/botnets-using-ubiquity-security-060710">diffusing botnet control makes them more robust</a> and <a href="http://arstechnica.com/security/news/2010/06/content-providers-phishing-for-demographic-data-via-logins.ars">bad passwords and the economics around perpetuating them</a>.</p>
+<p>In this week&#8217;s news <a href="http://www.technologyreview.com/computing/25480/?ref=rss&amp;a=f">open source could make attackers&#8217; jobs easier</a>, <a href="http://arstechnica.com/open-source/news/2010/06/ars-explains-android-fragmentation.ars">understanding the real risks of Android fragmentation</a>, <a href="http://www.wired.com/beyond_the_beyond/2010/06/programmers-should-stop-being-such-smart-alecks/">programmers should stop being smart-alecks</a>, and <a href="http://arstechnica.com/science/news/2010/06/heated-atomic-force-microscope-makes-12nm-graphene-circuits.ars">heated atomic force microscopes for 12nm graphene elements</a>.</p>
+<p>Following up this week, <a href="http://cfp.acm.org/wordpress/?p=341">another social network bill of rights</a> and <a href="http://arstechnica.com/tech-policy/news/2010/06/judge-may-dismiss-4576-of-4577-p2p-defendants-from-lawsuit.ars">judge may dismiss most defendants from US Copyright Group suits</a>.</p>
+<p></p>
+<p>View the <a href="http://thecommandline.net/wiki/2010_06_13">detailed show notes online</a>. You can also grab the <a href="http://www.archive.org/details/Tclp2010-06-13News">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=2955" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/14/hack-your-own-mind-machine-interface/" title="Hack Your Own Mind Machine Interface (September 14, 2010)">Hack Your Own Mind Machine Interface</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/13/feeds-grep-links-more-license-options-at-google-code-piracy-as-an-excuse-for-censorship-gaming-does-rewire-your-brain-and-more/" title="feeds | grep links > More License Options at Google Code, Piracy as an Excuse for Censorship, Gaming Does Rewire Your Brain, and More (September 13, 2010)">feeds | grep links > More License Options at Google Code, Piracy as an Excuse for Censorship, Gaming Does Rewire Your Brain, and More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/13/nanoscale-mechanical-logic-inverter/" title="Nanoscale Mechanical Logic Inverter (September 13, 2010)">Nanoscale Mechanical Logic Inverter</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/12/following-up-for-the-week-ending-9122010/" title="Following Up for the Week Ending 9/12/2010 (September 12, 2010)">Following Up for the Week Ending 9/12/2010</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/12/security-alerts-for-the-week-ending-9122010/" title="Security Alerts for the Week Ending 9/12/2010 (September 12, 2010)">Security Alerts for the Week Ending 9/12/2010</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/06/13/news_216/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-06-13.mp3" length="24843842" type="audio/mpeg" />
+		<itunes:duration>29:33</itunes:duration>
+		<itunes:subtitle>This is news cast 216, an episode of The Command Line Podcast.
+
+In the intro, an update on the badge experiment.
+
+This week's security alerts are diffusing ...</itunes:subtitle>
+		<itunes:summary>This is news cast 216, an episode of The Command Line Podcast.
+
+In the intro, an update on the badge experiment.
+
+This week's security alerts are diffusing botnet control makes them more robust and bad passwords and the economics around perpetuating them.
+
+In this week's news open source could make attackers' jobs easier, understanding the real risks of Android fragmentation, programmers should stop being smart-alecks, and heated atomic force microscopes for 12nm graphene elements.
+
+Following up this week, another social network bill of rights and judge may dismiss most defendants from US Copyright Group suits.
+
+
+
+View the detailed show notes online. You can also grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>CyberLiberties, Podcast, Programming, Security</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-06-09 Free Yourself: Open Source Software for Everyday Use</title>
+		<link>http://thecommandline.net/2010/06/09/balticon_44_2/</link>
+		<comments>http://thecommandline.net/2010/06/09/balticon_44_2/#comments</comments>
+		<pubDate>Thu, 10 Jun 2010 01:25:45 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Balticon 44]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[panel]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=2864</guid>
+		<description><![CDATA[This is a feature cast, an episode of The Command Line Podcast. I will save listener feedback for the next show. There is no hacker word of the week this week due to the length of the feature. The feature this week is the second of two panel recordings I captured at Balticon 44. The [...]]]></description>
+			<content:encoded><![CDATA[<p>This is a feature cast, an episode of The Command Line Podcast.</p>
+<p>I will save listener feedback for the next show.</p>
+<p>There is no hacker word of the week this week due to the length of the feature.</p>
+<p>The feature this week is the second of two panel recordings I captured at <a href="http://balticon.org/">Balticon 44</a>. The panel was titled, &#8220;Free Yourself: Open Source Software for Everyday Use&#8221;. My co-panelists were <a href="http://secondshiftpodcast.com/wiki/index.php?title=Brad_Smith">Brad Smith</a> and none other than Eric Raymond. I found ESR to be especially fascinating on this panel, with some thought provoking ideas and fun stories.</p>
+<p></p>
+<p>There are no detailed show notes for this show. You can grab the <a href="http://www.archive.org/details/Tclp2010-06-09FreeYourselfOpenSourceSoftwareForEverydayUse">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=2864" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/14/hack-your-own-mind-machine-interface/" title="Hack Your Own Mind Machine Interface (September 14, 2010)">Hack Your Own Mind Machine Interface</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/13/feeds-grep-links-more-license-options-at-google-code-piracy-as-an-excuse-for-censorship-gaming-does-rewire-your-brain-and-more/" title="feeds | grep links > More License Options at Google Code, Piracy as an Excuse for Censorship, Gaming Does Rewire Your Brain, and More (September 13, 2010)">feeds | grep links > More License Options at Google Code, Piracy as an Excuse for Censorship, Gaming Does Rewire Your Brain, and More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/08/31/feeds-grep-links-open-source-cell-network-chrom-7-sports-hardware-accelerated-effects-gmail-gets-a-priority-inbox-and-more/" title="feeds | grep links > Open Source Cell Network, Chrome 7 Sports Hardware Accelerated Effects, Gmail Gets a Priority Inbox, and More (August 31, 2010)">feeds | grep links > Open Source Cell Network, Chrome 7 Sports Hardware Accelerated Effects, Gmail Gets a Priority Inbox, and More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/08/27/library-at-the-heart-of-linux-is-finally-free-and-open/" title="Library at the Heart of Linux is Finally Free and Open (August 27, 2010)">Library at the Heart of Linux is Finally Free and Open</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/08/13/feeds-grep-links-distributed-computing-spots-astronomical-rarity-search-engine-runs-a-tor-enclave-and-more/" title="feeds | grep links > Distributed Computing Spots Astronomical Rarity, Search Engine Runs a Tor Enclave, and More (August 13, 2010)">feeds | grep links > Distributed Computing Spots Astronomical Rarity, Search Engine Runs a Tor Enclave, and More</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/06/09/balticon_44_2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-06-09.mp3" length="53626654" type="audio/mpeg" />
+		<itunes:duration>63:49</itunes:duration>
+		<itunes:subtitle>This is a feature cast, an episode of The Command Line Podcast.
+
+I will save listener feedback for the next show.
+
+There is no hacker word of ...</itunes:subtitle>
+		<itunes:summary>This is a feature cast, an episode of The Command Line Podcast.
+
+I will save listener feedback for the next show.
+
+There is no hacker word of the week this week due to the length of the feature.
+
+The feature this week is the second of two panel recordings I captured at Balticon 44. The panel was titled, "Free Yourself: Open Source Software for Everyday Use". My co-panelists were Brad Smith and none other than Eric Raymond. I found ESR to be especially fascinating on this panel, with some thought provoking ideas and fun stories.
+
+
+
+There are no detailed show notes for this show. You can grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Podcast</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-06-06 News</title>
+		<link>http://thecommandline.net/2010/06/06/news_215/</link>
+		<comments>http://thecommandline.net/2010/06/06/news_215/#comments</comments>
+		<pubDate>Sun, 06 Jun 2010 18:22:04 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ACTA]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[Balticon 44]]></category>
+		<category><![CDATA[business model]]></category>
+		<category><![CDATA[custom merit badge]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[IBM]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[quantum computing]]></category>
+		<category><![CDATA[Tor]]></category>
+		<category><![CDATA[WikiLeaks]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=2841</guid>
+		<description><![CDATA[This is news cast 215, an episode of The Command Line Podcast. In the intro, just a pointer to my thoughts on Balticon 44 and a recap on advertising, the badge experiment, and Flattr so far. This week&#8217;s security alerts are OS choice does not equal security and an Android rootkit. In this week&#8217;s news [...]]]></description>
+			<content:encoded><![CDATA[<p>This is news cast 215, an episode of The Command Line Podcast.</p>
+<p>In the intro, just a pointer to my <a href="http://thecommandline.net/2010/06/01/thoughts-on-balticon-44/">thoughts on Balticon 44</a> and a recap on advertising, the badge experiment, and Flattr so far.</p>
+<p>This week&#8217;s security alerts are <a href="http://www.zdnet.com/blog/security/operating-system-choice-does-not-equal-security/6572">OS choice does not equal security</a> and <a href="http://news.cnet.com/8301-1009_3-20006596-83.html?tag=mncol;title">an Android rootkit</a>.</p>
+<p>In this week&#8217;s news <a href="http://www.ft.com/cms/s/2/d2f3f04e-6ccf-11df-91c8-00144feab49a.html">Google drops Microsoft for internal use</a> citing security reasons though <a href="http://www.zdnet.com/blog/security/google-ditching-windows-over-security-makes-little-sense/6546">some</a> <a href="http://www.zdnet.com/blog/security/microsoft-plays-defense-against-google-windows-migration-report/6561">are</a> <a href="http://arstechnica.com/security/news/2010/06/mac-os-x-and-linux-are-no-magic-security-bullet-for-google.ars">skeptical</a>, <a href="http://www.wired.com/threatlevel/2010/06/wikileaks-documents/">figuring out if Wikileaks spun up using documents intercepted from Tor</a> with thoughts from both the <a href="https://blog.torproject.org/blog/plaintext-over-tor-still-plaintext">Tor project</a> and <a href="http://www.theregister.co.uk/2010/06/02/wikileaks_tor_snooping_denial/">Wikileaks</a> itself, <a href="http://entertainment.slashdot.org/story/10/06/01/206212/The-Muppets-1967-IBM-Sales-Films">IBM&#8217;s 40 year old Muppet sales films</a>, and <a href="http://arstechnica.com/science/news/2010/06/magic-quantum-wand-does-not-vanish-hard-maths.ars">a new paper debunks certain suggested advantages</a> of <a href="http://thecommandline.net/2007/02/14/reporting-on-d-wave-demo/">quantum computing</a>.</p>
+<p>Following up this week, if you are tired of Facebook then check out <a href="http://www.dhanjani.com/blog/2010/06/initiating-the-privacy-armsrace-against-facebook-the-antisocial-firefox-extension.html">a Firefox extension that aims to help preserve your privacy</a> while using it and <a href="http://arstechnica.com/tech-policy/news/2010/06/india-vows-to-sabotage-acta.ars">India tries</a> to <a href="http://www.michaelgeist.ca/content/view/5076/125/">gather opposition to ACTA</a>.</p>
+<p></p>
+<p>Grab the detailed show notes with time offsets and additional links either as <a href="http://libsyn.com/media/cmdln/cmdln.net_2010-06-06.pdf">PDF</a> or <a href="http://libsyn.com/media/cmdln/cmdln.net_2010-06-06.opml">OPML</a>. You can also grab the <a href="http://www.archive.org/details/Tclp2010-06-06News">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=2841" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/14/feeds-grep-links-microsoft-grants-license-to-ngos-dell-releases-streak-sources-register-of-copyrights-to-retire-and-more/" title="feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More (September 14, 2010)">feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/14/high-profile-application-of-seam-carving/" title="High Profile Application of Seam Carving (September 14, 2010)">High Profile Application of Seam Carving</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/13/feeds-grep-links-more-license-options-at-google-code-piracy-as-an-excuse-for-censorship-gaming-does-rewire-your-brain-and-more/" title="feeds | grep links > More License Options at Google Code, Piracy as an Excuse for Censorship, Gaming Does Rewire Your Brain, and More (September 13, 2010)">feeds | grep links > More License Options at Google Code, Piracy as an Excuse for Censorship, Gaming Does Rewire Your Brain, and More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/13/be-part-of-the-help-in-cory-doctorows-with-a-little-help/" title="Be Part of the Help in Cory Doctorow&#8217;s &#8220;With a Little Help&#8221; (September 13, 2010)">Be Part of the Help in Cory Doctorow&#8217;s &#8220;With a Little Help&#8221;</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/12/following-up-for-the-week-ending-9122010/" title="Following Up for the Week Ending 9/12/2010 (September 12, 2010)">Following Up for the Week Ending 9/12/2010</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/06/06/news_215/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-06-06.mp3" length="29854859" type="audio/mpeg" />
+		<itunes:duration>35:31</itunes:duration>
+		<itunes:subtitle>This is news cast 215, an episode of The Command Line Podcast.
+
+In the intro, just a pointer to my thoughts on Balticon 44 and a ...</itunes:subtitle>
+		<itunes:summary>This is news cast 215, an episode of The Command Line Podcast.
+
+In the intro, just a pointer to my thoughts on Balticon 44 and a recap on advertising, the badge experiment, and Flattr so far.
+
+This week's security alerts are OS choice does not equal security and an Android rootkit.
+
+In this week's news Google drops Microsoft for internal use citing security reasons though some are skeptical, figuring out if Wikileaks spun up using documents intercepted from Tor with thoughts from both the Tor project and Wikileaks itself, IBM's 40 year old Muppet sales films, and a new paper debunks certain suggested advantages of quantum computing.
+
+Following up this week, if you are tired of Facebook then check out a Firefox extension that aims to help preserve your privacy while using it and India tries to gather opposition to ACTA.
+
+
+
+Grab the detailed show notes with time offsets and additional links either as PDF or OPML. You can also grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Podcast, Security</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-06-02 Art, Music and Literature in the Age of Digital Reproducibility</title>
+		<link>http://thecommandline.net/2010/06/02/balticon_44_1/</link>
+		<comments>http://thecommandline.net/2010/06/02/balticon_44_1/#comments</comments>
+		<pubDate>Thu, 03 Jun 2010 00:59:48 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[appearances]]></category>
+		<category><![CDATA[Balticon 44]]></category>
+		<category><![CDATA[panel]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=2827</guid>
+		<description><![CDATA[This is a feature cast, an episode of The Command Line Podcast. I will save listener feedback for the next show or the one after that. There is no listener feedback this week due to the length of the feature. The feature this week is the first of two panel recordings I captured at Balticon [...]]]></description>
+			<content:encoded><![CDATA[<p>This is a feature cast, an episode of The Command Line Podcast.</p>
+<p>I will save listener feedback for the next show or the one after that.</p>
+<p>There is no listener feedback this week due to the length of the feature.</p>
+<p>The feature this week is the first of two panel recordings I captured at <a href="http://balticon.org/">Balticon 44</a>. The panel was titled, &#8220;Art, Music and Literature in the Age of Digital Reproducibility&#8221;, and was a fantastic, far ranging discussion. My co-panelists where Norm Sherman of <a href="http://web.mac.com/normsherman/Site/Podcast/Podcast.html">The Drabblecast</a>, Dave Slusher of <a href="http://www.evilgeniuschronicles.org/">Evil Genius Chronicles</a>, <a href="http://www.philrossi.net/">Phil Rossi</a>, and Dan Tabor of <a href="http://geekadelphia.com/author/dan/">Geekadelphia</a>.</p>
+<p></p>
+<p>There are no detailed show notes for this show. You can grab the <a href="http://www.archive.org/details/Tclp2010-06-02ArtMusicAndLiteratureInTheAgeOfDigitalReproducibility">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=2827" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/08/appearance-on-technorama/" title="Appearance on Technorama (September 8, 2010)">Appearance on Technorama</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/08/appearance-on-view-from-the-quad/" title="Appearance on View from the Quad (September 8, 2010)">Appearance on View from the Quad</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/02/appearance-on-valid-syntax/" title="Appearance on Valid Syntax (September 2, 2010)">Appearance on Valid Syntax</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/06/09/balticon_44_2/" title="TCLP 2010-06-09 Free Yourself: Open Source Software for Everyday Use (June 9, 2010)">TCLP 2010-06-09 Free Yourself: Open Source Software for Everyday Use</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/06/06/news_215/" title="TCLP 2010-06-06 News (June 6, 2010)">TCLP 2010-06-06 News</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/06/02/balticon_44_1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-06-02.mp3" length="53287637" type="audio/mpeg" />
+		<itunes:duration>63:24</itunes:duration>
+		<itunes:subtitle>This is a feature cast, an episode of The Command Line Podcast.
+
+I will save listener feedback for the next show or the one after that.
+
+There ...</itunes:subtitle>
+		<itunes:summary>This is a feature cast, an episode of The Command Line Podcast.
+
+I will save listener feedback for the next show or the one after that.
+
+There is no listener feedback this week due to the length of the feature.
+
+The feature this week is the first of two panel recordings I captured at Balticon 44. The panel was titled, "Art, Music and Literature in the Age of Digital Reproducibility", and was a fantastic, far ranging discussion. My co-panelists where Norm Sherman of The Drabblecast, Dave Slusher of Evil Genius Chronicles, Phil Rossi, and Dan Tabor of Geekadelphia.
+
+
+
+There are no detailed show notes for this show. You can grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Podcast</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-05-26 Inner Chapter: Legacy Code</title>
+		<link>http://thecommandline.net/2010/05/26/legacy_code/</link>
+		<comments>http://thecommandline.net/2010/05/26/legacy_code/#comments</comments>
+		<pubDate>Thu, 27 May 2010 01:24:40 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Inner Chapter]]></category>
+		<category><![CDATA[Jargon]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Review]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=2801</guid>
+		<description><![CDATA[This is a feature cast, an episode of The Command Line Podcast. In the intro, a reminder there will be no news show this Sunday as I&#8217;ll be at Balticon. Also, a quick review of &#8220;Dreaming in Code&#8220;, by Scott Rosenberg. Listener feedback this week is from Randal on the Dr. Who as a hacker [...]]]></description>
+			<content:encoded><![CDATA[<p>This is a feature cast, an episode of The Command Line Podcast.</p>
+<p>In the intro, a reminder there will be no news show this Sunday as I&#8217;ll be at <a href="http://balticon.org/">Balticon</a>. Also, a quick review of &#8220;<a href="http://www.amazon.com/gp/product/1400082471?ie=UTF8&amp;tag=thecommandl0a-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1400082471">Dreaming in Code</a>&#8220;, by Scott Rosenberg.</p>
+<p>Listener feedback this week is from Randal on the Dr. Who as a hacker and DeepGeek in response to my discussion of Danah Boyd&#8217;s essay on Facebook as a utility.</p>
+<p>The hacker word of the week this week is <a href="http://catb.org/jargon/html/F/featurectomy.html">featurectomy</a>.</p>
+<p>The feature this week is an Inner Chapter on the subject of legacy code.</p>
+<p></p>
+<p>Grab the detailed show notes with time offsets and additional links either as <a href="http://libsyn.com/media/cmdln/cmdln.net_2010-05-26.pdf">PDF</a> or <a href="http://libsyn.com/media/cmdln/cmdln.net_2010-05-26.opml">OPML</a>. You can also grab the <a href="http://www.archive.org/details/Tclp2010-05-26InnerChapterLegacyCode">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-nc-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">Creative Commons Attribution-Non Commercial-Share Alike 3.0 United States License</a>.  The audio itself may indicate that the episode is available under BY-SA terms, only, but requires BY-NC-SA to be compatible with the MoShang track&#8217;s Music Sharing License.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=2801" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li>No related posts.</li>
+	</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/05/26/legacy_code/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-05-26.mp3" length="25358767" type="audio/mpeg" />
+		<itunes:duration>30:09</itunes:duration>
+		<itunes:subtitle>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, a reminder there will be no news show this Sunday as ...</itunes:subtitle>
+		<itunes:summary>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, a reminder there will be no news show this Sunday as I'll be at Balticon. Also, a quick review of "Dreaming in Code", by Scott Rosenberg.
+
+Listener feedback this week is from Randal on the Dr. Who as a hacker and DeepGeek in response to my discussion of Danah Boyd's essay on Facebook as a utility.
+
+The hacker word of the week this week is featurectomy.
+
+The feature this week is an Inner Chapter on the subject of legacy code.
+
+
+
+Grab the detailed show notes with time offsets and additional links either as PDF or OPML. You can also grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Non Commercial-Share Alike 3.0 United States License.  The audio itself may indicate that the episode is available under BY-SA terms, only, but requires BY-NC-SA to be compatible with the MoShang track's Music Sharing License.</itunes:summary>
+		<itunes:keywords>Inner Chapter, Jargon, Podcast, Review</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-05-23 News</title>
+		<link>http://thecommandline.net/2010/05/23/news_214/</link>
+		<comments>http://thecommandline.net/2010/05/23/news_214/#comments</comments>
+		<pubDate>Sun, 23 May 2010 20:41:37 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Balticon 44]]></category>
+		<category><![CDATA[EFF]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[Flattr]]></category>
+		<category><![CDATA[FTC]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[history of computing]]></category>
+		<category><![CDATA[open standards]]></category>
+		<category><![CDATA[open video]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[thanks]]></category>
+		<category><![CDATA[The Pirate Bay]]></category>
+		<category><![CDATA[The Pirate Party]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=2789</guid>
+		<description><![CDATA[This is news cast 214, an episode of The Command Line Podcast. In the intro, thanks to new monthly donor, John Taylor Williams and his wife, Mia. Thank you to fellow Flattr beta testers who have been flattring my posts. I should have an update on how this service compares to donations and ads at [...]]]></description>
+			<content:encoded><![CDATA[<p>This is news cast 214, an episode of The Command Line Podcast.</p>
+<p>In the intro, thanks to new monthly donor, John Taylor Williams and his wife, Mia. Thank you to fellow Flattr beta testers who have been flattring my posts. I should have an update on how this service compares to donations and ads at the end of the month. My Balticon schedule is <a href="http://thecommandline.net/2010/05/21/balticon-44-schedule/">up</a>, if you are going to be there, come and say high. Better yet, join me for the <a href="http://thecommandline.net/2010/05/21/floss-and-tech-geek-bof-at-balticon-44/">unofficial FLOSS and Tech Geek BoF</a>. There will be no news show that Sunday but should be feature casts before and after the weekend.</p>
+<p>This week&#8217;s security alerts are <a href="http://yro.slashdot.org/story/10/05/18/1523250/Chrome-Private-Mode-Not-Quite-Private">Chrome&#8217;s private mode leaks info</a> and <a href="http://voices.washingtonpost.com/posttech/2010/05/ftc_probes_privacy_concerns_wi.html?wprss=posttech">FTC looks into privacy concerns with digital copiers</a>.</p>
+<p>In this week&#8217;s news <a href="http://webmproject.blogspot.com/2010/05/introducing-webm-open-web-media-project.html">opening of VP-8 video codec becomes so much more</a> including news <a href="http://arstechnica.com/web/news/2010/05/google-opens-vp8-codec-aims-to-nuke-h264-with-webm.ars">event Microsoft will support it</a> (kind of) and <a href="http://www.theregister.co.uk/2010/05/19/google_chrome_announcement/">YouTube will switch to it for larger videos</a> going forward, <a href="http://x264dev.multimedia.cx/?p=377">a technical analysis of VP-8 now that it is open</a>, <a href="http://www.zephoria.org/thoughts/archives/2010/05/15/facebook-is-a-utility-utilities-get-regulated.html">Facebook&#8217;s urge towards social utility will invite regulation</a>, and <a href="http://www.schneier.com/blog/archives/2010/05/history_of_nsa.html">an early, official history of NSA computers</a>.</p>
+<p>Following up this week <a href="http://torrentfreak.com/the-pirate-party-becomes-the-pirate-bays-new-host-100518/">The Pirate Party steps in to host The Pirate Bay</a> and <a href="http://www.eff.org/deeplinks/2010/05/time-google-grow-make-open-wi-fi-privacy-mistake">EFF issues a strong criticism of Google&#8217;s latest privacy mistake</a>.</p>
+<p></p>
+<p>Grab the detailed show notes with time offsets and additional links either as <a href="http://libsyn.com/media/cmdln/cmdln.net_2010-05-23.pdf">PDF</a> or <a href="http://libsyn.com/media/cmdln/cmdln.net_2010-05-23.opml">OPML</a>. You can also grab the <a href="http://www.archive.org/details/Tclp2010-05-23News">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=2789" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/15/feeds-grep-links-mozilla-inserts-a-stability-beta-how-to-read-a-patent-babbages-debugger-and-more/" title="feeds | grep links > Mozilla Inserts a Stability Beta, How-to Read a Patent, Babbage&#8217;s Debugger, and More (September 15, 2010)">feeds | grep links > Mozilla Inserts a Stability Beta, How-to Read a Patent, Babbage&#8217;s Debugger, and More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/14/feeds-grep-links-microsoft-grants-license-to-ngos-dell-releases-streak-sources-register-of-copyrights-to-retire-and-more/" title="feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More (September 14, 2010)">feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/14/high-profile-application-of-seam-carving/" title="High Profile Application of Seam Carving (September 14, 2010)">High Profile Application of Seam Carving</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/13/feeds-grep-links-more-license-options-at-google-code-piracy-as-an-excuse-for-censorship-gaming-does-rewire-your-brain-and-more/" title="feeds | grep links > More License Options at Google Code, Piracy as an Excuse for Censorship, Gaming Does Rewire Your Brain, and More (September 13, 2010)">feeds | grep links > More License Options at Google Code, Piracy as an Excuse for Censorship, Gaming Does Rewire Your Brain, and More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/13/nanoscale-mechanical-logic-inverter/" title="Nanoscale Mechanical Logic Inverter (September 13, 2010)">Nanoscale Mechanical Logic Inverter</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/05/23/news_214/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-05-23.mp3" length="30019430" type="audio/mpeg" />
+		<itunes:duration>35:42</itunes:duration>
+		<itunes:subtitle>This is news cast 214, an episode of The Command Line Podcast.
+
+In the intro, thanks to new monthly donor, John Taylor Williams and his wife, ...</itunes:subtitle>
+		<itunes:summary>This is news cast 214, an episode of The Command Line Podcast.
+
+In the intro, thanks to new monthly donor, John Taylor Williams and his wife, Mia. Thank you to fellow Flattr beta testers who have been flattring my posts. I should have an update on how this service compares to donations and ads at the end of the month. My Balticon schedule is up, if you are going to be there, come and say high. Better yet, join me for the unofficial FLOSS and Tech Geek BoF. There will be no news show that Sunday but should be feature casts before and after the weekend.
+
+This week's security alerts are Chrome's private mode leaks info and FTC looks into privacy concerns with digital copiers.
+
+In this week's news opening of VP-8 video codec becomes so much more including news event Microsoft will support it (kind of) and YouTube will switch to it for larger videos going forward, a technical analysis of VP-8 now that it is open, Facebook's urge towards social utility will invite regulation, and an early, official history of NSA computers.
+
+Following up this week The Pirate Party steps in to host The Pirate Bay and EFF issues a strong criticism of Google's latest privacy mistake.
+
+
+
+Grab the detailed show notes with time offsets and additional links either as PDF or OPML. You can also grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Podcast</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-05-19 Interview: Cory Doctorow, &#8220;For the Win&#8221;</title>
+		<link>http://thecommandline.net/2010/05/19/cory_doctorow_ftw/</link>
+		<comments>http://thecommandline.net/2010/05/19/cory_doctorow_ftw/#comments</comments>
+		<pubDate>Thu, 20 May 2010 01:24:19 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Interview]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Cory Doctorow]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=2765</guid>
+		<description><![CDATA[This is a feature cast, an episode of The Command Line Podcast. In the intro, a few quick announcements. I will be at Balticon Memorial Day weekend and posting my speaking schedule soon. If you are going to be there, come and say, &#8220;Hi&#8221;. May&#8217;s CopyNight will be next Tuesday, the 25th, with special guest [...]]]></description>
+			<content:encoded><![CDATA[<p>This is a feature cast, an episode of The Command Line Podcast.</p>
+<p>In the intro, a few quick announcements. I will be at <a href="http://balticon.org">Balticon</a> Memorial Day weekend and posting my speaking schedule soon. If you are going to be there, come and say, &#8220;Hi&#8221;. May&#8217;s CopyNight will be next Tuesday, the 25th, with special guest Carl Malamud. Next month&#8217;s CopyNight will also have a special guest, Cory Doctorow as it happens. That CopyNight will be June 28th, a Monday. For more details about the DC CopyNight, visit the <a href="http://copynightdc.wordpress.com">web site</a>.</p>
+<p>Due to the length of the interview, I didn&#8217;t get to any listener feedback this week. There also is no new hacker word of the week for the same reason.</p>
+<p>The feature this week is an interview with <a href="http://craphound.com/">Cory Doctorow</a> discussing the issues explored in his latest book just released from Tor, &#8220;<a href="http://craphound.com/ftw/">For the Win</a>&#8220;. I caught up with him over Skype on his current <a href="http://craphound.com/?p=2849">book tour</a>. We mention quite a bit of material, roughly in chronological order:</p>
+<ul>
+<li>&#8220;<a href="http://en.wikipedia.org/wiki/Amerika_%28novel%29">Amerika</a>&#8220;</li>
+<li>&#8220;<a href="http://en.wikipedia.org/wiki/English_As_She_Is_Spoke">English as She Is Spoken</a>&#8220;</li>
+<li><em><a href="http://craphound.com/?p=187">Anda&#8217;s Game</a></em></li>
+<li><em><a href="http://www.ethanzuckerman.com/blog/2010/02/22/internet-freedom-beyond-circumvention/">Beyond Circumvention</a><span style="font-style: normal;">, by Ethan Zuckerman</span></em></li>
+<li><em><a href="http://www.douglasadams.com/dna/19990901-00-a.html">How to Stop Worrying and Love the Internet</a><span style="font-style: normal;">, by Douglas Adams</span></em></li>
+<li>It was Michael Weinberg, from Public Knowledge, on <a href="http://twit.tv/twil58">This Week in Law</a> who proposed thinking about three strikes with the telephone</li>
+<li>&#8220;<a href="http://craphound.com/content/">Content</a>&#8221; is the essay collection containing <em>World of Democracycraft</em></li>
+<li><a href="http://www.zephoria.org/thoughts/archives/2010/05/15/facebook-is-a-utility-utilities-get-regulated.html"><em>Facebook is a Utility, All Utilities are Regulated</em></a>, by Danah Boyd</li>
+<li><a href="http://joindiaspora.com/">Diaspora</a>*, <a href="http://www.kickstarter.com/">Kickstarter</a>, and <a href="http://www.quitfacebookday.com/">Quit Facebook Day</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Jane_McGonigal">Jane McGonigal</a> created <a href="http://www.superstructgame.net/">Superstruct</a> and the other game I couldn&#8217;t remember properly is <a href="http://www.urgentevoke.com/">Evoke</a></li>
+<li>Alice commissioned the award winning game, <a href="http://www.smokescreengame.com/">Smokescreen</a></li>
+<li>Power Punctuation! in three parts: <a href="http://craphound.com/?p=1713">part 1</a>, <a href="http://craphound.com/?p=1715">part 2</a>, <a href="http://craphound.com/?p=1721">part 3</a></li>
+<li>The Geertz mentioned is anthropologist, <a href="http://en.wikipedia.org/wiki/Clifford_Geertz">Clifford Geertz</a></li>
+<li>io9 scooped me and has more details on &#8220;<a href="http://io9.com/5540991/cory-doctorow-and-charles-stross-team-up-for-rapture-of-the-nerds">Rapture of the Nerds</a>&#8220;</li>
+</ul>
+<p></p>
+<p>Grab the detailed show notes with time offsets and additional links either as <a href="http://libsyn.com/media/cmdln/cmdln.net_2010-05-19.pdf">PDF</a> or <a href="http://libsyn.com/media/cmdln/cmdln.net_2010-05-19.opml">OPML</a>. You can also grab the <a href="http://www.archive.org/details/Tclp2010-05-19InterviewCoryDoctorowforTheWin">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=2765" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/13/be-part-of-the-help-in-cory-doctorows-with-a-little-help/" title="Be Part of the Help in Cory Doctorow&#8217;s &#8220;With a Little Help&#8221; (September 13, 2010)">Be Part of the Help in Cory Doctorow&#8217;s &#8220;With a Little Help&#8221;</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/06/30/doctorow_copynight/" title="TCLP 2010-06-30 Cory Doctorow at CopyNight DC (June 30, 2010)">TCLP 2010-06-30 Cory Doctorow at CopyNight DC</a> (1)</li>
+	<li><a href="http://thecommandline.net/2010/06/29/thanks-to-everyone-who-attended-copynight-dc-with-cory-doctorow/" title="Thanks to Everyone who Attended CopyNight DC with Cory Doctorow (June 29, 2010)">Thanks to Everyone who Attended CopyNight DC with Cory Doctorow</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/06/15/schedule-for-june-copynight-dc-with-cory-doctorow-confirmed/" title="Schedule for June CopyNight DC with Cory Doctorow Confirmed (June 15, 2010)">Schedule for June CopyNight DC with Cory Doctorow Confirmed</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/06/11/cory-doctorow-at-june-copynight-dc/" title="Cory Doctorow at June CopyNight DC (June 11, 2010)">Cory Doctorow at June CopyNight DC</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/05/19/cory_doctorow_ftw/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-05-19.mp3" length="46707038" type="audio/mpeg" />
+		<itunes:duration>55:34</itunes:duration>
+		<itunes:subtitle>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, a few quick announcements. I will be at Balticon Memorial Day ...</itunes:subtitle>
+		<itunes:summary>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, a few quick announcements. I will be at Balticon Memorial Day weekend and posting my speaking schedule soon. If you are going to be there, come and say, "Hi". May's CopyNight will be next Tuesday, the 25th, with special guest Carl Malamud. Next month's CopyNight will also have a special guest, Cory Doctorow as it happens. That CopyNight will be June 28th, a Monday. For more details about the DC CopyNight, visit the web site.
+
+Due to the length of the interview, I didn't get to any listener feedback this week. There also is no new hacker word of the week for the same reason.
+
+The feature this week is an interview with Cory Doctorow discussing the issues explored in his latest book just released from Tor, "For the Win". I caught up with him over Skype on his current book tour. We mention quite a bit of material, roughly in chronological order:
+
+	"Amerika"
+	"English as She Is Spoken"
+	Anda's Game
+	Beyond Circumvention, by Ethan Zuckerman
+	How to Stop Worrying and Love the Internet, by Douglas Adams
+	It was Michael Weinberg, from Public Knowledge, on This Week in Law who proposed thinking about three strikes with the telephone
+	"Content" is the essay collection containing World of Democracycraft
+	Facebook is a Utility, All Utilities are Regulated, by Danah Boyd
+	Diaspora*, Kickstarter, and Quit Facebook Day
+	Jane McGonigal created Superstruct and the other game I couldn't remember properly is Evoke
+	Alice commissioned the award winning game, Smokescreen
+	Power Punctuation! in three parts: part 1, part 2, part 3
+	The Geertz mentioned is anthropologist, Clifford Geertz
+	io9 scooped me and has more details on "Rapture of the Nerds"
+
+
+
+Grab the detailed show notes with time offsets and additional links either as PDF or OPML. You can also grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Interview, Podcast</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-05-12 Review: Postsingular and Hylozoic</title>
+		<link>http://thecommandline.net/2010/05/12/postsingular_hylozoic/</link>
+		<comments>http://thecommandline.net/2010/05/12/postsingular_hylozoic/#comments</comments>
+		<pubDate>Thu, 13 May 2010 00:49:54 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Jargon]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Review]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=2723</guid>
+		<description><![CDATA[This is a feature cast, an episode of The Command Line Podcast. Listener feedback this week is Philip, Jed and Brad who all commented on my Dr. Who monologue. Sergio, Claudio, and Curtis also chatted up the segment on Identi.ca. Mr wrote in about my NoSQL rant. And pseudomorph wrote in response to the Mozilla [...]]]></description>
+			<content:encoded><![CDATA[<p>This is a feature cast, an episode of The Command Line Podcast.</p>
+<p>Listener feedback this week is Philip, Jed and Brad who all commented on my Dr. Who monologue. <a href="http://identi.ca/notice/31379688">Sergio</a>, <a href="http://identi.ca/conversation/31325968#notice-31432392">Claudio</a>, and <a href="http://identi.ca/conversation/31536179#notice-31750258">Curtis</a> also chatted up the segment on Identi.ca. Mr wrote in about my NoSQL rant. And pseudomorph wrote in response to the Mozilla Account Manager story from the 2nd news cast. He shared a couple of links on <a href="http://newmatilda.com/2010/05/05/when-computer-owns-your-name">digital identity</a> and <a href="http://newmatilda.com/2010/05/03/how-intellectual-property-making-us-dumb">whether intellectual monopoly is making us dumb</a>.</p>
+<p>The hacker word of the week this week is <a href="http://catb.org/jargon/html/F/fear-and-loathing.html">fear and loathing</a>.</p>
+<p>The feature this week is an in depth book review of &#8220;<a href="http://www.amazon.com/gp/product/0765318725?ie=UTF8&amp;tag=thecommandl0a-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0765318725">Postsingular</a>&#8221; and &#8220;<a href="http://www.amazon.com/gp/product/0765320746?ie=UTF8&amp;tag=thecommandl0a-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0765320746">Hylozoic</a>&#8221; by Rudy Rucker. In the review, I mention the <a href="http://www.asimovs.com/_issue_0609/postsingular.shtml">two</a> <a href="http://www.asimovs.com/_issue_0606/Chu.shtml">short stories</a> from which the first book was developed, Rucker&#8217;s <a href="http://www.rudyrucker.com/blog/2008/03/03/fundamental-limits-to-virtual-reality/">blog post</a> questioning the wisdom of computronium, my earlier review of one of <a href="http://thecommandline.net/2006/11/26/the-command-line-75-listener-comment-line-360-252-7284/">Rucker&#8217;s non-fiction works</a>, the <a href="http://en.wikipedia.org/wiki/Internet_of_Things">internet of things</a>, and the <a href="http://www.rudyrucker.com/postsingular/">free download edition</a> of &#8220;Postsingular&#8221;.</p>
+<p></p>
+<p>Grab the detailed show notes with time offsets and additional links either as <a href="http://libsyn.com/media/cmdln/cmdln.net_2010-05-12.pdf">PDF</a> or <a href="http://libsyn.com/media/cmdln/cmdln.net_2010-05-12.opml">OPML</a>. You can also grab the <a href="http://www.archive.org/details/Tclp2010-05-12ReviewPostsingularAndHylozoic">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=2723" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li>No related posts.</li>
+	</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/05/12/postsingular_hylozoic/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-05-12.mp3" length="24935636" type="audio/mpeg" />
+		<itunes:duration>29:39</itunes:duration>
+		<itunes:subtitle>This is a feature cast, an episode of The Command Line Podcast.
+
+Listener feedback this week is Philip, Jed and Brad who all commented on my ...</itunes:subtitle>
+		<itunes:summary>This is a feature cast, an episode of The Command Line Podcast.
+
+Listener feedback this week is Philip, Jed and Brad who all commented on my Dr. Who monologue. Sergio, Claudio, and Curtis also chatted up the segment on Identi.ca. Mr wrote in about my NoSQL rant. And pseudomorph wrote in response to the Mozilla Account Manager story from the 2nd news cast. He shared a couple of links on digital identity and whether intellectual monopoly is making us dumb.
+
+The hacker word of the week this week is fear and loathing.
+
+The feature this week is an in depth book review of "Postsingular" and "Hylozoic" by Rudy Rucker. In the review, I mention the two short stories from which the first book was developed, Rucker's blog post questioning the wisdom of computronium, my earlier review of one of Rucker's non-fiction works, the internet of things, and the free download edition of "Postsingular".
+
+
+
+Grab the detailed show notes with time offsets and additional links either as PDF or OPML. You can also grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Jargon, Podcast, Review</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>Cory Doctorow&#8217;s Latest, &#8220;For the Win&#8221;, Launches Today</title>
+		<link>http://thecommandline.net/2010/05/11/cory-doctorows-latest-for-the-win-launches-today/</link>
+		<comments>http://thecommandline.net/2010/05/11/cory-doctorows-latest-for-the-win-launches-today/#comments</comments>
+		<pubDate>Tue, 11 May 2010 22:03:09 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Review]]></category>
+		<category><![CDATA[Cory Doctorow]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[open content]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/2010/05/11/cory-doctorows-latest-for-the-win-launches-today/</guid>
+		<description><![CDATA[Long time listeners and readers know I am a huge fan of Cory Doctorow&#8217;s writings, both fiction and non-fiction. I am thrilled that his latest novel, &#8220;For the Win&#8220;, is out today. I was lucky enough to get an advanced reader copy and can definitely recommend the book highly for those that enjoyed Cory&#8217;s previous [...]]]></description>
+			<content:encoded><![CDATA[<p>Long time listeners and readers know I am a huge fan of Cory Doctorow&#8217;s writings, both fiction and non-fiction. I am thrilled that his latest novel, &#8220;<a href="http://craphound.com/ftw/">For the Win</a>&#8220;, is out today. I was lucky enough to get an advanced reader copy and can definitely recommend the book highly for those that enjoyed Cory&#8217;s previous young adult novel, &#8220;<a href="http://craphound.com/littlebrother/">Little Brother</a>&#8220;.</p>
+<p>I would say without hesitation that I enjoyed &#8220;For the Win&#8221; even more than &#8220;Little Brother&#8221;. I dug the ideas explored in the book more than I expected&#8211;organizing labor, virtual economies, the effects of online games on globalization and youth culture. The dialectic is very well woven into the stories of all the characters, you rarely if ever feel like you are receiving an info dump. The only thing I suspect some people may not like, depending on their tastes, is that the narrative is shared across the points of view of several characters. I don&#8217;t mind that, personally, but I have friends who do. For the younger readers, there is a bit of violence but it isn&#8217;t gratuitous and should be fine for teen aged readers.</p>
+<p>I read my copy during the big blizzard earlier this year, when we had no power for a few days and no heat. It thoroughly kept my mind off of a very worrying situation and held up to non-stop reading over the course of a few days. Not many books would have held my interest well enough to read pretty much continuously like that, &#8220;For the Win&#8221; definitely did.</p>
+<p>Of course, as with all of Cory&#8217;s books, you can <a href="http://craphound.com/ftw/download/">download</a> a free electronic copy of the book, in a number of formats, and see for yourself if you enjoy it enough to pick up a print edition. I love that this time out he included my favorite format, ePub. That format is a fan conversion and is made possible by the liberal license Cory uses. You can remix or convert the book any which way you like as long as you share your changes and don&#8217;t charge for the end result.</p>
+<p>As with &#8220;Little Brother&#8221;, Cory is working with educators and librarians to get this book into the hands of kids. There are more details on how you can help with that effort at the book&#8217;s <a href="http://craphound.com/ftw/">web site</a>. You&#8217;ll also find a link to <a href="http://us.macmillan.com/Tour.aspx?id=554&amp;publisher=macmillansite">the book tour</a> that is kicking off this week. I encourage you to go out and see Cory if he&#8217;s coming to your town. He&#8217;s a dynamic and engaging speaker and reader plus you can pick up a signed copy of the book if you are a fan.</p>
+<p>Lastly, I will be interviewing Cory while he&#8217;s on the book tour specifically to dig into various aspects of the book and the tropes he explores in it. If you have a relevant question you&#8217;d like me to pose, send it to me before Thursday the 13th and I&#8217;ll include as many of your questions as time allows. That interview should go out next week, Wednesday the 19th.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=2717" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/13/be-part-of-the-help-in-cory-doctorows-with-a-little-help/" title="Be Part of the Help in Cory Doctorow&#8217;s &#8220;With a Little Help&#8221; (September 13, 2010)">Be Part of the Help in Cory Doctorow&#8217;s &#8220;With a Little Help&#8221;</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/08/mozilla-launches-gaming-initiative/" title="Mozilla Launches Gaming Initiative (September 8, 2010)">Mozilla Launches Gaming Initiative</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/07/09/feeds-grep-links-self-replicating-makerbot-ai-predicting-manhole-explosions-mousing-without-the-mouse-and-more/" title="feeds | grep links > Self Replicating MakerBot, AI Predicting Manhole Explosions, Mousing without the Mouse, and More (July 9, 2010)">feeds | grep links > Self Replicating MakerBot, AI Predicting Manhole Explosions, Mousing without the Mouse, and More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/06/30/doctorow_copynight/" title="TCLP 2010-06-30 Cory Doctorow at CopyNight DC (June 30, 2010)">TCLP 2010-06-30 Cory Doctorow at CopyNight DC</a> (1)</li>
+	<li><a href="http://thecommandline.net/2010/06/29/thanks-to-everyone-who-attended-copynight-dc-with-cory-doctorow/" title="Thanks to Everyone who Attended CopyNight DC with Cory Doctorow (June 29, 2010)">Thanks to Everyone who Attended CopyNight DC with Cory Doctorow</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/05/11/cory-doctorows-latest-for-the-win-launches-today/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>TCLP 2010-05-09 News</title>
+		<link>http://thecommandline.net/2010/05/09/news_213/</link>
+		<comments>http://thecommandline.net/2010/05/09/news_213/#comments</comments>
+		<pubDate>Sun, 09 May 2010 20:25:23 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[appearances]]></category>
+		<category><![CDATA[Cory Doctorow]]></category>
+		<category><![CDATA[FCC]]></category>
+		<category><![CDATA[futurism]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[many core computing]]></category>
+		<category><![CDATA[net neutrality]]></category>
+		<category><![CDATA[selectable output control]]></category>
+		<category><![CDATA[thanks]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=2697</guid>
+		<description><![CDATA[This is news cast 213, an episode of The Command Line Podcast. In the intro, thanks to new monthly donor, Jamie. Also, I was interviewed for Uber Leet Hacker Force Radio, part of Hacker Public Radio. My part starts around minute twenty-three. Lastly, I will be interviewing Cory Doctorow about his latest YA novel, &#8220;For [...]]]></description>
+			<content:encoded><![CDATA[<p>This is news cast 213, an episode of The Command Line Podcast.</p>
+<p>In the intro, thanks to new monthly donor, Jamie. Also, I was <a href="http://thecommandline.net/2010/05/08/interview-on-hacker-public-radio/">interviewed</a> for Uber Leet Hacker Force Radio, part of Hacker Public Radio. My part starts around minute twenty-three. Lastly, I will be interviewing Cory Doctorow about his latest YA novel, &#8220;<a href="http://www.amazon.com/gp/product/0765322161?ie=UTF8&amp;tag=thecommandl0a-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0765322161">For the Win</a>&#8220;. I&#8217;m scheduled to do so on Thursday, the 13th, so if you have any questions for him, get them to me before then.</p>
+<p>This week&#8217;s security alerts are <a href="http://www.theregister.co.uk/2010/05/07/argument_switch_av_bypass/">a new attack technique that bypasses most common antivirus programs</a> demonstrated by <a href="http://www.matousec.com/">matousec.com</a> and <a href="http://developers.slashdot.org/story/10/05/07/1811238/Choice-of-Programming-Language-Doesnt-Matter-For-Security">study that shows programming language choice doesn&#8217;t affect security</a>.</p>
+<p>In this week&#8217;s news <a href="http://arstechnica.com/tech-policy/news/2010/05/ralph-124c-41-a-century-later.ars">Hugo Gernsback as futurist</a> (I&#8217;ve <a href="http://www.amazon.com/gp/product/0465036570?ie=UTF8&amp;tag=thecommandl0a-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0465036570">read</a> more about him as a publisher) including some <a href="http://en.wikipedia.org/wiki/Brian_Aldiss">criticism of his views of the place of science in science fiction</a>, <a href="http://www.physorg.com/news192128818.html">why computers crash but biology does not</a>, <a href="http://www.forbes.com/2010/04/29/moores-law-computing-processing-opinions-contributors-bill-dally.html">a rallying cry for parallelism</a> even though <a href="http://arstechnica.com/business/news/2010/05/moores-law-is-not-dead-its-merely-pining-for-the-fjords.ars">the trend is well established and the challenges hard then first supposed</a>, and Google releases a <a href="http://googleonlinesecurity.blogspot.com/2010/05/do-know-evil-web-application.html">code lab</a> and <a href="http://google-opensource.blogspot.com/2010/04/dont-copy-this-code.html">sources</a> to teach and learn security through reading code and hands on exercises.</p>
+<p>Following up this week <a href="http://thecommandline.net/2010/05/06/details-on-fccs-third-way/">the FCC&#8217;s third way to pursue network neutrality</a> and <a href="http://www.publicknowledge.org/node/3054">the FCC allows selectable output control with some qualifications</a>.</p>
+<p></p>
+<p>Grab the detailed show notes with time offsets and additional links either as <a href="http://libsyn.com/media/cmdln/cmdln.net_2010-05-09.pdf">PDF</a> or <a href="http://libsyn.com/media/cmdln/cmdln.net_2010-05-09.opml">OPML</a>. You can also grab the <a href="http://www.archive.org/details/Tclp2010-05-09News">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=2697" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/14/feeds-grep-links-microsoft-grants-license-to-ngos-dell-releases-streak-sources-register-of-copyrights-to-retire-and-more/" title="feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More (September 14, 2010)">feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/14/high-profile-application-of-seam-carving/" title="High Profile Application of Seam Carving (September 14, 2010)">High Profile Application of Seam Carving</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/13/feeds-grep-links-more-license-options-at-google-code-piracy-as-an-excuse-for-censorship-gaming-does-rewire-your-brain-and-more/" title="feeds | grep links > More License Options at Google Code, Piracy as an Excuse for Censorship, Gaming Does Rewire Your Brain, and More (September 13, 2010)">feeds | grep links > More License Options at Google Code, Piracy as an Excuse for Censorship, Gaming Does Rewire Your Brain, and More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/13/be-part-of-the-help-in-cory-doctorows-with-a-little-help/" title="Be Part of the Help in Cory Doctorow&#8217;s &#8220;With a Little Help&#8221; (September 13, 2010)">Be Part of the Help in Cory Doctorow&#8217;s &#8220;With a Little Help&#8221;</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/12/following-up-for-the-week-ending-9122010/" title="Following Up for the Week Ending 9/12/2010 (September 12, 2010)">Following Up for the Week Ending 9/12/2010</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/05/09/news_213/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-05-09.mp3" length="27346425" type="audio/mpeg" />
+		<itunes:duration>32:31</itunes:duration>
+		<itunes:subtitle>This is news cast 213, an episode of The Command Line Podcast.
+
+In the intro, thanks to new monthly donor, Jamie. Also, I was interviewed for ...</itunes:subtitle>
+		<itunes:summary>This is news cast 213, an episode of The Command Line Podcast.
+
+In the intro, thanks to new monthly donor, Jamie. Also, I was interviewed for Uber Leet Hacker Force Radio, part of Hacker Public Radio. My part starts around minute twenty-three. Lastly, I will be interviewing Cory Doctorow about his latest YA novel, "For the Win". I'm scheduled to do so on Thursday, the 13th, so if you have any questions for him, get them to me before then.
+
+This week's security alerts are a new attack technique that bypasses most common antivirus programs demonstrated by matousec.com and study that shows programming language choice doesn't affect security.
+
+In this week's news Hugo Gernsback as futurist (I've read more about him as a publisher) including some criticism of his views of the place of science in science fiction, why computers crash but biology does not, a rallying cry for parallelism even though the trend is well established and the challenges hard then first supposed, and Google releases a code lab and sources to teach and learn security through reading code and hands on exercises.
+
+Following up this week the FCC's third way to pursue network neutrality and the FCC allows selectable output control with some qualifications.
+
+
+
+Grab the detailed show notes with time offsets and additional links either as PDF or OPML. You can also grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Podcast, Security</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-05-05 Dr. Who as a Hacker</title>
+		<link>http://thecommandline.net/2010/05/05/dr_who_hacker/</link>
+		<comments>http://thecommandline.net/2010/05/05/dr_who_hacker/#comments</comments>
+		<pubDate>Thu, 06 May 2010 01:04:53 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Jargon]]></category>
+		<category><![CDATA[Monologue]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Entertainment]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=2684</guid>
+		<description><![CDATA[This is a feature cast, an episode of The Command Line Podcast. In the intro, thanks to Graham and [si]dragon for their donations. Also, a quick review of &#8220;Permanence&#8220;, by Karl Schroeder. Listener feedback this week is from Robert who posted a comment in response to my NoSQL rant. The hacker word of the week [...]]]></description>
+			<content:encoded><![CDATA[<p>This is a feature cast, an episode of The Command Line Podcast.</p>
+<p>In the intro, thanks to Graham and [si]dragon for their donations. Also, a quick review of &#8220;<a href="http://www.amazon.com/gp/product/B000F6Z75W?ie=UTF8&amp;tag=thecommandl0a-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B000F6Z75W">Permanence</a>&#8220;, by Karl Schroeder.</p>
+<p>Listener feedback this week is from Robert who <a href="http://thecommandline.net/2010/04/28/rant_nosql/#comment-4691">posted a comment</a> in response to my NoSQL rant.</p>
+<p>The hacker word of the week this week is <a href="http://catb.org/jargon/chaff.html#block-transfer-computations">block transfer computations</a>.</p>
+<p>The feature this week is a monologue consider Dr. Who as a hacker. In it, I mention a section from <a href="http://en.wikipedia.org/wiki/Regeneration_%28Doctor_Who%29#Romana.27s_regeneration">the Wikipedia page on Dr. Who</a>.</p>
+<p></p>
+<p>Grab the detailed show notes with time offsets and additional links either as <a href="http://libsyn.com/media/cmdln/cmdln.net_2010-05-05.pdf">PDF</a> or <a href="http://libsyn.com/media/cmdln/cmdln.net_2010-05-05.opml">OPML</a>. You can also grab the <a href="http://www.archive.org/details/Tclp2010-05-05Dr.WhoAsAHacker">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=2684" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/05/11/another-pay-what-you-will-experiment-succeeds/" title="Another Pay-What-You-Will Experiment Succeeds (May 11, 2010)">Another Pay-What-You-Will Experiment Succeeds</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/03/17/digital-a-love-story-a-fun-interactive-fiction-style-game/" title="&#8220;Digital: A Love Story&#8221;, A Fun Interactive Fiction Style Game (March 17, 2010)">&#8220;Digital: A Love Story&#8221;, A Fun Interactive Fiction Style Game</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/03/10/ok-go-leaves-emi-to-form-their-own-label/" title="OK Go Leaves EMI to Form Their Own Label (March 10, 2010)">OK Go Leaves EMI to Form Their Own Label</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/01/29/howto-make-the-internet-just-dont-break-it/" title="HOWTO Make the Internet (Just Don&#8217;t Break It) (January 29, 2010)">HOWTO Make the Internet (Just Don&#8217;t Break It)</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/01/20/project-for-making-public-domain-music-friendlier/" title="Project for Making Public Domain Music Friendlier (January 20, 2010)">Project for Making Public Domain Music Friendlier</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/05/05/dr_who_hacker/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-05-05.mp3" length="20950082" type="audio/mpeg" />
+		<itunes:duration>24:55</itunes:duration>
+		<itunes:subtitle>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, thanks to Graham and [si]dragon for their donations. Also, a quick ...</itunes:subtitle>
+		<itunes:summary>This is a feature cast, an episode of The Command Line Podcast.
+
+In the intro, thanks to Graham and [si]dragon for their donations. Also, a quick review of "Permanence", by Karl Schroeder.
+
+Listener feedback this week is from Robert who posted a comment in response to my NoSQL rant.
+
+The hacker word of the week this week is block transfer computations.
+
+The feature this week is a monologue consider Dr. Who as a hacker. In it, I mention a section from the Wikipedia page on Dr. Who.
+
+
+
+Grab the detailed show notes with time offsets and additional links either as PDF or OPML. You can also grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Jargon, Monologue, Podcast</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+		<item>
+		<title>TCLP 2010-05-02 News</title>
+		<link>http://thecommandline.net/2010/05/02/news_212/</link>
+		<comments>http://thecommandline.net/2010/05/02/news_212/#comments</comments>
+		<pubDate>Sun, 02 May 2010 23:44:03 +0000</pubDate>
+		<dc:creator>Thomas Gideon</dc:creator>
+				<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ACTA]]></category>
+		<category><![CDATA[crypto]]></category>
+		<category><![CDATA[DMCA]]></category>
+		<category><![CDATA[fair use]]></category>
+		<category><![CDATA[hacker culture]]></category>
+		<category><![CDATA[Identity 2.0]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Mozilla]]></category>
+		<category><![CDATA[open video]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://thecommandline.net/?p=2658</guid>
+		<description><![CDATA[This is news cast 212, an episode of The Command Line Podcast. In the intro, a quick update on the advertising experiment. This week&#8217;s security alerts are Symantec plans to PGP and a massive quantity of GoDaddy hosted WordPress sites are under attack. In this week&#8217;s news Cyber Privacy Act introduced that would use takedowns [...]]]></description>
+			<content:encoded><![CDATA[<p>This is news cast 212, an episode of The Command Line Podcast.</p>
+<p>In the intro, a quick update on the advertising experiment.</p>
+<p>This week&#8217;s security alerts are <a href="http://www.theregister.co.uk/2010/04/29/symantec_buys_pgp/">Symantec plans to PGP</a> and <a href="http://it.slashdot.org/story/10/04/26/1527215/Massive-Number-of-Godaddy-Wordpress-Blogs-Hacked">a massive quantity of GoDaddy hosted WordPress sites are under attack</a>.</p>
+<p>In this week&#8217;s news <a href="http://arstechnica.com/tech-policy/news/2010/04/bill-tries-to-protect-user-privacy-opens-door-to-abuse.ars">Cyber Privacy Act introduced that would use takedowns against personal info</a> <a title="incuding the flaws that would go along with it" href="http://techdirt.com/articles/20100426/0034189166.shtml">including the flaws that would go along with it</a>, <a href="http://www.wired.com/threatlevel/2010/04/fairuse-economy/">new report shows trillions contributed to the economy by fair use</a> <a href="http://googlepublicpolicy.blogspot.com/2010/04/47-trillion-reasons-for-well-designed.html">with specific examples of what that means</a> <a href="http://techdirt.com/articles/20100427/1646069201.shtml">though the point is how the report was produced</a>, <a href="http://www.readwriteweb.com/archives/firefox_steps_up_to_challenge_facebooks_claim_to_i.php">Mozilla releases first code for its identity system</a> (which I <a href="http://thecommandline.net/2009/11/25/effs-terms-of-abuse-tool-launches-mozillas-integrated-login-and-more/">briefly wrote about earlier</a> ), and <a href="http://www.boingboing.net/2010/04/29/raised-by-radio-shac.html">raised by Radio Shack</a> inspired by a <a href="http://www.wired.com/magazine/2010/04/ff_radioshack/">Wired article</a> and resonating with <a title="previously reviewed" href="http://thecommandline.net/2009/04/15/levys_hackers/">Levy&#8217;s &#8220;Hackers&#8221;</a>.</p>
+<p>Following up this week <a href="http://techdirt.com/articles/20100427/0107569189.shtml">USTR claims official ACTA draft proves prior rumors were false</a> and <a href="http://arstechnica.com/microsoft/news/2010/04/html5-video-in-internet-explorer-9-h264-and-h264-alone.ars">MSIE9 to support HTML5 video but only with H.264</a>.</p>
+<p></p>
+<p>Grab the detailed show notes with time offsets and additional links either as <a href="http://libsyn.com/media/cmdln/cmdln.net_2010-05-02.pdf">PDF</a> or <a href="http://libsyn.com/media/cmdln/cmdln.net_2010-05-02.opml">OPML</a>. You can also grab the <a href="http://www.archive.org/details/Tclp2010-05-02News">flac encoded audio</a> from the Internet Archive.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img style="border-width: 0px;" src="http://thecommandline.net/wp-content/uploads/cc-by-sa.png" alt="Creative Commons License" /></a></p>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p><a href="http://thecommandline.net/?ibsa=share&id=2658" id="share-link-">Share</a></p>
+	<h4>Related posts</h4>
+	<ul class="st-related-posts">
+	<li><a href="http://thecommandline.net/2010/09/15/feeds-grep-links-mozilla-inserts-a-stability-beta-how-to-read-a-patent-babbages-debugger-and-more/" title="feeds | grep links > Mozilla Inserts a Stability Beta, How-to Read a Patent, Babbage&#8217;s Debugger, and More (September 15, 2010)">feeds | grep links > Mozilla Inserts a Stability Beta, How-to Read a Patent, Babbage&#8217;s Debugger, and More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/14/feeds-grep-links-microsoft-grants-license-to-ngos-dell-releases-streak-sources-register-of-copyrights-to-retire-and-more/" title="feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More (September 14, 2010)">feeds | grep links > Microsoft Grants License to NGOs, Dell Releases Streak Sources, Register of Copyrights to Retire, And More</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/12/following-up-for-the-week-ending-9122010/" title="Following Up for the Week Ending 9/12/2010 (September 12, 2010)">Following Up for the Week Ending 9/12/2010</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/12/security-alerts-for-the-week-ending-9122010/" title="Security Alerts for the Week Ending 9/12/2010 (September 12, 2010)">Security Alerts for the Week Ending 9/12/2010</a> (0)</li>
+	<li><a href="http://thecommandline.net/2010/09/10/feeds-grep-links-faster-javascript-for-firefox-4-details-of-googles-new-search-index-leaked-eu-surveillance-plan-and-more/" title="feeds | grep links > Faster JavaScript for Firefox 4, Details of Google&#8217;s New Search Index, Leaked EU Surveillance Plan, and More (September 10, 2010)">feeds | grep links > Faster JavaScript for Firefox 4, Details of Google&#8217;s New Search Index, Leaked EU Surveillance Plan, and More</a> (0)</li>
+</ul>
+
+]]></content:encoded>
+			<wfw:commentRss>http://thecommandline.net/2010/05/02/news_212/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://cmdln.evenflow.nl/mp3/cmdln.net_2010-05-02.mp3" length="30237396" type="audio/mpeg" />
+		<itunes:duration>35:58</itunes:duration>
+		<itunes:subtitle>This is news cast 212, an episode of The Command Line Podcast.
+
+In the intro, a quick update on the advertising experiment.
+
+This week's security alerts are ...</itunes:subtitle>
+		<itunes:summary>This is news cast 212, an episode of The Command Line Podcast.
+
+In the intro, a quick update on the advertising experiment.
+
+This week's security alerts are Symantec plans to PGP and a massive quantity of GoDaddy hosted WordPress sites are under attack.
+
+In this week's news Cyber Privacy Act introduced that would use takedowns against personal info including the flaws that would go along with it, new report shows trillions contributed to the economy by fair use with specific examples of what that means though the point is how the report was produced, Mozilla releases first code for its identity system (which I briefly wrote about earlier ), and raised by Radio Shack inspired by a Wired article and resonating with Levy's "Hackers".
+
+Following up this week USTR claims official ACTA draft proves prior rumors were false and MSIE9 to support HTML5 video but only with H.264.
+
+
+
+Grab the detailed show notes with time offsets and additional links either as PDF or OPML. You can also grab the flac encoded audio from the Internet Archive.
+
+
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 United States License.</itunes:summary>
+		<itunes:keywords>Podcast, Security</itunes:keywords>
+		<itunes:author>cmdln@thecommandline.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>yes</itunes:block>
+	</item>
+	</channel>
+</rss>
+
+<!-- Dynamic Page Served (once) in 4.181 seconds -->
+<!-- Cached page served by WP-Cache -->
