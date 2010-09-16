@@ -29,15 +29,15 @@ def __append(entry, suffix, append_fn):
     try:
         for line in f:
             if line.find('<item>') != -1 and not first:
-                append_fn(entry, o)
+                append_fn(entry, o, suffix)
                 first = True
             o.write(line)
     finally:
         f.close()
 
 
-def __append_mp3(entry, output):
-    (url, mime_type, size) = __enclosure(entry.enclosures, 'http://cmdln.evenflow.nl/mp3', 'mp3')
+def __append_non_itunes(entry, output, suffix):
+    (url, mime_type, size) = __enclosure(entry.enclosures, 'http://cmdln.evenflow.nl/mp3', suffix)
     output.write("""        <item>
             <title>%(title)s (Comment Line 240-949-2638)</title>
             <link>%(link)s</link>
@@ -54,7 +54,7 @@ def __append_mp3(entry, output):
         'url' : url,
         'mime_type' : mime_type,
         'size' : size })
-    logging.info('Insert new MP3 item.')
+    logging.info('Inserted new %s item.' % suffix)
 
 
 def __permalink(title):
@@ -95,7 +95,8 @@ def main():
         logging.error('Failed to fetch feed.')
         sys.exit(1)
 
-    __append(entry, 'mp3', __append_mp3)
+    __append(entry, 'mp3', __append_non_itunes)
+    __append(entry, 'ogg', __append_non_itunes)
 
 
 if __name__ == "__main__":
