@@ -8,6 +8,9 @@ import re
 from BeautifulSoup import BeautifulSoup
 import shutil
 
+base_urls = { 'itunes' : 'http://traffic.libsyn.com/cmdln',
+              'other' : 'http://cmdln.evenflow.nl/mp3' }
+
 def __fetch_feed(url):
     try:
         return feedparser.parse(url)
@@ -48,7 +51,7 @@ def __append(feed, suffix, append_fn, args=None):
 
 
 def __append_non_itunes(entry, output, suffix, args):
-    (url, mime_type, size) = __enclosure(entry.enclosures, 'http://cmdln.evenflow.nl/mp3', suffix)
+    (url, mime_type, size) = __enclosure(entry.enclosures, base_urls['other'], suffix)
     output.write("""        <item>
             <title>%(title)s (Comment Line 240-949-2638)</title>
             <link>%(link)s</link>
@@ -72,7 +75,7 @@ def __append_itunes(entry, output, suffix, args):
     description = __description(entry.content)
     soup = BeautifulSoup(description)
     summary = '\n\n'.join([''.join(p.findAll(text=True)) for p in soup.findAll('p')])
-    (url, mime_type, size) = __enclosure(entry.enclosures, 'http://traffic.libsyn.com/cmdln', suffix)
+    (url, mime_type, size) = __enclosure(entry.enclosures, base_urls['itunes'], suffix)
     output.write("""        <item>
             <title>%(title)s (Comment Line 240-949-2638)</title>
             <link>%(link)s</link>
@@ -132,12 +135,14 @@ def __enclosure(enclosures, base_url, suffix):
 def main():
     logging.basicConfig(level=logging.INFO,
             format='%(message)s')
-    #feed = __fetch_feed('http://thecommandline.net/category/podcast/feed/')
-    feed = __fetch_feed('cmdln_site.xml')
+    feed = __fetch_feed('http://thecommandline.net/category/podcast/feed/')
     if feed is None:
         logging.error('Failed to fetch feed.')
         sys.exit(1)
 
+    if len(sys.argv) > 1:
+        base_urls['itunes'] = 'http://www.archive.org/download/%s' % sys.argv[2]
+        base_urls['other'] = 'http://www.archive.org/download/%s' % sys.argv[2]
     __append(feed, 'mp3', __append_non_itunes)
     __append(feed, 'ogg', __append_non_itunes)
     __append(feed, 'm4a', __append_itunes, sys.argv)
