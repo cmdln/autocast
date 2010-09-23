@@ -7,6 +7,7 @@ import logging
 import re
 from BeautifulSoup import BeautifulSoup
 import shutil
+import time
 
 base_urls = { 'itunes' : 'http://traffic.libsyn.com/cmdln',
               'other' : 'http://cmdln.evenflow.nl/mp3' }
@@ -36,14 +37,15 @@ def __append(feed, suffix, append_fn, args=None):
     o = open(filename, 'w')
     firstItem = False
     try:
+        updated = time.strftime('%a, %d %b %Y %X +0000', feed.updated)
         for line in f:
             if line.find('<item>') != -1 and not firstItem:
                 append_fn(entry, o, suffix, args)
                 firstItem = True
-            if line.startswith('       <pubDate>'):
-                line = '        <pubDate>%s</pubDate>' % feed.date
-            if line.startswith('       <lastBuildDate>'):
-                line = '        <lastBuildDate>%s</lastBuildDate>' % feed.date
+            if line.startswith('        <pubDate>'):
+                line = '        <pubDate>%s</pubDate>\n' % updated
+            if line.startswith('        <lastBuildDate>'):
+                line = '        <lastBuildDate>%s</lastBuildDate>\n' % updated
             o.write(line)
     finally:
         f.close()
