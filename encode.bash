@@ -72,6 +72,7 @@ lame -b 112 \
 --tc "${comment}" \
 --tg "${genre}" \
 --id3v2-only \
+--noreplaygain i\
 cmdln.net_${date}.wav \
 cmdln.net_${date}.mp3
 
