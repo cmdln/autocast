@@ -8,9 +8,9 @@ import re
 from BeautifulSoup import BeautifulSoup
 import shutil
 import time
+import datetime
 
-base_urls = { 'itunes' : 'http://traffic.libsyn.com/cmdln',
-              'other' : 'http://cmdln.evenflow.nl/mp3' }
+
 
 def __fetch_feed(url):
     try:
@@ -23,15 +23,18 @@ def __fetch_feed(url):
         logging.debug('Network failure reason, %s.' % e.reason)
         return None
 
-def __append(feed, suffix, append_fn, args=None):
+
+def __append(feed, suffix, append_fn):
     latest = __fetch_feed('cmdln_%s.xml' % suffix).entries[0]
     entry = feed.entries[0]
     if latest.title.find(entry.title) != -1:
         logging.info('%s is up to date.' % suffix)
         return
 
+    base_url = 'http://www.archive.org/download/%s' % __archive_slug(entry.title)
     filename = 'cmdln_%s.xml' % suffix
-    backup = 'cmdln_%s.xml.bak' % suffix
+    today = datetime.date.today()
+    backup = '%s.%s' % (filename, today.strftime('%Y-%m-%d'))
     shutil.copy(filename, backup)
     f = open(backup)
     o = open(filename, 'w')
@@ -40,7 +43,7 @@ def __append(feed, suffix, append_fn, args=None):
         updated = time.strftime('%a, %d %b %Y %X +0000', feed.updated)
         for line in f:
             if line.find('<item>') != -1 and not firstItem:
-                append_fn(entry, o, suffix, args)
+                append_fn(entry, o, suffix, base_url)
                 firstItem = True
             if line.startswith('        <pubDate>'):
                 line = '        <pubDate>%s</pubDate>\n' % updated
@@ -52,8 +55,8 @@ def __append(feed, suffix, append_fn, args=None):
         o.close()
 
 
-def __append_non_itunes(entry, output, suffix, args):
-    (url, mime_type, size) = __enclosure(entry.enclosures, base_urls['other'], suffix)
+def __append_non_itunes(entry, output, suffix, base_url):
+    (url, mime_type, size) = __enclosure(entry.enclosures, base_url, suffix)
     output.write("""        <item>
             <title>%(title)s (Comment Line 240-949-2638)</title>
             <link>%(link)s</link>
@@ -73,11 +76,13 @@ def __append_non_itunes(entry, output, suffix, args):
     logging.info('Inserted new %s item.' % suffix)
 
 
-def __append_itunes(entry, output, suffix, args):
+def __append_itunes(entry, output, suffix, base_url):
     description = __description(entry.content)
     soup = BeautifulSoup(description)
     summary = '\n\n'.join([''.join(p.findAll(text=True)) for p in soup.findAll('p')])
-    (url, mime_type, size) = __enclosure(entry.enclosures, base_urls['itunes'], suffix)
+    (url, mime_type, size) = __enclosure(entry.enclosures, base_url, suffix)
+    if size == 0:
+        raise Exception('Couldn not find media, %s.' % base_url)
     output.write("""        <item>
             <title>%(title)s (Comment Line 240-949-2638)</title>
             <link>%(link)s</link>
@@ -101,7 +106,7 @@ def __append_itunes(entry, output, suffix, args):
         'size' : size,
         'subtitle' : ''.join(soup.contents[0].findAll(text = True)),
         'summary' : summary,
-        'duration' : args[1] })
+        'duration' : entry.itunes_duration })
     logging.info('Inserted new %s item.' % suffix)
 
 
@@ -134,6 +139,16 @@ def __enclosure(enclosures, base_url, suffix):
     return (url, mime_type, size)
 
 
+def __archive_slug(title):
+    slug = re.sub('\([^0-9]\)-\([^0-9]\)', '\1\2', title)
+    slug = re.sub('[^A-Za-z0-9\-]', ' ', slug)
+    slug = re.sub(' {2,}', ' ', slug)
+    tokens = slug.split(' ')
+    tokens = [t.capitalize() for t in tokens]
+    slug = ''.join(tokens)
+    return slug
+
+
 def main():
     logging.basicConfig(level=logging.INFO,
             format='%(message)s')
@@ -142,12 +157,9 @@ def main():
         logging.error('Failed to fetch feed.')
         sys.exit(1)
 
-    if len(sys.argv) > 1:
-        base_urls['itunes'] = 'http://www.archive.org/download/%s' % sys.argv[2]
-        base_urls['other'] = 'http://www.archive.org/download/%s' % sys.argv[2]
     __append(feed, 'mp3', __append_non_itunes)
     __append(feed, 'ogg', __append_non_itunes)
-    __append(feed, 'm4a', __append_itunes, sys.argv)
+    __append(feed, 'm4a', __append_itunes)
 
 
 if __name__ == "__main__":

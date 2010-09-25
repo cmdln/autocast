@@ -5,13 +5,20 @@ import urllib2
 from urllib2 import HTTPError, URLError
 import os.path
 import logging
+import shutil
+import datetime
 
 
 
 def __repoint():
     logging.basicConfig(level=logging.INFO,
             format='%(message)s')
-    f = open("cmdln_m4a.xml")
+    today = datetime.date.today()
+    filename = 'cmdln_m4a.xml'
+    backup = '%s.%s' % (filename, today.strftime('%Y-%m-%d'))
+    shutil.copy(filename, backup)
+    f = open(backup)
+    o = open(filename, 'w')
     try:
         soup = BeautifulStoneSoup(f)
         enclosures = soup.findAll('enclosure')
@@ -29,9 +36,10 @@ def __repoint():
             enclosure['url'] = rewritten
             enclosure['type'] = mime_type
             enclosure['length'] = length
-        print soup
+        o.write(str(soup))
     finally:
         f.close()
+        o.close()
 
 
 def __archive_slug(title):
