@@ -29,7 +29,7 @@ def __repoint():
             title = enclosure.findPreviousSibling('title')
             rewritten = 'http://www.archive.org/download/%s/%s' % (__archive_slug(title.string),
                 os.path.basename(url))
-            (mime_type, length) =  __url_info(rewritten)
+            (mime_type, length) =  __url_info(rewritten, enclosure['type'], enclosure['length'])
             if mime_type is None:
                 print 'Could not find media, %s.' % rewritten
                 break
@@ -53,18 +53,21 @@ def __archive_slug(title):
     slug = ''.join(tokens)
     return slug
 
-def __url_info(url):
+def __url_info(url, mime_type, length):
     try:
         usock = urllib2.urlopen(url)
         if usock.info() is None:
             return (None, None)
-        return (usock.info().type, usock.info().get('Content-Length'))
+        mime_type = usock.info().type
+        length = usock.info().get('Content-Length')
+        if length is None:
+            return (mime_type, None)
+        return (mime_type, length)
     except HTTPError, e:
         logging.error('Failed with HTTP status code %d' % e.code)
         return (None, None)
     except URLError, e:
         logging.error('Failed to connect with network.')
-        logging.debug('Network failure reason, %s.' % e.reason)
         return (None, None)
 
 if __name__ == "__main__":
