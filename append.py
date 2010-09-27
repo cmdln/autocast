@@ -57,6 +57,10 @@ def __append(feed, suffix, append_fn):
 
 def __append_non_itunes(entry, output, suffix, base_url):
     (url, mime_type, size) = __enclosure(entry.enclosures, base_url, suffix)
+    # Google listen won't play 'application/ogg' and that mime type is currently
+    # returned by archive.org for Ogg Vorbis files
+    if 'ogg' == suffix:
+        mime_type = 'audio/ogg'
     output.write("""        <item>
             <title>%(title)s (Comment Line 240-949-2638)</title>
             <link>%(link)s</link>
