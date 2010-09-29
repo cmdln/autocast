@@ -1,3 +1,13 @@
+# ignore vim swap files
 *.swp
+# ignore feed files
 *.xml
-*.bak
+# ignore back up files
+*.xml.*
+# ignore media files
+*.wav
+*.flac
+*.ogg
+*.mp3
+*.m4a
+*.chapters.txt
