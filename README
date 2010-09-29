@@ -1,0 +1,5 @@
+This project is a collection of simple scripts used to help automate various tasks involved in the production of The Command Line Podcast.
+
+append.py - Compares the podcast category feed for the podcast's web site with format specific feeds, adding the newest episode if missing.
+encode.bash - Drives a set of encoders and tagging utilities to convert a single WAV input file into flac, Ogg Vorbis, AAC and MP3 files with complete and consistent metadata.
+relink.py - A script intended for one time use to tweak a feed to re-link its enclosures to appropriate URLs at the Internet Archive.
