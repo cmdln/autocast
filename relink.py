@@ -3,8 +3,6 @@
 # relink.py - A script intended for one time use to tweak a feed to re-link its
 # enclosures to appropriate URLs at the Internet Archive.
 #
-# All project files are made available under the following, BSD-new license.
-# 
 # Copyright (c) 2010, Thomas Gideon
 # All rights reserved.
 # 

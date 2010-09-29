@@ -3,8 +3,6 @@
 # append.py - Compares the podcast category feed for the podcast's web site
 # with format specific feeds, adding the newest episode if missing.
 #
-# All project files are made available under the following, BSD-new license.
-# 
 # Copyright (c) 2010, Thomas Gideon
 # All rights reserved.
 # 
