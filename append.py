@@ -65,6 +65,7 @@ def __append(feed, suffix, append_fn):
         logging.info('%s is up to date.' % suffix)
         return
 
+    entry.title.encode('ascii')
     base_url = 'http://www.archive.org/download/%s' % __archive_slug(entry.title)
     filename = 'cmdln_%s.xml' % suffix
     today = datetime.date.today()
@@ -183,7 +184,7 @@ def __description(content):
         bare link is added to the last paragraph for the benefit of aggregators
         that may strip out HTML.
     """
-    description = content[0].value
+    description = re.sub(u'\xa0', ' ', content[0].value)
     description = re.sub('<p></p>\n', '', description)
     description = re.sub(re.compile('License</a>.</p>.*$', re.M | re.S), 'License</a>.</p>', description)
     description = re.sub('</p>\n', '</p>\n\n', description)
