@@ -6,6 +6,8 @@
             <xsl:call-template name="item">
                 <xsl:with-param name="indent"
                                 select="1"/>
+                <xsl:with-param name="prefix"
+                                select="*"/>
             </xsl:call-template>
         </xsl:for-each>
     </xsl:template>
@@ -16,8 +18,8 @@
                 <xsl:text>==</xsl:text>
             </xsl:when>
             <xsl:otherwise>
-                <!-- TODO generate spaces -->
-                <xsl:text> - </xsl:text>
+                <xsl:value-of select="$indent"/>
+                <xsl:text>- </xsl:text>
             </xsl:otherwise>
         </xsl:choose>
         <xsl:value-of select="values/*[2]/p/run/lit"/>
