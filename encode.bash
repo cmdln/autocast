@@ -64,6 +64,27 @@ url="http://thecommandline.net/${post_date}/${slug}/"
 copyright="http://creativecommons.org/licenses/by-sa/3.0/us"
 comment="Weekly ${type} cast.  Email to feedback@thecommandline.net.  Show notes and license information for this episode at ${url}."
 
+# encode lossy, MP3, adding ID3v2 tags for everything
+# *except* cover art
+lame -b 112 \
+--cbr \
+--tt "${title}" \
+--ta "${artist}" \
+--tl "${album}" \
+--ty "${year}" \
+--tc "${comment}" \
+--tg "${genre}" \
+--id3v2-only \
+--noreplaygain \
+cmdln.net_${date}.wav \
+cmdln.net_${date}.mp3
+
+# lame package from Lucid lacks the --ti switch for image
+# found eyed3 via a web search
+eyeD3 --add-image ${cover}:FRONT_COVER \
+--set-text-frame="TCOP:${copyright}" \
+cmdln.net_${date}.mp3
+
 # lossless encoding
 flac \
 --picture="|image/jpeg|||${cover}" \
@@ -111,24 +132,3 @@ oggenc \
 -q 4 \
 --comment=METADATA_BLOCK_PICTURE="$(metaflac --export-picture-to=- cmdln.net_${date}.flac| base64 -w 0)"  \
 cmdln.net_${date}.flac
-
-# encode lossy, MP3, adding ID3v2 tags for everything
-# *except* cover art
-lame -b 112 \
---cbr \
---tt "${title}" \
---ta "${artist}" \
---tl "${album}" \
---ty "${year}" \
---tc "${comment}" \
---tg "${genre}" \
---id3v2-only \
---noreplaygain \
-cmdln.net_${date}.wav \
-cmdln.net_${date}.mp3
-
-# lame package from Lucid lacks the --ti switch for image
-# found eyed3 via a web search
-eyeD3 --add-image ${cover}:FRONT_COVER \
---set-text-frame="TCOP:${copyright}" \
-cmdln.net_${date}.mp3
