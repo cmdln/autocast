@@ -101,7 +101,7 @@ cmdln.net_${date}.wav
 
 # AAC encoding, lossy
 faac -q 100 \
--b 112 \
+-b 128 \
 -c 44100 \
 -o cmdln.net_${date}.m4a \
 --title "${title}"  \
@@ -129,6 +129,6 @@ mp4chaps -o -z -i cmdln.net_${date}.m4a
 # using metaflac, can encode the binary block in flac
 # per the latest recommendations from Xiph for cover art
 oggenc \
--q 4 \
+-q 5 \
 --comment=METADATA_BLOCK_PICTURE="$(metaflac --export-picture-to=- cmdln.net_${date}.flac| base64 -w 0)"  \
 cmdln.net_${date}.flac
