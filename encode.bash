@@ -100,9 +100,11 @@ flac \
 cmdln.net_${date}.wav
 
 # AAC encoding, lossy
-faac -q 100 \
--b 128 \
--c 44100 \
+# docs recommend against setting bandwidth and bitrate setting
+# doesn't seem to result in the desired quality as tweaking
+# the quality setting (max 500)--200 was arrived at by iteratively
+# encoding the same raw audio and subjective listening to the results
+faac -q 200 \
 -o cmdln.net_${date}.m4a \
 --title "${title}"  \
 --artist "${artist}" \
