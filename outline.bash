@@ -28,12 +28,30 @@
 # ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-# TODO copy .gz file based on arg
-# TODO gunzip original file
-xalan -xsl outline.xsl -in contents.xml -text -out contents.txt
+
+src=$1/contents.xml  
+shift
+target=$1
+# copy .gz file based on arg
+cp "$src" ./contents.xml.gz
+
+# gunzip original file
+gunzip contents.xml.gz
+# makes sure the ns is only on one line, also
+# makes the interim file more readable for debugging
+tidy -config tidyrc -xml -m contents.xml
+# xalan doesn't handle ns well, stripp them
+sed -e "s/ xmlns=\".*\"//g" -i contents.xml
+# TODO use grep to figure out which xsl to use
+xalan -xsl without_offset.xsl -in contents.xml -text -out contents.txt
+# expand the indent counts to proper leading white space
 sed -e "s/^2/    /" -i contents.txt
 sed -e "s/^3/        /" -i contents.txt
 sed -e "s/^4/            /" -i contents.txt
 sed -e "s/^5/                /" -i contents.txt
 sed -e "s/^6/                    /" -i contents.txt
-less contents.txt
+
+# snug the result where requested
+mv contents.txt "$target"
+# clean up the temporary files
+rm contents.xml

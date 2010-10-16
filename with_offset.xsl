@@ -6,8 +6,6 @@
             <xsl:call-template name="item">
                 <xsl:with-param name="indent"
                                 select="1"/>
-                <xsl:with-param name="prefix"
-                                select="*"/>
             </xsl:call-template>
         </xsl:for-each>
     </xsl:template>

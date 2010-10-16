@@ -5,5 +5,6 @@ encode.bash - Drives a set of encoders and tagging utilities to convert a single
 relink.py - A script intended for one time use to tweak a feed to re-link its enclosures to appropriate URLs at the Internet Archive.
 tidyrc - Tidy config that approximates the formatting of the live feeds to minimize disruption.
 publish.bash - Script to automate as much of the publishing step as possible.
-outline.xsl - Transform that handles the recursive structure of OmniOutliner files better than Beautiful Soup does.
+with_offset.xsl - Transform that handles the recursive structure of OmniOutliner files better than Beautiful Soup does, works with completed show notes that have time offsets.
+without_offset.xsl - Transform that handles the recursive structure of OmniOutliner files better than Beautiful Soup does, works with segment notes that do not have time offsets.
 outline.bash - Drives the XSLT operation and subsequent scripting tasks that cannot be handled in XSL.
