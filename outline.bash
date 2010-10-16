@@ -37,13 +37,24 @@ cp "$src" ./contents.xml.gz
 
 # gunzip original file
 gunzip contents.xml.gz
+
 # makes sure the ns is only on one line, also
 # makes the interim file more readable for debugging
 tidy -config tidyrc -xml -m contents.xml
+
 # xalan doesn't handle ns well, stripp them
 sed -e "s/ xmlns=\".*\"//g" -i contents.xml
-# TODO use grep to figure out which xsl to use
-xalan -xsl without_offset.xsl -in contents.xml -text -out contents.txt
+
+# use grep to figure out which xsl to use
+grep "<lit>[0-9]\{2\}:[0-9]\{2\}</lit>" contents.xml > /dev/null
+if [ "$?" == "0" ]
+then
+    xsl=with_offset.xsl
+else
+    xsl=without_offset
+fi
+xalan -xsl $xsl -in contents.xml -text -out contents.txt
+
 # expand the indent counts to proper leading white space
 sed -e "s/^2/    /" -i contents.txt
 sed -e "s/^3/        /" -i contents.txt
