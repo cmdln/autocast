@@ -9,3 +9,4 @@ with_offset.xsl - Transform that handles the recursive structure of OmniOutliner
 without_offset.xsl - Transform that handles the recursive structure of OmniOutliner files better than Beautiful Soup does, works with segment notes that do not have time offsets.
 outline.bash - Drives the XSLT operation and subsequent scripting tasks that cannot be handled in XSL.
 cleanup.bash - Remove output files produced from encode.bash
+restore.bash - Restore backup of feed files made today on top of current feed files.

@@ -53,13 +53,14 @@ def __fetch_feed(url):
         return None
 
 
-def __append(feed, suffix, append_fn):
+def __append(config, feed, suffix, append_fn):
     """
         For the given main site feed, load the appropriate media specific feed
         and compare.  If the latest episode isn't in the media specific feed,
         insert it making the necessary adjustments to the new episode's entry.
     """
-    latest = __fetch_feed('cmdln_%s.xml' % suffix).entries[0]
+    local_file = '%s%s.xml' % (config['file_prefix'], suffix)
+    latest = __fetch_feed(local_file).entries[0]
     entry = feed.entries[0]
     if latest.title.find(entry.title) != -1:
         logging.info('%s is up to date.' % suffix)
@@ -67,7 +68,7 @@ def __append(feed, suffix, append_fn):
 
     entry.title.encode('ascii')
     base_url = 'http://www.archive.org/download/%s' % __archive_slug(entry.title)
-    filename = 'cmdln_%s.xml' % suffix
+    filename = '%s%s.xml' % (config['file_prefix'], suffix)
     today = datetime.date.today()
     backup = '%s.%s' % (filename, today.strftime('%Y-%m-%d'))
     shutil.copy(filename, backup)
@@ -78,7 +79,7 @@ def __append(feed, suffix, append_fn):
         updated = time.strftime('%a, %d %b %Y %X +0000', feed.updated)
         for line in f:
             if line.find('<item>') != -1 and not firstItem:
-                append_fn(entry, o, suffix, base_url)
+                append_fn(config, entry, o, suffix, base_url)
                 firstItem = True
             if line.startswith('        <pubDate>'):
                 line = '        <pubDate>%s</pubDate>\n' % updated
@@ -90,15 +91,15 @@ def __append(feed, suffix, append_fn):
         o.close()
 
 
-def __append_non_itunes(entry, output, suffix, base_url):
+def __append_non_itunes(config, entry, output, suffix, base_url):
     """ 
         For most of the feeds, new episodes are simple stanzas and the
         adjustments consist mostly of copying what is in the mean site feed's
         entry and just re-writing the enclosure to the appropriate media file.
     """
-    (url, mime_type, size) = __enclosure(entry.enclosures, base_url, suffix)
+    (url, mime_type, size) = __enclosure(config, entry.enclosures, base_url, suffix)
     output.write("""        <item>
-            <title>%(title)s (Comment Line 240-949-2638)</title>
+            <title>%(title)s%(title_suffix)s</title>
             <link>%(link)s</link>
             <description><![CDATA[%(description)s]]></description>
             <pubDate>%(pubDate)s</pubDate>
@@ -107,16 +108,17 @@ def __append_non_itunes(entry, output, suffix, base_url):
         </item>
 """ % { 'title': entry.title,
         'link': entry.link,
-        'description': __description(entry.content),
+        'description': __description(config, entry.content),
         'pubDate' : entry.date,
         'permalink' : __permalink(entry.title),
         'url' : url,
         'mime_type' : mime_type,
-        'size' : size })
+        'size' : size,
+        'title_suffix': config['title_suffix'] })
     logging.info('Inserted new %s item.' % suffix)
 
 
-def __append_itunes(entry, output, suffix, base_url):
+def __append_itunes(config, entry, output, suffix, base_url):
     """
         For the iTunes/AAC feed, there are some additional elements that make
         use of the Apple extensions to RSS.  Some of these, like the duration,
@@ -124,20 +126,20 @@ def __append_itunes(entry, output, suffix, base_url):
         produced by PodPress is less than desirable so those get munged to
         something more suitable before writing into the iTunes feed.
     """
-    description = __description(entry.content)
+    description = __description(config, entry.content)
     soup = BeautifulSoup(description)
     summary = '\n\n'.join([''.join(p.findAll(text=True)) for p in soup.findAll('p')])
-    (url, mime_type, size) = __enclosure(entry.enclosures, base_url, suffix)
+    (url, mime_type, size) = __enclosure(config, entry.enclosures, base_url, suffix)
     if size == 0:
         raise Exception('Couldn not find media, %s.' % base_url)
     output.write("""        <item>
-            <title>%(title)s (Comment Line 240-949-2638)</title>
+            <title>%(title)s%(title_suffix)s</title>
             <link>%(link)s</link>
             <description><![CDATA[%(description)s]]></description>
             <pubDate>%(pubDate)s</pubDate>
             <enclosure url="%(url)s" length="%(size)s" type="%(mime_type)s"/>
             <guid isPermaLink="false">%(permalink)s</guid>
-            <itunes:author>Thomas Gideon</itunes:author>
+            <itunes:author>%(author)s</itunes:author>
             <itunes:subtitle>%(subtitle)s</itunes:subtitle>
             <itunes:summary>%(summary)s</itunes:summary>
             <itunes:explicit>no</itunes:explicit>
@@ -153,7 +155,9 @@ def __append_itunes(entry, output, suffix, base_url):
         'size' : size,
         'subtitle' : ''.join(soup.contents[0].findAll(text = True)),
         'summary' : summary,
-        'duration' : entry.itunes_duration })
+        'duration' : entry.itunes_duration,
+        'title_suffix': config['title_suffix'],
+        'author': config['author'] })
     logging.info('Inserted new %s item.' % suffix)
 
 
@@ -174,7 +178,7 @@ def __permalink(title):
     return permalink
 
 
-def __description(content):
+def __description(config, content):
     """ 
         This function strips out parts of the description used in the main site
         feed that are less appropriate for the media specific feeds.  PodPress
@@ -191,12 +195,12 @@ def __description(content):
     return re.sub('<p>View the <a', '<p>More news, commentary, and alternate feeds available at http://thecommandline.net/.  View the <a', description)
 
 
-def __enclosure(enclosures, base_url, suffix):
+def __enclosure(config, enclosures, base_url, suffix):
     """ 
         Uses the file name from the main site's enclosure plus the base_url to
         pull together values to re-write the attributes for the correct media.
     """
-    m = re.search('cmdln.net_[0-9]{4}-[0-9]{2}-[0-9]{2}', enclosures[0].href)
+    m = re.search('%s[0-9]{4}-[0-9]{2}-[0-9]{2}' % config['enclosure_prefix'], enclosures[0].href)
     url = '%s/%s.%s' % (base_url, m.group(), suffix)
     usock = urllib2.urlopen(url)
     # Google listen won't play 'application/ogg' and that mime type is currently
@@ -226,22 +230,30 @@ def __archive_slug(title):
     return slug
 
 
-def __main():
+def __main(feed_file):
     logging.basicConfig(level=logging.INFO,
             format='%(message)s')
+    f = open(feed_file)
+    config = dict()
+    try:
+        for line in f:
+            (name, value) = line.split('=')
+            config[name] = value.rstrip()
+    finally:
+        f.close()
     # pulls the category feed from the web site which will have just the most recent episodes
     # along with all the iTunes jiggery-pokery PodPress performs
-    feed = __fetch_feed('http://thecommandline.net/category/podcast/feed/')
+    feed = __fetch_feed(config['url'])
     if feed is None:
         logging.error('Failed to fetch feed.')
         sys.exit(1)
 
-    __append(feed, 'mp3', __append_non_itunes)
-    __append(feed, 'ogg', __append_non_itunes)
-    __append(feed, 'm4a', __append_itunes)
+    __append(config, feed, 'mp3', __append_non_itunes)
+    __append(config, feed, 'ogg', __append_non_itunes)
+    __append(config, feed, 'm4a', __append_itunes)
     # TODO add flac
 
 
 if __name__ == "__main__":
     
-    __main()
+    __main(sys.argv[1])
