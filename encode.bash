@@ -135,7 +135,7 @@ echo ""
 # the quality setting (max 500)--200 was arrived at by iteratively
 # encoding the same raw audio and subjective listening to the results
 faac -q ${aac_quality} \
--o cmdln.net_${date}.m4a \
+-o ${base_file}.m4a \
 --title "${title}"  \
 --artist "${artist}" \
 --album "${album}" \
