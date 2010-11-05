@@ -28,17 +28,25 @@
 # ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+function clean {
+	if [ -f "$1" ]
+	then
+		echo "Cleaning existing file, $1."
+		rm $1
+	fi
+}
+
 if [ -z "$1" ]
 then
 	echo "Provide a cast type!"
-	echo "$0 <cast type> <slug> [date]"
+	echo "$0 <cast config> <slug> [date]"
 	exit 1
 fi
-type=$1
+config=$1
 if [ -z "$2" ]
 then
 	echo "Provide a slug!"
-	echo "$0 <cast type> <slug> [date]"
+	echo "$0 <cast config> <slug> [date]"
 	exit 2
 fi
 slug=$2
@@ -52,21 +60,35 @@ else
 	year=$(date +%Y -d $3)
 	post_date=$(date +%Y/%m/%d -d $3)
 fi
-echo $date
 
-# assemble common values for tags/comments
-title="The Command Line ${date}"
-artist="Thomas Gideon"
-cover="${HOME}/Dropbox/Public/color_cover_art.jpg"
-album="The Command Line"
-genre="Podcast"
-url="http://thecommandline.net/${post_date}/${slug}/"
-copyright="http://creativecommons.org/licenses/by-sa/3.0/us"
-comment="Weekly ${type} cast.  Email to feedback@thecommandline.net.  Show notes and license information for this episode at ${url}."
+# load info from cast specific config file
+. $config
 
+if [ -z "${file_prefix}" ]
+then
+	echo "${config} must set file_prefix."
+	exit 1
+fi
+
+echo "Info for tagging."
+echo "Title:      $title"
+echo "Artist:     $artist"
+echo "Cover:      $cover"
+echo "Album:      $album"
+echo "Genre:      $genre"
+echo "URL:        $url"
+echo "Copyright:  $copyright"
+echo "Comment:    $comment"
+
+base_file=${file_prefix}${date}
+
+echo ""
+echo "Encoding MP3, ${base_file}.mp3 at ${mp3_bitrate} kbps."
+clean "${base_file}.mp3"
+echo ""
 # encode lossy, MP3, adding ID3v2 tags for everything
 # *except* cover art
-lame -b 112 \
+lame -b ${mp3_bitrate} \
 --cbr \
 --tt "${title}" \
 --ta "${artist}" \
@@ -76,15 +98,19 @@ lame -b 112 \
 --tg "${genre}" \
 --id3v2-only \
 --noreplaygain \
-cmdln.net_${date}.wav \
-cmdln.net_${date}.mp3
+${base_file}.wav \
+${base_file}.mp3
 
 # lame package from Lucid lacks the --ti switch for image
 # found eyed3 via a web search
 eyeD3 --add-image ${cover}:FRONT_COVER \
 --set-text-frame="TCOP:${copyright}" \
-cmdln.net_${date}.mp3
+${base_file}.mp3
 
+echo ""
+echo "Encoding ${base_file}.flac."
+clean "${base_file}.flac"
+echo ""
 # lossless encoding
 flac \
 --picture="|image/jpeg|||${cover}" \
@@ -97,14 +123,18 @@ flac \
 --tag=comment="${comment}"  \
 --tag=url="${url}"  \
 --tag=copyright="${copyright}"  \
-cmdln.net_${date}.wav
+${base_file}.wav
 
+echo ""
+echo "Encoding ${base_file}.m4a at ${aac_quality}."
+clean "${base_file}.m4a"
+echo ""
 # AAC encoding, lossy
 # docs recommend against setting bandwidth and bitrate setting
 # doesn't seem to result in the desired quality as tweaking
 # the quality setting (max 500)--200 was arrived at by iteratively
 # encoding the same raw audio and subjective listening to the results
-faac -q 200 \
+faac -q ${aac_quality} \
 -o cmdln.net_${date}.m4a \
 --title "${title}"  \
 --artist "${artist}" \
@@ -114,23 +144,27 @@ faac -q 200 \
 --writer "${artist}" \
 --comment "${comment}"  \
 --cover-art "${cover}" \
-cmdln.net_${date}.wav
+${base_file}.wav
 
 # put together the just-so input file for mp4chaps
 echo "00:00:00.000 Start" > \
-cmdln.net_${date}.chapters.txt
-grep "{{offset|" ~/Documents/cmdln_notes/weekly_archive/${date}.notes | \
+${base_file}.chapters.txt
+grep "{{offset|" ${aac_notes_path}/${date}.notes | \
 sed -e "s/.*offset|\(.*\)}}.*|\(.*\)}}.*/\1 \2/" >> \
-cmdln.net_${date}.chapters.txt
+${base_file}.chapters.txt
 
 # write the chapter marks to the AAC/MP4 file
-mp4chaps -o -z -i cmdln.net_${date}.m4a
+mp4chaps -o -z -i ${base_file}.m4a
 
+echo ""
+echo "Encoding ${base_file}.ogg at quality ${ogg_quality}."
+clean "${base_file}.ogg"
+echo ""
 # encode the Ogg Vorbis from the flac copies the tags/comments
 # already set into the flac file except the cover art;
 # using metaflac, can encode the binary block in flac
 # per the latest recommendations from Xiph for cover art
 oggenc \
--q 5 \
---comment=METADATA_BLOCK_PICTURE="$(metaflac --export-picture-to=- cmdln.net_${date}.flac| base64 -w 0)"  \
-cmdln.net_${date}.flac
+-q ${ogg_quality} \
+--comment=METADATA_BLOCK_PICTURE="$(metaflac --export-picture-to=- ${base_file}.flac| base64 -w 0)"  \
+${base_file}.flac
