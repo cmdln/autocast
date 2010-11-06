@@ -192,7 +192,7 @@ def __description(config, content):
     description = re.sub('<p></p>\n', '', description)
     description = re.sub(re.compile('License</a>.</p>.*$', re.M | re.S), 'License</a>.</p>', description)
     description = re.sub('</p>\n', '</p>\n\n', description)
-    return re.sub('<p>View the <a', '<p>More news, commentary, and alternate feeds available at http://thecommandline.net/.  View the <a', description)
+    return re.sub('<p>%(info_lede)s' % config, '<p>%(more_info)s  %(info_lede)s' % config, description)
 
 
 def __enclosure(config, enclosures, base_url, suffix):
