@@ -59,6 +59,7 @@ else
     xsl=without_offset.xsl
 fi
 xalan -xsl $xsl -in contents.xml -text -out contents.txt
+echo "Transformed outline with $xsl."
 
 # expand the indent counts to proper leading white space
 sed -e "s/^2/    /" -i contents.txt
@@ -66,8 +67,10 @@ sed -e "s/^3/        /" -i contents.txt
 sed -e "s/^4/            /" -i contents.txt
 sed -e "s/^5/                /" -i contents.txt
 sed -e "s/^6/                    /" -i contents.txt
+echo "Fixed indentation."
 
 # snug the result where requested
 mv contents.txt "$target"
+echo "Moved resulting file to $target."
 # clean up the temporary files
 rm contents.xml
