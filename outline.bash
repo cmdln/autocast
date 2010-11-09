@@ -34,13 +34,16 @@ shift
 target=$1
 # copy .gz file based on arg
 cp "$src" ./contents.xml.gz
+echo "Copied $src to ./contents.xml.gz"
 
 # gunzip original file
 gunzip contents.xml.gz
+echo "Gunzipped contents.xml.gz"
 
 # makes sure the ns is only on one line, also
 # makes the interim file more readable for debugging
 tidy -config tidyrc -xml -m contents.xml
+echo "Tidied contents.xml"
 
 # xalan doesn't handle ns well, stripp them
 sed -e "s/ xmlns=\".*\"//g" -i contents.xml
@@ -65,4 +68,4 @@ sed -e "s/^6/                    /" -i contents.txt
 # snug the result where requested
 mv contents.txt "$target"
 # clean up the temporary files
-rm contents.xml
+#rm contents.xml
