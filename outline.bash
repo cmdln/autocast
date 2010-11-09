@@ -47,6 +47,8 @@ echo "Tidied contents.xml"
 
 # xalan doesn't handle ns well, stripp them
 sed -e "s/ xmlns=\".*\"//g" -i contents.xml
+# xalan also doesn't handle imports, which shouldn't be necessary anyway
+sed -e "s/ standlone=\"no\"//g" -i contents.xml
 
 # use grep to figure out which xsl to use
 grep "<lit>[0-9]\{2\}:[0-9]\{2\}</lit>" contents.xml > /dev/null
@@ -68,4 +70,4 @@ sed -e "s/^6/                    /" -i contents.txt
 # snug the result where requested
 mv contents.txt "$target"
 # clean up the temporary files
-#rm contents.xml
+rm contents.xml
