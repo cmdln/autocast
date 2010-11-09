@@ -56,7 +56,7 @@ if [ "$?" == "0" ]
 then
     xsl=with_offset.xsl
 else
-    xsl=without_offset
+    xsl=without_offset.xsl
 fi
 xalan -xsl $xsl -in contents.xml -text -out contents.txt
 
