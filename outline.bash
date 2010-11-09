@@ -48,7 +48,7 @@ echo "Tidied contents.xml"
 # xalan doesn't handle ns well, stripp them
 sed -e "s/ xmlns=\".*\"//g" -i contents.xml
 # xalan also doesn't handle imports, which shouldn't be necessary anyway
-sed -e "s/ standlone=\"no\"//g" -i contents.xml
+sed -e "s/ standalone=\"no\"//g" -i contents.xml
 
 # use grep to figure out which xsl to use
 grep "<lit>[0-9]\{2\}:[0-9]\{2\}</lit>" contents.xml > /dev/null
