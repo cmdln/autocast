@@ -237,6 +237,10 @@ def __main(feed_file):
     config = dict()
     try:
         for line in f:
+            if line.startswith('#'):
+                continue
+            if len(line.strip()) == 0:
+                continue
             (name, value) = line.split('=')
             config[name] = value.rstrip()
     finally:
