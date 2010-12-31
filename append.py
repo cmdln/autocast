@@ -131,7 +131,7 @@ def __append_itunes(config, entry, output, suffix, base_url):
     summary = '\n\n'.join([''.join(p.findAll(text=True)) for p in soup.findAll('p')])
     (url, mime_type, size) = __enclosure(config, entry.enclosures, base_url, suffix)
     if size == 0:
-        raise Exception('Couldn not find media, %s.' % base_url)
+        raise Exception('Couldn not find media, %s.' % (url))
     output.write("""        <item>
             <title>%(title)s%(title_suffix)s</title>
             <link>%(link)s</link>
@@ -222,7 +222,7 @@ def __archive_slug(title):
         on their description and empirical data from dozens of uploads.
     """
     slug = re.sub('\([^0-9]\)-\([^0-9]\)', '\1\2', title)
-    slug = re.sub('[^A-Za-z0-9\-]', ' ', slug)
+    slug = re.sub('[^A-Za-z0-9\-\.]', ' ', slug)
     slug = re.sub(' {2,}', ' ', slug)
     tokens = slug.split(' ')
     tokens = [t.capitalize() for t in tokens]
