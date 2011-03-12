@@ -66,7 +66,6 @@ def __append(config, feed, suffix, append_fn):
         logging.info('%s is up to date.' % suffix)
         return
 
-    entry.title.encode('ascii')
     base_url = 'http://www.archive.org/download/%s' % __archive_slug(entry.title)
     filename = '%s%s.xml' % (config['file_prefix'], suffix)
     today = datetime.date.today()
@@ -106,7 +105,7 @@ def __append_non_itunes(config, entry, output, suffix, base_url):
             <enclosure url="%(url)s" length="%(size)s" type="%(mime_type)s"/>
             <guid isPermaLink="false">%(permalink)s</guid>
         </item>
-""" % { 'title': entry.title,
+""" % { 'title': __title(entry.title),
         'link': entry.link,
         'description': __description(config, entry.content),
         'pubDate' : entry.date,
@@ -145,7 +144,7 @@ def __append_itunes(config, entry, output, suffix, base_url):
             <itunes:explicit>no</itunes:explicit>
             <itunes:duration>%(duration)s</itunes:duration>
         </item>
-""" % { 'title': entry.title,
+""" % { 'title': __title(entry.title),
         'link': entry.link,
         'description': description,
         'pubDate' : entry.date,
@@ -178,6 +177,12 @@ def __permalink(title):
     return permalink
 
 
+def __title(title):
+    fixed = title
+    fixed = re.sub(u'\u2013', '-', fixed)
+    return fixed
+
+
 def __description(config, content):
     """ 
         This function strips out parts of the description used in the main site
@@ -207,6 +212,8 @@ def __enclosure(config, enclosures, base_url, suffix):
     # returned by archive.org for Ogg Vorbis files
     if 'ogg' == suffix:
         mime_type = 'audio/ogg'
+    elif 'm4a' == suffix:
+        mime_type = 'audio/mp4'
     else:
         mime_type = usock.info().type
     size =  usock.info().get('Content-Length')
@@ -222,6 +229,7 @@ def __archive_slug(title):
         on their description and empirical data from dozens of uploads.
     """
     slug = re.sub('\([^0-9]\)-\([^0-9]\)', '\1\2', title)
+    slug = re.sub(u'\u2013', '-', slug)
     slug = re.sub('[^A-Za-z0-9\-\.]', ' ', slug)
     slug = re.sub(' {2,}', ' ', slug)
     tokens = slug.split(' ')
