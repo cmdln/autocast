@@ -180,6 +180,7 @@ def __permalink(title):
 def __title(title):
     fixed = title
     fixed = re.sub(u'\u2013', '-', fixed)
+    fixed = re.sub(u'\u2019', '\'', fixed)
     return fixed
 
 
@@ -230,6 +231,7 @@ def __archive_slug(title):
     """
     slug = re.sub('\([^0-9]\)-\([^0-9]\)', '\1\2', title)
     slug = re.sub(u'\u2013', '-', slug)
+    slug = re.sub(u'\u2019', '', slug)
     slug = re.sub('[^A-Za-z0-9\-\.]', ' ', slug)
     slug = re.sub(' {2,}', ' ', slug)
     tokens = slug.split(' ')
