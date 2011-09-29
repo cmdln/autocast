@@ -232,12 +232,19 @@ def __archive_slug(title):
     slug = re.sub('\([^0-9]\)-\([^0-9]\)', '\1\2', title)
     slug = re.sub(u'\u2013', '-', slug)
     slug = re.sub(u'\u2019', '', slug)
-    slug = re.sub('[^A-Za-z0-9\-\.]', ' ', slug)
+    slug = re.sub('[^A-Za-z0-9\-\.(]', ' ', slug)
     slug = re.sub(' {2,}', ' ', slug)
     tokens = slug.split(' ')
-    tokens = [t.capitalize() for t in tokens]
+    tokens = [__paren_capitalize(t) for t in tokens]
     slug = ''.join(tokens)
     return slug
+
+
+def __paren_capitalize(token):
+    if token.startswith('('):
+        token = token[1:]
+        return token.lower()
+    return token.capitalize()
 
 
 def __main(feed_file):
