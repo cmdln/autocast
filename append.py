@@ -181,6 +181,7 @@ def __title(title):
     fixed = title
     fixed = re.sub(u'\u2013', '-', fixed)
     fixed = re.sub(u'\u2019', '\'', fixed)
+    fixed = re.sub(u'\xd7', 'x', fixed)
     return fixed
 
 
@@ -198,6 +199,7 @@ def __description(config, content):
     description = re.sub('<p></p>\n', '', description)
     description = re.sub(re.compile('License</a>.</p>.*$', re.M | re.S), 'License</a>.</p>', description)
     description = re.sub('</p>\n', '</p>\n\n', description)
+    description = re.sub(u'\xd7', 'x', description)
     return re.sub('<p>%(info_lede)s' % config, '<p>%(more_info)s  %(info_lede)s' % config, description)
 
 
@@ -231,6 +233,7 @@ def __archive_slug(title):
     """
     slug = re.sub('\([^0-9]\)-\([^0-9]\)', '\1\2', title)
     slug = re.sub(u'\u2013', '-', slug)
+    slug = re.sub(u'\xd7', 'x', slug)
     slug = re.sub(u'\u2019', '', slug)
     slug = re.sub('[^A-Za-z0-9\-\.]', ' ', slug)
     slug = re.sub(' {2,}', ' ', slug)
