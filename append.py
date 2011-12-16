@@ -180,6 +180,8 @@ def __permalink(title):
 def __title(title):
     fixed = title
     fixed = re.sub(u'\u2013', '-', fixed)
+    fixed = re.sub(u'\u201c', '"', fixed)
+    fixed = re.sub(u'\u201d', '"', fixed)
     fixed = re.sub(u'\u2019', '\'', fixed)
     fixed = re.sub(u'\xd7', 'x', fixed)
     return fixed
