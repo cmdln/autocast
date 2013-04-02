@@ -233,6 +233,8 @@ def __archive_slug(title):
         specific way.  This is my reverse engineering of their algorithm based
         on their description and empirical data from dozens of uploads.
     """
+    if identifier is not None:
+        return identifier
     slug = re.sub('\([^0-9]\)-\([^0-9]\)', '\1\2', title)
     slug = re.sub(u'\u2013', '-', slug)
     slug = re.sub(u'\xd7', 'x', slug)
@@ -280,6 +282,10 @@ def __main(feed_file):
     # TODO add flac
 
 
+identifier = None
+
 if __name__ == "__main__":
     
+    if len(sys.argv) > 2:
+        identifier = sys.argv[2]
     __main(sys.argv[1])
