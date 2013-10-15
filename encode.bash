@@ -146,15 +146,18 @@ faac -q ${aac_quality} \
 --cover-art "${cover}" \
 ${base_file}.wav
 
-# put together the just-so input file for mp4chaps
-echo "00:00:00.000 Start" > \
-${base_file}.chapters.txt
-grep "{{offset|" ${aac_notes_path}/${date}.notes | \
-sed -e "s/.*offset|\(.*\)}}.*|\(.*\)}}.*/\1 \2/" >> \
-${base_file}.chapters.txt
+if [ -f ${aac_notes_path}/${date}.notes ]
+then
+	# put together the just-so input file for mp4chaps
+	echo "00:00:00.000 Start" > \
+	${base_file}.chapters.txt
+	grep "{{offset|" ${aac_notes_path}/${date}.notes | \
+	sed -e "s/.*offset|\(.*\)}}.*|\(.*\)}}.*/\1 \2/" >> \
+	${base_file}.chapters.txt
 
-# write the chapter marks to the AAC/MP4 file
-mp4chaps -o -z -i ${base_file}.m4a
+	# write the chapter marks to the AAC/MP4 file
+	mp4chaps -o -z -i ${base_file}.m4a
+fi
 
 echo ""
 echo "Encoding ${base_file}.ogg at quality ${ogg_quality}."
