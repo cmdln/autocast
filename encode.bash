@@ -134,17 +134,31 @@ echo ""
 # doesn't seem to result in the desired quality as tweaking
 # the quality setting (max 500)--200 was arrived at by iteratively
 # encoding the same raw audio and subjective listening to the results
-faac -q ${aac_quality} \
--o ${base_file}.m4a \
---title "${title}"  \
---artist "${artist}" \
---album "${album}" \
---year "${year}" \
---genre "${genre}" \
---writer "${artist}" \
---comment "${comment}"  \
---cover-art "${cover}" \
-${base_file}.wav
+avconv -i ${base_file}.wav \
+-b ${aac_quality}k \
+-metadata title="${title}"  \
+-metadata artist="${artist}" \
+-metadata album="${album}" \
+-metadata year="${year}"  \
+-metadata genre="${genre}" \
+-metadata writer="${artist}" \
+-metadata comment="${comment}"  \
+${base_file}.m4a
+
+#-metadata cover-art="${cover}" \
+#-acodec fdk_aac \
+
+#faac -q ${aac_quality} \
+#-o ${base_file}.m4a \
+#--title "${title}"  \
+#--artist "${artist}" \
+#--album "${album}" \
+#--year "${year}" \
+#--genre "${genre}" \
+#--writer "${artist}" \
+#--comment "${comment}"  \
+#--cover-art "${cover}" \
+#${base_file}.wav
 
 if [ -f ${aac_notes_path}/${date}.notes ]
 then
