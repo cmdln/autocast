@@ -128,6 +128,8 @@ def __append_itunes(config, entry, output, suffix, base_url):
     description = __description(config, entry.content)
     soup = BeautifulSoup(description)
     summary = '\n\n'.join([''.join(p.findAll(text=True)) for p in soup.findAll('p')])
+    if len(summary) > 4000:
+        summary = summary[:4000]
     (url, mime_type, size) = __enclosure(config, entry.enclosures, base_url, suffix)
     if size == 0:
         raise Exception('Couldn not find media, %s.' % (url))
