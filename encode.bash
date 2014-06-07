@@ -143,6 +143,7 @@ avconv -i ${base_file}.wav \
 -metadata genre="${genre}" \
 -metadata writer="${artist}" \
 -metadata comment="${comment}"  \
+-strict experimental \
 ${base_file}.m4a
 
 #-metadata cover-art="${cover}" \
