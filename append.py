@@ -156,7 +156,7 @@ def __append_itunes(config, entry, output, suffix, base_url):
         'size' : size,
         'subtitle' : ''.join(soup.contents[0].findAll(text = True)),
         'summary' : summary,
-        'duration' : entry.itunes_duration,
+        'duration' : '0:00',
         'title_suffix': config['title_suffix'],
         'author': config['author'] })
     logging.info('Inserted new %s item.' % suffix)
