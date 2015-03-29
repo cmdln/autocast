@@ -161,7 +161,7 @@ ${base_file}.m4a
 #--cover-art "${cover}" \
 #${base_file}.wav
 
-if [ -f ${aac_notes_path}/${date}.notes ]
+if [ -f "${aac_notes_path}/${date}.notes" ]
 then
 	# put together the just-so input file for mp4chaps
 	echo "00:00:00.000 Start" > \
