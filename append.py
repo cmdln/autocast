@@ -75,7 +75,7 @@ def __append(config, feed, suffix, append_fn):
     o = open(filename, 'w')
     firstItem = False
     try:
-        updated = time.strftime('%a, %d %b %Y %X +0000', feed.updated)
+        updated = time.strftime('%a, %d %b %Y %X +0000', time.strptime(feed.updated, '%a, %d %b %Y %X GMT'))
         for line in f:
             if line.find('<item>') != -1 and not firstItem:
                 append_fn(config, entry, o, suffix, base_url)
@@ -108,7 +108,7 @@ def __append_non_itunes(config, entry, output, suffix, base_url):
 """ % { 'title': __title(entry.title),
         'link': entry.link,
         'description': __description(config, entry.content),
-        'pubDate' : entry.date,
+        'pubDate' : time.strftime('%a, %d %b %Y %X +0000', entry.published_parsed),
         'permalink' : __permalink(entry.title),
         'url' : url,
         'mime_type' : mime_type,
@@ -149,7 +149,7 @@ def __append_itunes(config, entry, output, suffix, base_url):
 """ % { 'title': __title(entry.title),
         'link': entry.link,
         'description': description,
-        'pubDate' : entry.date,
+        'pubDate' : time.strftime('%a, %d %b %Y %X +0000', entry.published_parsed),
         'permalink' : __permalink(entry.title),
         'url' : url,
         'mime_type' : mime_type,
@@ -212,8 +212,7 @@ def __enclosure(config, enclosures, base_url, suffix):
         Uses the file name from the main site's enclosure plus the base_url to
         pull together values to re-write the attributes for the correct media.
     """
-    m = re.search('%s[0-9]{4}-[0-9]{2}-[0-9]{2}' % config['enclosure_prefix'], enclosures[0].href)
-    url = '%s/%s.%s' % (base_url, m.group(), suffix)
+    url = enclosures[0].href
     usock = urllib2.urlopen(url)
     # Google listen won't play 'application/ogg' and that mime type is currently
     # returned by archive.org for Ogg Vorbis files
