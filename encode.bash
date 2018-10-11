@@ -104,7 +104,7 @@ ${base_file}.mp3
 # lame package from Lucid lacks the --ti switch for image
 # found eyed3 via a web search
 eyeD3 --add-image ${cover}:FRONT_COVER \
---set-text-frame="TCOP:${copyright}" \
+--url-frame="WCOP:${copyright}" \
 ${base_file}.mp3
 
 echo ""
@@ -134,8 +134,8 @@ echo ""
 # doesn't seem to result in the desired quality as tweaking
 # the quality setting (max 500)--200 was arrived at by iteratively
 # encoding the same raw audio and subjective listening to the results
-avconv -i ${base_file}.wav \
--b ${aac_quality}k \
+ffmpeg -i ${base_file}.wav \
+-b:a ${aac_quality}k \
 -metadata title="${title}"  \
 -metadata artist="${artist}" \
 -metadata album="${album}" \
